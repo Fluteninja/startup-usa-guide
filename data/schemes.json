@@ -1903,6 +1903,1857 @@
    "category": "grant",
    "howMuch": "Varies by track and phase (Phase 1 + Phase 2)",
    "stageFocus": "Prototype / Early-Stage"
+  },
+  {
+   "slug": "sba-womens-business-centers",
+   "name": "Women's Business Centers",
+   "shortName": "WBC",
+   "ministry": "Small Business Administration",
+   "part": "B",
+   "tagline": "A nationwide network of roughly 100 SBA-backed centers giving women entrepreneurs free or low-cost training, counseling, and access to SBA's full financing and procurement toolkit.",
+   "whatIsThis": "WBCs are SBA resource-partner centers, established in 1988, that provide business training and counseling to entrepreneurs — particularly women who are economically or socially disadvantaged — in finance, management, marketing, and technology.",
+   "objectives": "Help women overcome persistent barriers to starting and growing small businesses by pairing free or low-cost training with direct access to SBA lending and contracting programs.",
+   "eligibility": [
+    "Open to any aspiring or existing entrepreneur (the network is chartered to prioritize women, but services are broadly available).",
+    "No cost or nominal cost for most services.",
+    "About 100 centers nationwide plus territories, each independently run by a host nonprofit or institution."
+   ],
+   "benefits": [
+    "Free or low-cost training in finance, marketing, and management, often in multiple languages.",
+    "Direct referral into SBA loan and federal-contracting programs.",
+    "Businesses assisted by a WBC show meaningfully better survival rates than the overall small-business population."
+   ],
+   "howToApply": "Find your nearest center via SBA's Office of Women's Business Ownership locator and contact it directly — there is no separate national application.",
+   "links": [
+    {
+     "label": "SBA — Women's Business Centers",
+     "url": "https://www.sba.gov/local-assistance/resource-partners/womens-business-centers"
+    }
+   ],
+   "bestSuitedFor": "Ideation / Early-Stage",
+   "stages": [
+    "ideation",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "small-businesses",
+    "women-owned-businesses"
+   ],
+   "maxFunding": "N/A — free or low-cost training and counseling",
+   "category": "other",
+   "howMuch": "Free or nominal cost",
+   "stageFocus": "Ideation / Early-Stage"
+  },
+  {
+   "slug": "score-mentors",
+   "name": "SCORE Mentors",
+   "shortName": "SCORE",
+   "ministry": "Small Business Administration (resource partner)",
+   "part": "B",
+   "tagline": "Free, lifelong access to 10,000+ volunteer business mentors nationwide — SBA's largest resource-partner network, with no revenue or stage requirement to qualify.",
+   "whatIsThis": "SCORE is a nonprofit SBA resource partner, founded in 1964, that matches entrepreneurs at any stage with experienced volunteer mentors for one-on-one advice by phone, video, or email, alongside free workshops and templates.",
+   "objectives": "Increase small-business formation and survival by removing cost as a barrier to experienced business mentorship.",
+   "eligibility": [
+    "Open to anyone starting, running, or exiting a small business — no revenue, stage, or industry restriction."
+   ],
+   "benefits": [
+    "Free, ongoing one-on-one mentoring matched to your industry or challenge.",
+    "Free local and online workshops, templates, and business-planning tools.",
+    "11 million+ entrepreneurs assisted since founding."
+   ],
+   "howToApply": "Request a mentor through SCORE's website; matches are typically made within a few days.",
+   "links": [
+    {
+     "label": "SCORE — About",
+     "url": "https://www.score.org/about/"
+    }
+   ],
+   "bestSuitedFor": "Ideation / Growth",
+   "stages": [
+    "ideation",
+    "prototype",
+    "early-stage",
+    "growth"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "small-businesses",
+    "growth-startups"
+   ],
+   "maxFunding": "N/A — free mentoring",
+   "category": "other",
+   "howMuch": "Free",
+   "stageFocus": "Ideation / Growth"
+  },
+  {
+   "slug": "sba-vboc",
+   "name": "Veterans Business Outreach Center",
+   "shortName": "VBOC",
+   "ministry": "Small Business Administration",
+   "part": "B",
+   "tagline": "A 31-location network of SBA-funded counseling centers giving transitioning service members, veterans, and military spouses free entrepreneurial training, mentoring, and contracting guidance.",
+   "whatIsThis": "VBOCs are SBA resource partners dedicated to the military community, running workshops, one-on-one counseling, and business-plan support, and serving as the delivery mechanism for Boots to Business in many locations.",
+   "objectives": "Give the military community — active duty transitioning out, veterans of any era, Guard/Reserve, and military spouses — a dedicated, no-cost entry point into SBA's full range of programs.",
+   "eligibility": [
+    "Service members (including National Guard and Reserve), veterans, and military spouses/family members."
+   ],
+   "benefits": [
+    "No-cost workshops, training, and one-on-one mentoring.",
+    "Government-contracting guidance specific to veteran-owned businesses.",
+    "Referral into SBA's broader lender and resource-partner network."
+   ],
+   "howToApply": "Use SBA's VBOC locator to find and contact your nearest of 31 centers nationwide.",
+   "links": [
+    {
+     "label": "SBA — Veterans Business Outreach Centers",
+     "url": "https://www.sba.gov/local-assistance/resource-partners/veterans-business-outreach-centers-vboc"
+    }
+   ],
+   "bestSuitedFor": "Ideation / Early-Stage",
+   "stages": [
+    "ideation",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "veteran-owned-businesses",
+    "aspiring-founders"
+   ],
+   "maxFunding": "N/A — free counseling and training",
+   "category": "other",
+   "howMuch": "Free",
+   "stageFocus": "Ideation / Early-Stage"
+  },
+  {
+   "slug": "sba-wosb",
+   "name": "Women-Owned Small Business Federal Contracting Program",
+   "shortName": "WOSB Program",
+   "ministry": "Small Business Administration",
+   "part": "A",
+   "tagline": "Set-aside and sole-source federal contracts reserved for certified women-owned small businesses, working toward the government's 5%-of-contract-dollars goal.",
+   "whatIsThis": "The WOSB Program lets federal contracting officers set aside — or in some cases sole-source — contracts in industries where SBA has determined women-owned businesses are underrepresented or substantially underrepresented.",
+   "objectives": "Give certified WOSBs (and Economically Disadvantaged WOSBs, EDWOSBs) fairer access to federal procurement in specific NAICS-coded industries.",
+   "eligibility": [
+    "At least 51% owned and controlled by women who are US citizens.",
+    "Women manage day-to-day operations and make long-term decisions.",
+    "Must be a small business under SBA size standards for the relevant NAICS code.",
+    "Must be in an industry SBA has designated as underrepresented (WOSB) or substantially underrepresented (EDWOSB) for set-asides."
+   ],
+   "benefits": [
+    "Access to contracts set aside exclusively for certified WOSBs/EDWOSBs.",
+    "EDWOSBs are additionally eligible for sole-source awards in qualifying industries.",
+    "Certification is done directly through SBA at no cost."
+   ],
+   "howToApply": "Certify through SBA's WOSB Program portal — self-certification has been phased out, so certification now runs through SBA or an approved third-party certifier.",
+   "links": [
+    {
+     "label": "SBA — Women-Owned Small Business Federal Contracting Program",
+     "url": "https://www.sba.gov/content/women-owned-small-business-program"
+    }
+   ],
+   "bestSuitedFor": "Growth / Market Access",
+   "stages": [
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "market-access"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "women-owned-businesses",
+    "growth-startups"
+   ],
+   "maxFunding": "N/A — contracting eligibility, not direct funding",
+   "category": "market-access",
+   "howMuch": "N/A — set-aside/sole-source contract eligibility",
+   "stageFocus": "Growth / Market Access"
+  },
+  {
+   "slug": "sba-vosb-sdvosb-contracting",
+   "name": "Veteran-Owned & Service-Disabled Veteran-Owned Small Business Contracting",
+   "shortName": "VOSB / SDVOSB",
+   "ministry": "Small Business Administration",
+   "part": "A",
+   "tagline": "Federal set-aside and sole-source contracts reserved for certified veteran-owned and service-disabled veteran-owned small businesses.",
+   "whatIsThis": "Parallel to the WOSB Program, this lets contracting officers set aside — or sole-source — contracts for VOSBs and SDVOSBs. Certification authority moved from the VA to SBA's Veteran Small Business Certification (VetCert) process starting January 2023 under the FY2021 NDAA.",
+   "objectives": "Ensure veteran-owned and service-disabled-veteran-owned small businesses can compete for a dedicated share of federal contracting dollars.",
+   "eligibility": [
+    "At least 51% owned and controlled by one or more veterans (VOSB) or service-disabled veterans (SDVOSB).",
+    "Must be a small business under SBA size standards.",
+    "Self-certification is no longer accepted — formal SBA certification is required."
+   ],
+   "benefits": [
+    "Access to VOSB/SDVOSB set-aside contracts government-wide.",
+    "SDVOSBs are additionally eligible for sole-source awards in qualifying situations.",
+    "VA-specific contracts have their own parallel verification track."
+   ],
+   "limitations": [
+    "Certification rules changed in 2023 and remain in flux — verify current VetCert/Dynamic Small Business Search requirements directly with SBA before relying on this program."
+   ],
+   "howToApply": "Apply for certification through SBA's Veteran Small Business Certification program; confirm current requirements before applying, since verification rules have changed recently.",
+   "links": [
+    {
+     "label": "SBA — Veteran Contracting Assistance Programs",
+     "url": "https://www.sba.gov/federal-contracting/contracting-assistance-programs/veteran-contracting-assistance-programs"
+    }
+   ],
+   "bestSuitedFor": "Growth / Market Access",
+   "stages": [
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "market-access"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "veteran-owned-businesses",
+    "small-businesses",
+    "growth-startups"
+   ],
+   "maxFunding": "N/A — contracting eligibility, not direct funding",
+   "category": "market-access",
+   "howMuch": "N/A — set-aside/sole-source contract eligibility",
+   "stageFocus": "Growth / Market Access"
+  },
+  {
+   "slug": "sba-export-express",
+   "name": "SBA Export Express Loan",
+   "shortName": "Export Express",
+   "ministry": "Small Business Administration",
+   "part": "A",
+   "tagline": "SBA's fastest export loan — up to $500,000 with a 90% guarantee and lender approval in as little as 36 hours.",
+   "whatIsThis": "Export Express lets participating lenders use their own underwriting to approve a loan for export-related purposes, backed by an SBA guarantee, without needing SBA's prior sign-off on each loan.",
+   "objectives": "Speed up small exporters' access to capital by letting trusted lenders self-approve within SBA guidelines rather than going through standard 7(a) review.",
+   "eligibility": [
+    "Small business under SBA size standards.",
+    "In operation at least 12 months.",
+    "Must show the loan will help enter a new export market or expand an existing one."
+   ],
+   "benefits": [
+    "Loans up to $500,000.",
+    "SBA guarantees up to 90% of the loan.",
+    "Approval from participating lenders in as little as 36 hours.",
+    "Funds usable for export transactions, working capital, marketing, or equipment."
+   ],
+   "howToApply": "Apply through an SBA-participating Export Express lender — find one via SBA's lender match tool or your local SBA Office of International Trade.",
+   "links": [
+    {
+     "label": "SBA — Export finance programs",
+     "url": "https://www.sba.gov/business-guide/grow-your-business/export-products/international-sales/sba-export-products"
+    }
+   ],
+   "bestSuitedFor": "Growth / Market Access",
+   "stages": [
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "loan-credit",
+    "market-access"
+   ],
+   "sectors": [
+    "trade",
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "growth-startups"
+   ],
+   "maxFunding": "Up to $500,000",
+   "category": "loan-credit",
+   "howMuch": "Up to $500,000 (90% SBA guarantee)",
+   "stageFocus": "Growth / Market Access"
+  },
+  {
+   "slug": "sba-international-trade-loan",
+   "name": "SBA International Trade Loan",
+   "shortName": "International Trade Loan",
+   "ministry": "Small Business Administration",
+   "part": "A",
+   "tagline": "SBA-guaranteed term loans up to $5 million — a guarantee as high as 90% for small manufacturers — for businesses expanding exports or facing import competition.",
+   "whatIsThis": "A 7(a) loan variant specifically for businesses developing new export markets, expanding existing ones, or needing to modernize to compete against imports, with a higher SBA guarantee than a standard 7(a) loan.",
+   "objectives": "Improve the competitive position of small exporters and import-affected businesses through larger, longer-term guaranteed financing than Export Express offers.",
+   "eligibility": [
+    "Small business under SBA size standards.",
+    "Loan proceeds must support export expansion or competitiveness against import competition.",
+    "Terms up to 25 years depending on use of funds."
+   ],
+   "benefits": [
+    "Loans up to $5 million.",
+    "Guarantee up to 90% for small manufacturers (up from the standard 75%).",
+    "Usable for facilities, equipment, working capital, debt refinance, or business acquisition tied to trade competitiveness."
+   ],
+   "howToApply": "Apply through an SBA-participating 7(a) lender, submitting SBA Form 4 and required exhibits.",
+   "links": [
+    {
+     "label": "SBA — Export finance programs",
+     "url": "https://www.sba.gov/business-guide/grow-your-business/export-products/international-sales/sba-export-products"
+    }
+   ],
+   "bestSuitedFor": "Growth / Market Access",
+   "stages": [
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "loan-credit",
+    "market-access"
+   ],
+   "sectors": [
+    "trade",
+    "manufacturing",
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "growth-startups"
+   ],
+   "maxFunding": "Up to $5,000,000",
+   "category": "loan-credit",
+   "howMuch": "Up to $5M (up to 90% guarantee for manufacturers)",
+   "stageFocus": "Growth / Market Access"
+  },
+  {
+   "slug": "exim-global-credit-express",
+   "name": "EXIM Global Credit Express",
+   "shortName": "Global Credit Express",
+   "ministry": "Export-Import Bank of the United States",
+   "part": "A",
+   "tagline": "A revolving line of credit up to $500,000 for small exporters, financing the business of exporting itself rather than a single transaction.",
+   "whatIsThis": "Global Credit Express (GCE) is EXIM's short-term working-capital product for small exporters, delivered through a select network of participating lenders, distinct from EXIM's transaction-specific Working Capital Guarantee Program.",
+   "objectives": "Give small exporters liquidity to run and grow their export business generally, not just to finance one deal, filling a gap private lenders often won't.",
+   "eligibility": [
+    "Small business per SBA size standards with export sales history or firm export orders.",
+    "Must apply through one of EXIM's designated GCE participating lenders."
+   ],
+   "benefits": [
+    "Revolving credit line up to $500,000.",
+    "6-12 month terms.",
+    "Financing tied to the exporter's overall business, not one transaction."
+   ],
+   "howToApply": "Apply through one of EXIM's participating GCE lenders — check EXIM's website for the current lender list.",
+   "links": [
+    {
+     "label": "EXIM — Global Credit Express",
+     "url": "https://www.exim.gov/news/ex-im-bank-global-credit-express-for-small-business"
+    }
+   ],
+   "bestSuitedFor": "Growth / Market Access",
+   "stages": [
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "loan-credit",
+    "market-access"
+   ],
+   "sectors": [
+    "trade",
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "growth-startups"
+   ],
+   "maxFunding": "Up to $500,000 revolving",
+   "category": "loan-credit",
+   "howMuch": "Up to $500,000",
+   "stageFocus": "Growth / Market Access"
+  },
+  {
+   "slug": "dfc-development-finance",
+   "name": "US International Development Finance Corporation Financing",
+   "shortName": "DFC",
+   "ministry": "US International Development Finance Corporation",
+   "part": "B",
+   "tagline": "Loans, loan guarantees, political-risk insurance, and equity for US companies — including startups — operating in emerging and developing markets.",
+   "whatIsThis": "DFC, formed in 2019 from OPIC and USAID's Development Credit Authority, provides debt and equity financing to private-sector projects in developing countries, with a mandate that includes supporting small and women-led businesses.",
+   "objectives": "Mobilize private capital toward development challenges abroad (energy, health, infrastructure, technology) while advancing US foreign-policy and commercial interests.",
+   "eligibility": [
+    "US-connected businesses (majority US ownership, or significant US benefit) with a project or operations in an eligible developing country.",
+    "Project must meet DFC's development-impact and additionality criteria."
+   ],
+   "benefits": [
+    "Debt financing, loan guarantees, and equity investment for qualifying projects.",
+    "Political-risk insurance for US investors abroad.",
+    "Technical assistance alongside financing in some programs."
+   ],
+   "howToApply": "Submit a project proposal through DFC's online application portal at dfc.gov.",
+   "links": [
+    {
+     "label": "DFC — Who We Are",
+     "url": "https://www.dfc.gov/who-we-are/overview"
+    }
+   ],
+   "bestSuitedFor": "Growth / Market Access",
+   "stages": [
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "loan-credit",
+    "equity",
+    "market-access"
+   ],
+   "sectors": [
+    "sector-agnostic",
+    "energy-cleantech"
+   ],
+   "audience": [
+    "growth-startups",
+    "small-businesses"
+   ],
+   "maxFunding": "Varies by project",
+   "category": "mixed",
+   "howMuch": "Varies by project (debt, guarantee, or equity)",
+   "stageFocus": "Growth / Market Access"
+  },
+  {
+   "slug": "ustda",
+   "name": "US Trade and Development Agency Project Preparation Funding",
+   "shortName": "USTDA",
+   "ministry": "US Trade and Development Agency",
+   "part": "B",
+   "tagline": "Grants — typically around $500,000 — that fund feasibility studies and technical assistance connecting US companies to infrastructure projects in emerging markets.",
+   "whatIsThis": "USTDA funds feasibility studies, technical assistance, and pilot projects that help emerging-market infrastructure projects move toward financing while integrating US goods, services, and expertise.",
+   "objectives": "Advance overseas economic development while promoting US exports, by de-risking early project-preparation work that draws in US firms.",
+   "eligibility": [
+    "US companies providing goods, services, or expertise relevant to a specific overseas infrastructure project.",
+    "Typically initiated in partnership with the host-country project sponsor requesting USTDA support."
+   ],
+   "benefits": [
+    "Grants typically around $500,000, rarely exceeding $1 million.",
+    "Funds feasibility studies, technical assistance, and pilot projects.",
+    "Studies help host countries and lenders assess project viability, often leading to procurement of US goods and services."
+   ],
+   "howToApply": "Host-country project sponsors (often with a US company partner) submit funding requests directly to USTDA.",
+   "links": [
+    {
+     "label": "USTDA — Project Preparation Assistance",
+     "url": "https://www.ustda.gov/about-tools/feasibility-studies-and-technical-assistance/"
+    }
+   ],
+   "bestSuitedFor": "Growth / Market Access",
+   "stages": [
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "grant",
+    "market-access"
+   ],
+   "sectors": [
+    "energy-cleantech",
+    "manufacturing",
+    "sector-agnostic"
+   ],
+   "audience": [
+    "growth-startups",
+    "small-businesses"
+   ],
+   "maxFunding": "Typically ~$500,000 (rarely over $1M)",
+   "category": "grant",
+   "howMuch": "~$500,000 typical",
+   "stageFocus": "Growth / Market Access"
+  },
+  {
+   "slug": "doe-loan-programs-office",
+   "name": "DOE Loan Programs Office — Title 17 Clean Energy Financing",
+   "shortName": "DOE LPO",
+   "ministry": "Department of Energy",
+   "part": "B",
+   "tagline": "Federal loan guarantees for clean-energy and energy-infrastructure projects, ranging from partial commercial-loan guarantees to full guarantees on Federal Financing Bank loans.",
+   "whatIsThis": "LPO's Title 17 program finances later-stage clean-energy, supply-chain, and energy-infrastructure-reinvestment projects that are ready for commercial deployment but still face a financing gap, through loan guarantees rather than grants.",
+   "objectives": "Deploy clean energy and reduce emissions by guaranteeing debt for capital-intensive projects private lenders won't fully finance alone — a deployment tool, not an early-stage R&D program.",
+   "eligibility": [
+    "Project-based, not company-based — must fall into the Innovative Energy, Innovative Supply Chain, State Energy Financing Institution-Supported, or Energy Infrastructure Reinvestment categories.",
+    "Non-competitive but rigorous, ongoing application process (not a single annual deadline)."
+   ],
+   "benefits": [
+    "Guarantees up to 100% of Federal Financing Bank loans.",
+    "Partial guarantees up to 90% of commercial lender loans.",
+    "No cap comparable to a typical grant program — sized to the project."
+   ],
+   "howToApply": "Submit a Part I application directly to LPO through its ongoing, non-competitive intake process at energy.gov/lpo.",
+   "links": [
+    {
+     "label": "DOE — Title 17 Frequently Asked Questions",
+     "url": "https://www.energy.gov/lpo/title-17-frequently-asked-questions"
+    }
+   ],
+   "bestSuitedFor": "Growth (late-stage/project finance)",
+   "stages": [
+    "growth"
+   ],
+   "supportTypes": [
+    "loan-credit"
+   ],
+   "sectors": [
+    "energy-cleantech"
+   ],
+   "audience": [
+    "growth-startups",
+    "small-businesses"
+   ],
+   "maxFunding": "Varies by project (no fixed cap)",
+   "category": "loan-credit",
+   "howMuch": "Varies by project",
+   "stageFocus": "Growth (late-stage/project finance)"
+  },
+  {
+   "slug": "barda-drive",
+   "name": "BARDA DRIVe",
+   "shortName": "BARDA DRIVe",
+   "ministry": "Department of Health and Human Services (BARDA)",
+   "part": "A",
+   "tagline": "Non-dilutive and equity-style funding plus accelerator support for health-security innovations — from diagnostics to sepsis to pandemic preparedness — outside BARDA's traditional medical-countermeasure pipeline.",
+   "whatIsThis": "DRIVe (Division of Research, Innovation, and Ventures) uses BARDA's 21st Century Cures Act authorities to fund novel approaches to systemic health-security problems, combining proof-of-concept funding with an accelerator network that finds promising startups nationwide.",
+   "objectives": "Solve health-security challenges that cut across specific diseases (like early sepsis detection or platform diagnostics) by funding outside BARDA's usual product-specific model.",
+   "eligibility": [
+    "Startups and small companies working on health-security-relevant technology.",
+    "DRIVe funding opportunities are announced by specific topic area rather than a single standing solicitation.",
+    "Some engagement happens via the DRIVe Accelerator Network's regional scouts."
+   ],
+   "benefits": [
+    "Proof-of-concept and R&D funding, both non-dilutive and dilutive depending on the mechanism.",
+    "Access to the DRIVe Accelerator Network's mentorship and industry connections.",
+    "Path to larger BARDA procurement/contracting for successful technologies."
+   ],
+   "howToApply": "Monitor DRIVe's open solicitations at drive.hhs.gov or connect through a DRIVe Accelerator Network partner in your region.",
+   "links": [
+    {
+     "label": "BARDA DRIVe — About",
+     "url": "https://drive.hhs.gov/about.html"
+    }
+   ],
+   "bestSuitedFor": "Prototype / Early-Stage",
+   "stages": [
+    "prototype",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "grant",
+    "equity"
+   ],
+   "sectors": [
+    "biotech-health-pharma"
+   ],
+   "audience": [
+    "early-stage-startups",
+    "researchers",
+    "small-businesses"
+   ],
+   "maxFunding": "Varies by solicitation",
+   "category": "mixed",
+   "howMuch": "Varies by solicitation",
+   "stageFocus": "Prototype / Early-Stage"
+  },
+  {
+   "slug": "dhs-svip",
+   "name": "DHS Silicon Valley Innovation Program",
+   "shortName": "DHS SVIP",
+   "ministry": "Department of Homeland Security (Science and Technology Directorate)",
+   "part": "A",
+   "tagline": "Up to $800,000 in non-dilutive funding across four fast phases, using a streamlined Other Transaction Authority process built to move at startup speed.",
+   "whatIsThis": "SVIP funds startups solving specific homeland-security technology problems (published as topic calls), using DHS's Other Transaction Authority to award and pay out funding far faster than a typical federal contract.",
+   "objectives": "Get startups' emerging technology into DHS's hands quickly, reshaping how government and startups collaborate, rather than relying solely on traditional large-contractor procurement.",
+   "eligibility": [
+    "Fewer than 200 employees.",
+    "No more than $1 million in prior 12-month government contracts.",
+    "Must respond to a specific, published SVIP topic call."
+   ],
+   "benefits": [
+    "Non-dilutive funding across 3-4 phases at $50,000-$200,000 per phase, up to $800,000 total.",
+    "Awards typically finalized in about 45 days via Other Transaction Solicitations.",
+    "Direct engagement with DHS operational components as potential customers."
+   ],
+   "howToApply": "Watch for open topic calls on SVIP's portal and submit a solution brief in response to a specific call.",
+   "links": [
+    {
+     "label": "DHS — Silicon Valley Innovation Program",
+     "url": "https://www.dhs.gov/science-and-technology/svip"
+    }
+   ],
+   "bestSuitedFor": "Prototype / Early-Stage",
+   "stages": [
+    "prototype",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "grant"
+   ],
+   "sectors": [
+    "defense",
+    "sector-agnostic"
+   ],
+   "audience": [
+    "early-stage-startups",
+    "small-businesses"
+   ],
+   "maxFunding": "Up to $800,000",
+   "category": "grant",
+   "howMuch": "Up to $800,000 across 4 phases",
+   "stageFocus": "Prototype / Early-Stage"
+  },
+  {
+   "slug": "mbda-capital-readiness",
+   "name": "MBDA Capital Readiness Program",
+   "shortName": "Capital Readiness Program",
+   "ministry": "Minority Business Development Agency (US Dept. of Commerce)",
+   "part": "A",
+   "tagline": "A $125M program funding accelerators and incubators that prepare minority and other underserved entrepreneurs to raise capital from SSBCI and beyond.",
+   "whatIsThis": "The largest federal program of its kind, CRP funds organizations to run capacity-building programs — training, pitch development, investor connections — that help underserved founders become investable, complementing the state-run SSBCI capital itself.",
+   "objectives": "Close the readiness gap that keeps otherwise-promising underserved founders from successfully accessing SSBCI and other capital sources.",
+   "eligibility": [
+    "Applicants are incubators, accelerators, and similar intermediary organizations, not individual startups applying directly.",
+    "A founder benefits by joining a CRP-funded accelerator/incubator cohort in their region."
+   ],
+   "benefits": [
+    "CRP grantees have enrolled 6,000+ entrepreneurs, helping them raise $263M+ in capital, form 2,600+ new businesses, and develop 1,700+ investor pitches to date."
+   ],
+   "howToApply": "Individual founders don't apply directly — find a CRP-funded organization in your region via MBDA's program page.",
+   "links": [
+    {
+     "label": "MBDA — Capital Readiness Program",
+     "url": "https://www.mbda.gov/mbda-capital-readiness-program"
+    }
+   ],
+   "bestSuitedFor": "Early-Stage",
+   "stages": [
+    "early-stage"
+   ],
+   "supportTypes": [
+    "incubation"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "early-stage-startups",
+    "minority-owned-businesses",
+    "women-owned-businesses"
+   ],
+   "maxFunding": "N/A — funds intermediary organizations, not companies directly",
+   "category": "incubation",
+   "howMuch": "N/A — indirect via funded accelerators/incubators",
+   "stageFocus": "Early-Stage"
+  },
+  {
+   "slug": "irs-45x-manufacturing-credit",
+   "name": "Advanced Manufacturing Production Credit (Section 45X)",
+   "shortName": "45X Credit",
+   "ministry": "Internal Revenue Service / US Treasury",
+   "part": "B",
+   "tagline": "An Inflation Reduction Act tax credit paid per unit for domestically producing solar, wind, battery, inverter, or critical-mineral components — a production incentive, not a project grant.",
+   "whatIsThis": "Section 45X gives manufacturers a tax credit for each eligible clean-energy component they produce in the US and sell, with credit amounts varying by component type, applying to production after December 31, 2022.",
+   "objectives": "Rebuild domestic clean-energy manufacturing capacity by rewarding actual production volume rather than upfront capital investment — the complementary role to the 48/48E investment credits.",
+   "eligibility": [
+    "Must manufacture solar, wind, battery, inverter, or critical-mineral components within the US.",
+    "Components must be sold to an unrelated party.",
+    "A facility that claimed the related 48C credit cannot also claim 45X for the same investment."
+   ],
+   "benefits": [
+    "Per-unit credit amount set by component type under IRS/Treasury final regulations.",
+    "Credit is fully refundable via direct pay for many entities in the first years, or transferable to another taxpayer."
+   ],
+   "howToApply": "Claim on your federal tax return following IRS final regulations; consult a tax advisor on documentation and the direct-pay/transferability elections.",
+   "links": [
+    {
+     "label": "IRS — Advanced Manufacturing Production Credit",
+     "url": "https://www.irs.gov/credits-deductions/advanced-manufacturing-production-credit"
+    }
+   ],
+   "bestSuitedFor": "Growth",
+   "stages": [
+    "growth"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "manufacturing",
+    "energy-cleantech"
+   ],
+   "audience": [
+    "growth-startups",
+    "small-businesses"
+   ],
+   "maxFunding": "Varies by component and volume produced",
+   "category": "other",
+   "howMuch": "Per-unit credit, varies by component",
+   "stageFocus": "Growth"
+  },
+  {
+   "slug": "irs-low-income-bonus-itc",
+   "name": "Low-Income Communities Bonus Credit Program (Section 48(e)/48E(h))",
+   "shortName": "Low-Income Bonus ITC",
+   "ministry": "Internal Revenue Service / US Treasury",
+   "part": "B",
+   "tagline": "A competitive allocation that boosts the clean-electricity investment tax credit by 10-20 percentage points for small solar/wind facilities serving low-income communities, Tribal land, or low-income housing.",
+   "whatIsThis": "On top of the base investment tax credit, small (under 5 MW) clean-electricity facilities can apply for an allocated bonus of 10% (low-income community or Tribal land) or 20% (qualified low-income residential or economic-benefit project), through an annual competitive application round.",
+   "objectives": "Steer a meaningful share of clean-energy investment specifically toward low-income and Tribal communities rather than leaving siting entirely to market forces.",
+   "eligibility": [
+    "Facility under 5 MW net output.",
+    "Falls into one of four defined categories: low-income community, Indian land, qualified low-income residential building, or qualified low-income economic benefit project.",
+    "Must apply for and receive a capacity-limitation allocation before claiming the bonus."
+   ],
+   "benefits": [
+    "10% or 20% bonus added on top of the base investment tax credit.",
+    "The first program year drew 54,000+ applications from 48 states, DC, and 4 territories, generating an estimated $3.5B in low-income-community investment."
+   ],
+   "howToApply": "Apply during the annual application window through the IRS/Treasury allocation portal for the relevant program year.",
+   "links": [
+    {
+     "label": "IRS — Low-Income Communities Bonus Credit Program",
+     "url": "https://www.irs.gov/credits-deductions/clean-electricity-low-income-communities-bonus-credit-amount-program"
+    }
+   ],
+   "bestSuitedFor": "Growth",
+   "stages": [
+    "growth"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "energy-cleantech"
+   ],
+   "audience": [
+    "growth-startups",
+    "small-businesses"
+   ],
+   "maxFunding": "10-20 percentage-point credit bonus (allocated, competitive)",
+   "category": "other",
+   "howMuch": "+10% or +20% credit bonus",
+   "stageFocus": "Growth"
+  },
+  {
+   "slug": "wotc",
+   "name": "Work Opportunity Tax Credit",
+   "shortName": "WOTC",
+   "ministry": "Internal Revenue Service / Department of Labor",
+   "part": "B",
+   "tagline": "A federal tax credit of $2,400 to $9,600 per qualifying hire from a targeted group — job seekers who've faced structural barriers to employment.",
+   "whatIsThis": "WOTC rewards employers for hiring from specific targeted groups (including veterans, the long-term unemployed, SNAP/TANF recipients, and formerly incarcerated individuals), certified jointly by DOL and IRS.",
+   "objectives": "Encourage employers to hire jobseekers who consistently face structural employment barriers, while giving those workers a path into steady employment.",
+   "eligibility": [
+    "New hire must belong to a DOL-defined targeted group.",
+    "Employer must request certification (Form 8850) within 28 days of the employee's start date.",
+    "Employee must work a minimum number of hours to trigger the credit."
+   ],
+   "benefits": [
+    "Credit of 25% of first-year wages (120-399 hours worked) or 40% (400+ hours).",
+    "Ranges from $2,400 to $9,600 depending on the targeted group."
+   ],
+   "limitations": [
+    "WOTC's authorization lapsed for wages paid after December 31, 2025, and as of this writing Congress has not reauthorized it. States are still accepting applications but cannot process them until reauthorization occurs — which has happened before, sometimes retroactively, but isn't guaranteed. Verify current status before counting on this credit."
+   ],
+   "howToApply": "File Form 8850 with your state workforce agency within 28 days of hire, then claim the credit on your federal return once certified.",
+   "links": [
+    {
+     "label": "DOL — Work Opportunity Tax Credit",
+     "url": "https://www.dol.gov/agencies/eta/wotc"
+    }
+   ],
+   "bestSuitedFor": "Growth",
+   "stages": [
+    "growth"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "growth-startups",
+    "veteran-owned-businesses"
+   ],
+   "maxFunding": "$2,400-$9,600 per qualifying hire",
+   "category": "other",
+   "howMuch": "$2,400-$9,600 per hire",
+   "stageFocus": "Growth"
+  },
+  {
+   "slug": "usda-bi-loan-guarantee",
+   "name": "USDA Business & Industry Loan Guarantee",
+   "shortName": "B&I Guaranteed Loan",
+   "ministry": "US Department of Agriculture (Rural Development)",
+   "part": "B",
+   "tagline": "An 80% federal guarantee on private lender loans up to $25 million for rural businesses — a much larger ceiling than most SBA products.",
+   "whatIsThis": "The B&I program guarantees a large share of a private lender's loan to a for-profit or nonprofit business located outside cities/towns over 50,000 people, aimed at preserving and growing rural jobs.",
+   "objectives": "Make rural businesses bankable by absorbing most of a private lender's downside risk, unlocking financing rural areas otherwise struggle to attract.",
+   "eligibility": [
+    "Business located in an eligible rural area (generally under 50,000 population).",
+    "Borrower must be a US citizen or lawful permanent resident (for individuals) or otherwise eligible entity.",
+    "Loan must be through an approved private, cooperative, or credit-union lender."
+   ],
+   "benefits": [
+    "Guarantee generally up to 80% of the loan.",
+    "Loans up to $25 million per borrower.",
+    "Usable for expansion, land/building/equipment purchase, refinancing, or business acquisition to save or create jobs."
+   ],
+   "howToApply": "Apply through an eligible private lender participating in USDA's OneRD Guaranteed Loan Initiative; the lender submits the guarantee request to USDA Rural Development.",
+   "links": [
+    {
+     "label": "USDA — Business & Industry Guaranteed Loan",
+     "url": "https://www.rd.usda.gov/programs-services/business-programs/business-and-industry-guaranteed-loan"
+    }
+   ],
+   "bestSuitedFor": "Growth",
+   "stages": [
+    "growth"
+   ],
+   "supportTypes": [
+    "loan-credit"
+   ],
+   "sectors": [
+    "agriculture-food",
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "growth-startups",
+    "rural-businesses"
+   ],
+   "maxFunding": "Up to $25,000,000",
+   "category": "loan-credit",
+   "howMuch": "Up to $25M (up to 80% guarantee)",
+   "stageFocus": "Growth"
+  },
+  {
+   "slug": "usda-rmap",
+   "name": "Rural Microentrepreneur Assistance Program",
+   "shortName": "RMAP",
+   "ministry": "US Department of Agriculture (Rural Development)",
+   "part": "B",
+   "tagline": "Microloans under $50,000 plus paired technical assistance for rural microenterprises, delivered through nonprofit intermediaries rather than direct USDA lending.",
+   "whatIsThis": "Created in the 2008 Farm Bill, RMAP funds nonprofit and tribal microenterprise development organizations (MDOs) to make small loans and deliver hands-on training to rural entrepreneurs.",
+   "objectives": "Reach the smallest rural businesses that even SBA microloans or B&I guarantees don't fit, pairing capital with the technical assistance many microentrepreneurs need most.",
+   "eligibility": [
+    "Ultimate borrowers are rural microentrepreneurs/microenterprises.",
+    "Applicants for the program itself are nonprofits, tribes, or public higher-education institutions that then relend as MDOs."
+   ],
+   "benefits": [
+    "Fixed-rate microloans under $50,000 to rural entrepreneurs.",
+    "Combination loan-and-technical-assistance grants, or standalone technical-assistance grants to MDOs.",
+    "About $21M available for FY2026."
+   ],
+   "howToApply": "Rural entrepreneurs apply to a local RMAP-funded microenterprise development organization, not directly to USDA.",
+   "links": [
+    {
+     "label": "USDA — Rural Microentrepreneur Assistance Program",
+     "url": "https://www.rd.usda.gov/programs-services/business-programs/rural-microentrepreneur-assistance-program"
+    }
+   ],
+   "bestSuitedFor": "Ideation / Early-Stage",
+   "stages": [
+    "ideation",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "loan-credit",
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic",
+    "agriculture-food"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "small-businesses",
+    "rural-businesses"
+   ],
+   "maxFunding": "Under $50,000 per microloan",
+   "category": "mixed",
+   "howMuch": "Under $50,000 (plus paired technical assistance)",
+   "stageFocus": "Ideation / Early-Stage"
+  },
+  {
+   "slug": "usda-intermediary-relending",
+   "name": "Intermediary Relending Program",
+   "shortName": "IRP",
+   "ministry": "US Department of Agriculture (Rural Development)",
+   "part": "B",
+   "tagline": "1% federal loans to local nonprofits and tribes, who then relend up to $400,000 per business to fund rural startups and community development.",
+   "whatIsThis": "IRP capitalizes revolving loan funds run by local intermediaries (nonprofits, cooperatives, or tribal governments) rather than lending to businesses directly, so decisions stay close to the community being served.",
+   "objectives": "Reduce poverty and grow employment in the most disadvantaged and remote rural communities by funding trusted local lenders rather than a one-size-fits-all national program.",
+   "eligibility": [
+    "Ultimate recipients are rural businesses and community-development projects.",
+    "Intermediary applicants must be nonprofits, cooperatives, tribes, or public agencies with a track record of commercial lending."
+   ],
+   "benefits": [
+    "Intermediaries eligible for up to $1M in IRP funding, capped at $15M outstanding IRP debt.",
+    "Ultimate recipient loans capped at the lesser of $400,000 or 50% of the loan to the intermediary.",
+    "1% interest rate to intermediaries."
+   ],
+   "howToApply": "Rural businesses apply to a local IRP-funded intermediary lender in their area, not directly to USDA.",
+   "links": [
+    {
+     "label": "USDA — Intermediary Relending Program",
+     "url": "https://www.rd.usda.gov/programs-services/business-programs/intermediary-relending-program"
+    }
+   ],
+   "bestSuitedFor": "Ideation / Early-Stage",
+   "stages": [
+    "ideation",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "loan-credit"
+   ],
+   "sectors": [
+    "sector-agnostic",
+    "agriculture-food"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "small-businesses",
+    "rural-businesses"
+   ],
+   "maxFunding": "Up to $400,000 per ultimate recipient",
+   "category": "loan-credit",
+   "howMuch": "Up to $400,000",
+   "stageFocus": "Ideation / Early-Stage"
+  },
+  {
+   "slug": "usda-nifa-afri",
+   "name": "Agriculture and Food Research Initiative",
+   "shortName": "AFRI",
+   "ministry": "US Department of Agriculture (National Institute of Food and Agriculture)",
+   "part": "B",
+   "tagline": "The nation's largest competitive grants program for agricultural science — authorized at $700M/year — funding everything from ag biotech to rural entrepreneurship.",
+   "whatIsThis": "AFRI, established in the 2008 Farm Bill, funds research, education, and extension projects spanning farm productivity, renewable energy, food safety, human nutrition, biotechnology, and rural entrepreneurship.",
+   "objectives": "Advance both fundamental and applied agricultural science to strengthen rural economies, expand the bioeconomy, and address climate and food-security challenges.",
+   "eligibility": [
+    "State agricultural experiment stations, land-grant universities, other colleges/universities, and in some tracks, private research organizations or businesses working with them.",
+    "Specific eligibility varies by AFRI program area and annual request for applications."
+   ],
+   "benefits": [
+    "Authorized at up to $700M/year.",
+    "Funds foundational research, applied/translational projects, and workforce-development/extension programs.",
+    "Ag-tech startups often participate as project partners or subaward recipients rather than sole applicants."
+   ],
+   "howToApply": "Watch NIFA's AFRI request-for-applications listings for the specific program area matching your project, and apply — often via a university partner — through Grants.gov.",
+   "links": [
+    {
+     "label": "NIFA — Agriculture and Food Research Initiative",
+     "url": "https://nifa.usda.gov/program/agriculture-and-food-research-initiative-afri"
+    }
+   ],
+   "bestSuitedFor": "Ideation / Prototype",
+   "stages": [
+    "ideation",
+    "prototype"
+   ],
+   "supportTypes": [
+    "grant"
+   ],
+   "sectors": [
+    "agriculture-food"
+   ],
+   "audience": [
+    "researchers",
+    "small-businesses",
+    "aspiring-founders"
+   ],
+   "maxFunding": "Varies by program area",
+   "category": "grant",
+   "howMuch": "Varies by program area (up to $700M/year authorized)",
+   "stageFocus": "Ideation / Prototype"
+  },
+  {
+   "slug": "usda-fsa-microloans",
+   "name": "USDA Farm Service Agency Microloans",
+   "shortName": "FSA Microloans",
+   "ministry": "US Department of Agriculture (Farm Service Agency)",
+   "part": "B",
+   "tagline": "Direct federal microloans up to $50,000 for beginning, niche, and small-scale farm and ranch operations — including farm-tech and specialty-crop startups.",
+   "whatIsThis": "FSA microloans are direct government loans (not lender-guaranteed) designed for small and non-traditional farm operations, with relaxed experience and collateral requirements to reach beginning farmers.",
+   "objectives": "Fill a financing gap for small-scale, niche, and beginning agricultural operations that conventional farm lenders and even standard FSA loans often don't fit well.",
+   "eligibility": [
+    "US citizen or legal resident operating or planning to operate a small, niche, or beginning farm.",
+    "Modified (lower) requirements for managerial experience and collateral compared to standard FSA loans.",
+    "Two types: Operating Microloans and Farm Ownership Microloans."
+   ],
+   "benefits": [
+    "Up to $50,000 direct from FSA.",
+    "Operating microloans cover livestock, equipment, seed, and supplies.",
+    "Ownership microloans cover land/building purchase and conservation improvements.",
+    "Over 8,400 issued since 2013, with 70% going to beginning farmers."
+   ],
+   "howToApply": "Apply directly through your local USDA Farm Service Agency county office.",
+   "links": [
+    {
+     "label": "USDA FSA — Microloan Programs",
+     "url": "https://www.fsa.usda.gov/resources/farm-loan-programs/microloans"
+    }
+   ],
+   "bestSuitedFor": "Ideation / Early-Stage",
+   "stages": [
+    "ideation",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "loan-credit"
+   ],
+   "sectors": [
+    "agriculture-food"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "small-businesses",
+    "rural-businesses"
+   ],
+   "maxFunding": "Up to $50,000",
+   "category": "loan-credit",
+   "howMuch": "Up to $50,000",
+   "stageFocus": "Ideation / Early-Stage"
+  },
+  {
+   "slug": "arc-entrepreneurship",
+   "name": "Appalachian Regional Commission Entrepreneurship & Business Development Grants",
+   "shortName": "ARC Grants",
+   "ministry": "Appalachian Regional Commission",
+   "part": "B",
+   "tagline": "Federal-state regional grants — including the multi-state ARISE initiative — building entrepreneurship ecosystems across 423 counties in 13 Appalachian states.",
+   "whatIsThis": "ARC funds regional economic-development projects across the Appalachian region defined by the 1965 Appalachian Regional Development Act, with entrepreneurship and business development as one of its core investment priorities alongside infrastructure and workforce.",
+   "objectives": "Drive large-scale, often multi-state economic transformation in a historically underinvested region — from the flagship ARISE initiative to the Appalachian Entrepreneurship Academy for emerging founders and ecosystem leaders.",
+   "eligibility": [
+    "Grant applicants are state/local governments, local development districts, tribes, higher-education institutions, and nonprofits — not individual for-profit startups.",
+    "Project must be located within the ARC-defined Appalachian region."
+   ],
+   "benefits": [
+    "ARISE funds large-scale multi-state economic-transformation projects.",
+    "Appalachian Entrepreneurship Academy develops entrepreneurial leaders and ecosystem builders.",
+    "A founder benefits by engaging with an ARC-funded regional program in their county."
+   ],
+   "howToApply": "Individual founders don't apply directly — check whether your county is in the ARC region and connect with your state's ARC-designated local development district.",
+   "links": [
+    {
+     "label": "ARC — Entrepreneurship and Business Development",
+     "url": "https://www.arc.gov/investment_priority_topic/entrepreneurship-and-business-development/"
+    }
+   ],
+   "bestSuitedFor": "Ideation / Early-Stage (regional ecosystem)",
+   "stages": [
+    "ideation",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "grant",
+    "incubation"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "incubators-institutions",
+    "rural-businesses"
+   ],
+   "maxFunding": "Varies by grant program",
+   "category": "grant",
+   "howMuch": "Varies by grant program",
+   "stageFocus": "Ideation / Early-Stage (regional ecosystem)"
+  },
+  {
+   "slug": "delta-regional-authority",
+   "name": "Delta Regional Authority Grants",
+   "shortName": "DRA Grants",
+   "ministry": "Delta Regional Authority",
+   "part": "B",
+   "tagline": "Federal-state grants for the 252-county Lower Mississippi Delta region, with a dedicated business-development and entrepreneurship funding priority.",
+   "whatIsThis": "DRA is a federal-state partnership (created 2000) covering parts of eight Delta states, funding infrastructure, workforce, and business-development projects through its States' Economic Development Assistance Program.",
+   "objectives": "Boost entrepreneurship and access to affordable capital in one of the country's most persistently under-resourced regions.",
+   "eligibility": [
+    "Grant applicants are states and public/nonprofit entities, not individual for-profit startups directly.",
+    "Project must be located within DRA's designated 252-county service area."
+   ],
+   "benefits": [
+    "States' Economic Development Assistance Program funds business development, workforce development, and infrastructure.",
+    "A founder benefits by engaging with a DRA-funded program or capital-access initiative in their county."
+   ],
+   "howToApply": "Individual founders don't apply directly — check whether your county is in the DRA region and connect with your state's DRA-designated economic development contact.",
+   "links": [
+    {
+     "label": "Delta Regional Authority",
+     "url": "https://dra.gov/"
+    }
+   ],
+   "bestSuitedFor": "Ideation / Early-Stage (regional ecosystem)",
+   "stages": [
+    "ideation",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "grant",
+    "incubation"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "incubators-institutions",
+    "rural-businesses"
+   ],
+   "maxFunding": "Varies by grant program",
+   "category": "grant",
+   "howMuch": "Varies by grant program",
+   "stageFocus": "Ideation / Early-Stage (regional ecosystem)"
+  },
+  {
+   "slug": "northern-border-regional-commission",
+   "name": "Northern Border Regional Commission Grants",
+   "shortName": "NBRC Grants",
+   "ministry": "Northern Border Regional Commission",
+   "part": "B",
+   "tagline": "Federal-state Catalyst Program grants — roughly $44M/year — for economic development across rural Maine, New Hampshire, Vermont, and upstate New York.",
+   "whatIsThis": "NBRC, established by Congress in 2008, is a federal-state partnership funding infrastructure, workforce, and business-development projects in designated counties across its four-state region, including a dedicated Forest Economy Program.",
+   "objectives": "Modernize basic infrastructure and grow the workforce and economic base of a historically economically distressed four-state rural region.",
+   "eligibility": [
+    "Grant applicants are state/local governments and nonprofits, not individual for-profit startups directly.",
+    "Project must be in an NBRC-eligible county in Maine, New Hampshire, Vermont, or New York."
+   ],
+   "benefits": [
+    "Catalyst Program (flagship) invests roughly $44M/year.",
+    "Forest Economy Program offers $7M targeted at the region's forest-products sector.",
+    "A founder benefits by engaging with an NBRC-funded program in their county."
+   ],
+   "howToApply": "Individual founders don't apply directly — check whether your county is NBRC-eligible and connect with your state's NBRC program contact.",
+   "links": [
+    {
+     "label": "Northern Border Regional Commission",
+     "url": "https://www.nbrc.gov/"
+    }
+   ],
+   "bestSuitedFor": "Ideation / Early-Stage (regional ecosystem)",
+   "stages": [
+    "ideation",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "grant",
+    "incubation"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "incubators-institutions",
+    "rural-businesses"
+   ],
+   "maxFunding": "Varies by grant program",
+   "category": "grant",
+   "howMuch": "Varies by grant program",
+   "stageFocus": "Ideation / Early-Stage (regional ecosystem)"
+  },
+  {
+   "slug": "denali-commission",
+   "name": "Denali Commission Grants",
+   "shortName": "Denali Commission",
+   "ministry": "Denali Commission",
+   "part": "B",
+   "tagline": "An independent federal agency funding infrastructure, workforce, and economic-development projects across rural and remote Alaska.",
+   "whatIsThis": "Established in 1998, the Denali Commission is a federal-state partnership delivering infrastructure and economic-development support to Alaska's remote communities, where standard federal delivery mechanisms often don't reach efficiently.",
+   "objectives": "Build a well-trained workforce in a diversified, sustainable Alaskan economy while maintaining the basic infrastructure remote communities depend on.",
+   "eligibility": [
+    "Grant applicants are tribal, state, and local government partners, not individual for-profit businesses directly.",
+    "Project must be located in an eligible rural Alaska community."
+   ],
+   "benefits": [
+    "Roughly $33-34M/year in recent funding across energy, infrastructure, and economic-development grants.",
+    "A founder benefits by engaging with a Denali Commission-funded workforce or infrastructure project in their community."
+   ],
+   "howToApply": "Individual founders don't apply directly — watch Denali Commission's annual Funding Opportunity Announcement and work through a tribal, state, or local government partner.",
+   "links": [
+    {
+     "label": "Denali Commission — Grants",
+     "url": "https://www.denali.gov/grants/"
+    }
+   ],
+   "bestSuitedFor": "Ideation / Early-Stage (regional ecosystem)",
+   "stages": [
+    "ideation",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "grant",
+    "incubation"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "incubators-institutions",
+    "rural-businesses"
+   ],
+   "maxFunding": "Varies by grant program",
+   "category": "grant",
+   "howMuch": "Varies by grant program",
+   "stageFocus": "Ideation / Early-Stage (regional ecosystem)"
+  },
+  {
+   "slug": "hud-section-108",
+   "name": "HUD Section 108 Loan Guarantee Program",
+   "shortName": "Section 108",
+   "ministry": "Department of Housing and Urban Development",
+   "part": "B",
+   "tagline": "Lets a city or county borrow up to 5x its annual CDBG grant, federally guaranteed, to finance local business expansion and job creation.",
+   "whatIsThis": "Section 108 lets Community Development Block Grant recipients pledge future CDBG allocations to back a HUD-guaranteed loan, most commonly used for economic-development projects that create or retain jobs.",
+   "objectives": "Give distressed communities access to large-scale, low-cost financing for business and infrastructure projects that wouldn't otherwise pencil out, backed by the federal government's credit.",
+   "eligibility": [
+    "Applicants are CDBG-entitlement cities/counties (or states on a locality's behalf), not individual businesses directly.",
+    "A business benefits by being the beneficiary of a city/county-sponsored Section 108 economic-development loan."
+   ],
+   "benefits": [
+    "Borrowing capacity up to 5x the jurisdiction's annual CDBG grant.",
+    "Used for business expansion/retention, public facilities, infrastructure, and housing rehab.",
+    "Federal guarantee lowers the effective borrowing cost."
+   ],
+   "howToApply": "Businesses don't apply to HUD directly — approach your city or county's community/economic development department about an active or potential Section 108-backed loan program.",
+   "links": [
+    {
+     "label": "HUD — Section 108 Loan Guarantee Program",
+     "url": "https://www.hud.gov/hud-partners/community-section108"
+    }
+   ],
+   "bestSuitedFor": "Growth",
+   "stages": [
+    "growth"
+   ],
+   "supportTypes": [
+    "loan-credit"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "growth-startups"
+   ],
+   "maxFunding": "Up to 5x the jurisdiction's annual CDBG grant",
+   "category": "loan-credit",
+   "howMuch": "Varies by jurisdiction's CDBG allocation",
+   "stageFocus": "Growth"
+  },
+  {
+   "slug": "cdfi-bond-guarantee",
+   "name": "CDFI Bond Guarantee Program",
+   "shortName": "CDFI Bond Guarantee",
+   "ministry": "US Department of the Treasury (CDFI Fund)",
+   "part": "B",
+   "tagline": "A 100% federal guarantee on bonds of up to 30 years that channel long-term, low-cost capital through CDFIs into underserved small businesses and communities.",
+   "whatIsThis": "Enacted under the Small Business Jobs Act of 2010, this program has Treasury guarantee bonds a Qualified Issuer sells to the Federal Financing Bank, with proceeds re-lent by CDFIs for community and economic development, including small-business startups and expansion.",
+   "objectives": "Solve CDFIs' long-standing shortage of long-term, low-cost capital by using the federal government's credit to access bond markets at a scale individual CDFIs couldn't reach alone.",
+   "eligibility": [
+    "Direct beneficiaries are CDFIs (through a Qualified Issuer), not individual businesses applying to Treasury.",
+    "A business benefits by borrowing from a CDFI that draws on Bond Guarantee Program capital."
+   ],
+   "benefits": [
+    "100% Treasury guarantee on bonds with maturities up to 30 years.",
+    "Nearly $3B in bonds guaranteed to date.",
+    "No cost to taxpayers by design — a credit subsidy, not a grant."
+   ],
+   "howToApply": "Individual businesses apply to a participating CDFI for a loan, not to Treasury directly.",
+   "links": [
+    {
+     "label": "CDFI Fund — Bond Guarantee Program",
+     "url": "https://www.cdfifund.gov/programs-training/programs/cdfi-bond"
+    }
+   ],
+   "bestSuitedFor": "Growth",
+   "stages": [
+    "growth"
+   ],
+   "supportTypes": [
+    "loan-credit"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "growth-startups"
+   ],
+   "maxFunding": "Varies by originating CDFI",
+   "category": "loan-credit",
+   "howMuch": "Varies by originating CDFI",
+   "stageFocus": "Growth"
+  },
+  {
+   "slug": "cdfi-naca",
+   "name": "Native American CDFI Assistance Program",
+   "shortName": "NACA Program",
+   "ministry": "US Department of the Treasury (CDFI Fund)",
+   "part": "B",
+   "tagline": "Treasury grants up to $2M that build the lending capacity of Native CDFIs serving Native American, Alaska Native, and Native Hawaiian communities.",
+   "whatIsThis": "NACA funds Certified Native CDFIs (and organizations working to become one) with financial-assistance awards to build lending capacity, plus technical-assistance grants, so Native communities have a dedicated source of business and consumer credit.",
+   "objectives": "Address a persistent credit gap in Native communities that mainstream lenders and even most CDFIs don't reach, by strengthening Native-controlled lenders directly.",
+   "eligibility": [
+    "Direct applicants are Certified Native CDFIs (Financial Assistance) or entities becoming one (Technical Assistance).",
+    "A Native-community entrepreneur benefits by borrowing from a NACA-capitalized Native CDFI."
+   ],
+   "benefits": [
+    "Base Financial Assistance awards up to $2M to Certified Native CDFIs.",
+    "Technical Assistance grants up to $400,000.",
+    "Over $220M awarded since the program's 2002 launch."
+   ],
+   "howToApply": "Native-community entrepreneurs apply to a Native CDFI for financing directly; Native CDFIs themselves apply to Treasury during NACA's annual funding round.",
+   "links": [
+    {
+     "label": "CDFI Fund — Native Initiatives",
+     "url": "https://www.cdfifund.gov/programs-training/programs/native-initiatives"
+    }
+   ],
+   "bestSuitedFor": "Ideation / Early-Stage",
+   "stages": [
+    "ideation",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "loan-credit",
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "small-businesses",
+    "rural-businesses"
+   ],
+   "maxFunding": "Up to $2,000,000 (to Native CDFIs)",
+   "category": "mixed",
+   "howMuch": "Varies by originating Native CDFI",
+   "stageFocus": "Ideation / Early-Stage"
+  },
+  {
+   "slug": "eda-revolving-loan-fund",
+   "name": "EDA Revolving Loan Fund Program",
+   "shortName": "EDA RLF",
+   "ministry": "Economic Development Administration (US Dept. of Commerce)",
+   "part": "B",
+   "tagline": "A 50-year-old EDA program capitalizing 500+ local revolving loan funds nationwide — a gap-financing source of last resort for businesses banks won't yet fund.",
+   "whatIsThis": "EDA makes Economic Adjustment Assistance grants to state/local governments and nonprofits to establish revolving loan funds, which then make small-business loans locally, recycling repaid principal into new loans indefinitely.",
+   "objectives": "Provide gap financing for creditworthy businesses that can't yet get conventional bank financing, using local knowledge rather than a one-size-fits-all national underwriting standard.",
+   "eligibility": [
+    "Direct applicants are state/local governments and nonprofits establishing a fund, not businesses applying to EDA directly.",
+    "A business benefits by borrowing from one of 500+ active EDA-capitalized local RLFs."
+   ],
+   "benefits": [
+    "More than $840M in combined EDA investment across active RLFs.",
+    "RLFs have made 45,000+ loans, creating or retaining 733,000+ jobs over the program's lifetime.",
+    "Loans often used for working capital when banks won't yet lend."
+   ],
+   "howToApply": "Businesses apply to their local EDA-funded revolving loan fund administrator, not to EDA directly — check with your regional economic development district.",
+   "links": [
+    {
+     "label": "EDA — Revolving Loan Fund",
+     "url": "https://www.eda.gov/funding/programs/revolving-loan-fund"
+    }
+   ],
+   "bestSuitedFor": "Early-Stage / Growth",
+   "stages": [
+    "early-stage",
+    "growth"
+   ],
+   "supportTypes": [
+    "loan-credit"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "early-stage-startups",
+    "growth-startups"
+   ],
+   "maxFunding": "Varies by local fund",
+   "category": "loan-credit",
+   "howMuch": "Varies by local fund",
+   "stageFocus": "Early-Stage / Growth"
+  },
+  {
+   "slug": "uspto-patents-for-humanity",
+   "name": "Patents for Humanity",
+   "shortName": "Patents for Humanity",
+   "ministry": "US Patent and Trademark Office",
+   "part": "B",
+   "tagline": "A USPTO awards competition that rewards patented technology addressing humanitarian challenges with expedited USPTO processing and public recognition.",
+   "whatIsThis": "Patents for Humanity recognizes patent holders, applicants, and licensees whose technology meaningfully addresses global humanitarian challenges, judged on technology effectiveness, distribution to those in need, and demonstrated impact.",
+   "objectives": "Encourage patent holders to actively distribute humanitarian-relevant technology to underserved populations, not just hold the patent.",
+   "eligibility": [
+    "Open to any patent holder, applicant, or licensee — businesses, universities, and nonprofits.",
+    "Submissions evaluated on technology effectiveness, efforts to increase use among the impoverished, and demonstrated impact."
+   ],
+   "benefits": [
+    "Winners receive an acceleration certificate to expedite select USPTO proceedings.",
+    "Honorable mentions receive accelerated examination of one patent application.",
+    "Public recognition on USPTO's website and at an awards ceremony."
+   ],
+   "howToApply": "Submit an application during USPTO's open competition window, described on USPTO's Patents for Humanity page.",
+   "links": [
+    {
+     "label": "USPTO — Patents for Humanity",
+     "url": "https://www.uspto.gov/ip-policy/patent-policy/patents-humanity"
+    }
+   ],
+   "bestSuitedFor": "Growth / Market Access",
+   "stages": [
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "biotech-health-pharma",
+    "energy-cleantech",
+    "social-impact"
+   ],
+   "audience": [
+    "growth-startups",
+    "small-businesses",
+    "researchers"
+   ],
+   "maxFunding": "N/A — non-monetary award (processing acceleration + recognition)",
+   "category": "other",
+   "howMuch": "Non-monetary (USPTO processing acceleration)",
+   "stageFocus": "Growth / Market Access"
+  },
+  {
+   "slug": "dol-apprenticeship-grants",
+   "name": "Registered Apprenticeship Grants",
+   "shortName": "Apprenticeship Grants",
+   "ministry": "Department of Labor",
+   "part": "B",
+   "tagline": "DOL grants — recent rounds have topped $150M — that expand Registered Apprenticeship capacity across industries from manufacturing to AI and clean energy.",
+   "whatIsThis": "DOL funds state workforce agencies and industry intermediaries to build and expand Registered Apprenticeship programs, with states encouraged to pass a share of funding directly to employers standing up new apprenticeships.",
+   "objectives": "Position employer-sponsored apprenticeships as a central workforce pipeline for high-demand industries, reducing hiring and training costs for growing companies.",
+   "eligibility": [
+    "Direct applicants are typically states, territories, and industry intermediaries, not individual employers.",
+    "Employers benefit indirectly through state-run apprenticeship expansion funding or by registering their own apprenticeship program."
+   ],
+   "benefits": [
+    "Recent State Apprenticeship Expansion Formula grants distributed roughly $84M to all 50 states and territories.",
+    "A separate ~$162M round funded reindustrialization-focused apprenticeship expansion.",
+    "States are encouraged to reserve funds for direct employer support."
+   ],
+   "howToApply": "Employers should contact their State Apprenticeship Agency or Office of Apprenticeship to register a program and inquire about available state-administered support funds.",
+   "links": [
+    {
+     "label": "DOL — Apprenticeship Grant Opportunities",
+     "url": "https://www.dol.gov/featured/apprenticeship/grants/"
+    }
+   ],
+   "bestSuitedFor": "Growth",
+   "stages": [
+    "growth"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "manufacturing",
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "growth-startups"
+   ],
+   "maxFunding": "N/A — funds state/intermediary programs; varies by employer benefit",
+   "category": "other",
+   "howMuch": "Varies by state program",
+   "stageFocus": "Growth"
+  },
+  {
+   "slug": "gsa-startup-springboard",
+   "name": "GSA Startup Springboard",
+   "shortName": "Startup Springboard",
+   "ministry": "General Services Administration",
+   "part": "A",
+   "tagline": "A pathway onto the GSA Multiple Award Schedule for startups that don't yet meet the standard two-year corporate-experience requirement.",
+   "whatIsThis": "Startup Springboard lets emerging companies substitute executives' professional backgrounds, key personnel's project experience, and financial documentation for GSA's usual two-year-in-business requirement when applying for a Schedule contract.",
+   "objectives": "Lower the barrier that locks young, innovative companies out of the roughly $50B/year GSA Schedule marketplace before they've built a two-year federal or commercial track record.",
+   "eligibility": [
+    "Startup with innovative technology or services relevant to federal agency missions.",
+    "Must demonstrate commercial success or capability through leadership experience and financials in lieu of two years in business."
+   ],
+   "benefits": [
+    "Access to GSA's Multiple Award Schedule (MAS) contract vehicle without waiting out the standard experience requirement.",
+    "Faster route to selling directly to federal agencies at pre-negotiated terms."
+   ],
+   "howToApply": "Apply through GSA's eOffer/eMod system, flagging your submission for consideration under the Startup Springboard pathway; consult GSA's Making It Easier initiative resources first.",
+   "links": [
+    {
+     "label": "GSA — Startup Springboard",
+     "url": "https://gsablogs.gsa.gov/technology/2017/12/07/gsas-startup-springboard-speeds-access-for-small-businesses-to-government/"
+    }
+   ],
+   "bestSuitedFor": "Growth / Market Access",
+   "stages": [
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "market-access"
+   ],
+   "sectors": [
+    "sector-agnostic",
+    "it-software-deeptech"
+   ],
+   "audience": [
+    "early-stage-startups",
+    "growth-startups"
+   ],
+   "maxFunding": "N/A — contract-vehicle access, not direct funding",
+   "category": "market-access",
+   "howMuch": "N/A — GSA Schedule contract eligibility",
+   "stageFocus": "Growth / Market Access"
+  },
+  {
+   "slug": "dol-federal-bonding-program",
+   "name": "Federal Bonding Program",
+   "shortName": "Federal Bonding",
+   "ministry": "Department of Labor",
+   "part": "B",
+   "tagline": "Free fidelity bonds — typically up to $5,000 in coverage, no deductible — that remove employers' insurance risk when hiring justice-involved or hard-to-place workers.",
+   "whatIsThis": "Created in 1966, the Federal Bonding Program provides no-cost fidelity bonds covering an employer's first six months with a new hire from a high-risk-to-hire population, insuring against employee dishonesty such as theft, forgery, and embezzlement.",
+   "objectives": "Remove the specific insurance-risk objection employers raise about hiring justice-involved individuals and other job seekers who face structural hiring barriers.",
+   "eligibility": [
+    "Employer hiring a job seeker who is otherwise not eligible for standard commercial fidelity bonding — most commonly justice-involved individuals.",
+    "No cost to either the employer or the job seeker."
+   ],
+   "benefits": [
+    "100% fidelity-bond coverage with no deductible for the employer.",
+    "Covers the first six months of employment at no cost.",
+    "70,000+ bonds issued since inception with a 99% success rate (1% of claims processed)."
+   ],
+   "howToApply": "Contact your state's Federal Bonding Program coordinator or local American Job Center before the hire starts.",
+   "links": [
+    {
+     "label": "DOL — Federal Bonding Program",
+     "url": "https://www.dol.gov/agencies/eta/federal-bonding-program"
+    }
+   ],
+   "bestSuitedFor": "Growth",
+   "stages": [
+    "growth"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "growth-startups"
+   ],
+   "maxFunding": "N/A — free insurance coverage, not direct funding",
+   "category": "other",
+   "howMuch": "Free (typically up to $5,000 in bond coverage)",
+   "stageFocus": "Growth"
+  },
+  {
+   "slug": "epa-environmental-justice-small-grants",
+   "name": "Environmental Justice Small Grants Program",
+   "shortName": "EJ Small Grants",
+   "ministry": "Environmental Protection Agency",
+   "part": "B",
+   "tagline": "EPA grants up to $100,000 for community-based organizations tackling local environmental and public-health problems — a fit for mission-driven environmental startups partnering with a nonprofit.",
+   "whatIsThis": "Running since 1994, this EPA program funds community-based nonprofits, tribal governments, and tribal organizations to research, educate about, and address local environmental and public-health concerns, particularly in overburdened communities.",
+   "objectives": "Build community capacity and partnerships to understand and act on local environmental and health issues, especially in historically overburdened areas.",
+   "eligibility": [
+    "Nonprofit organizations, tribal governments, and tribal organizations — not individual for-profit businesses directly.",
+    "Projects should focus on community environmental or public-health research, education, or capacity-building."
+   ],
+   "benefits": [
+    "Awards up to $100,000 per project.",
+    "Recent expanded rounds under the Inflation Reduction Act have funded over $1.5B nationally for climate and environmental-justice capacity building."
+   ],
+   "howToApply": "Apply during EPA's annual EJ Small Grants funding window via Grants.gov, typically as or with a qualifying nonprofit.",
+   "links": [
+    {
+     "label": "EPA — Environmental Justice Grants",
+     "url": "https://www.epa.gov/newsreleases/epa-announces-141-million-fund-133-environmental-justice-grants"
+    }
+   ],
+   "bestSuitedFor": "Ideation / Early-Stage",
+   "stages": [
+    "ideation",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "grant"
+   ],
+   "sectors": [
+    "energy-cleantech",
+    "social-impact"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "incubators-institutions"
+   ],
+   "maxFunding": "Up to $100,000",
+   "category": "grant",
+   "howMuch": "Up to $100,000",
+   "stageFocus": "Ideation / Early-Stage"
+  },
+  {
+   "slug": "sba-growth-accelerator-fund",
+   "name": "Growth Accelerator Fund Competition",
+   "shortName": "GAFC",
+   "ministry": "Small Business Administration",
+   "part": "A",
+   "tagline": "SBA's annual prize competition — about $9M in 2026 — funding the accelerators, incubators, and other ecosystem-support organizations that help innovation-driven startups scale.",
+   "whatIsThis": "GAFC is a two-stage competition (America's Seed Fund's ecosystem-facing counterpart) that funds entrepreneurial support organizations tackling a specific gap in their local innovation ecosystem, rather than funding startups directly.",
+   "objectives": "Strengthen the ecosystem infrastructure — accelerators, incubators, mentorship networks — that helps innovation-driven startups access capital and commercialize technology.",
+   "eligibility": [
+    "Applicants are entrepreneurial support organizations (accelerators, incubators, universities, economic-development organizations), not individual startups directly.",
+    "Stage 1 requires identifying a specific ecosystem gap and proposed solution."
+   ],
+   "benefits": [
+    "Stage 1 awards $75,000 to identify and scope a solution.",
+    "Stage 2 awards up to $150,000 to Stage 1 winners who show successful implementation.",
+    "634 awards totaling $37.9M made to date."
+   ],
+   "howToApply": "Entrepreneurial support organizations apply during SBA's annual application window (recently opening in Q1 with a 3-4 week window) via SBA's Growth Accelerator Fund Competition portal.",
+   "links": [
+    {
+     "label": "SBA — America's Seed Fund Accelerators",
+     "url": "https://www.americasseedfund.us/acceleratorsarchived"
+    }
+   ],
+   "bestSuitedFor": "Early-Stage (regional ecosystem)",
+   "stages": [
+    "early-stage"
+   ],
+   "supportTypes": [
+    "grant",
+    "incubation"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "incubators-institutions"
+   ],
+   "maxFunding": "Up to $150,000 (Stage 2)",
+   "category": "grant",
+   "howMuch": "$75,000 (Stage 1); up to $150,000 (Stage 2)",
+   "stageFocus": "Early-Stage (regional ecosystem)"
+  },
+  {
+   "slug": "sba-prime",
+   "name": "Program for Investment in Microentrepreneurs",
+   "shortName": "PRIME",
+   "ministry": "Small Business Administration",
+   "part": "B",
+   "tagline": "SBA grants of $50,000-$400,000 to nonprofit microenterprise organizations, funding training and technical assistance for the smallest, least-banked businesses.",
+   "whatIsThis": "PRIME funds nonprofit microenterprise development organizations (MDOs) to deliver training, technical assistance, and capacity-building for microentrepreneurs — businesses with fewer than five employees who typically lack access to conventional financing.",
+   "objectives": "Reach the very smallest and most disadvantaged entrepreneurs, who are often too small even for microloan programs to serve well without accompanying technical assistance.",
+   "eligibility": [
+    "Direct grant applicants are nonprofit microenterprise development organizations, not individual businesses.",
+    "A majority of funded activity must target disadvantaged microentrepreneurs."
+   ],
+   "benefits": [
+    "Awards have generally ranged $50,000-$400,000 per MDO since FY2018.",
+    "FY2024 distributed $7M across 28 organizations, assisting 15,000+ microenterprises in FY2023 alone."
+   ],
+   "howToApply": "Microentrepreneurs seek out a local PRIME-funded MDO for training and technical assistance; MDOs themselves apply to SBA during PRIME's annual funding cycle.",
+   "links": [
+    {
+     "label": "SBA — PRIME Grant Announcement",
+     "url": "https://legacy.sba.gov/article/2023/08/28/sba-administrator-guzman-announces-8-million-prime-grants-help-micro-entrepreneurs"
+    }
+   ],
+   "bestSuitedFor": "Ideation",
+   "stages": [
+    "ideation"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "small-businesses"
+   ],
+   "maxFunding": "N/A — funds MDOs, not entrepreneurs directly",
+   "category": "other",
+   "howMuch": "$50,000-$400,000 (to MDOs)",
+   "stageFocus": "Ideation"
+  },
+  {
+   "slug": "sba-health-care-tax-credit",
+   "name": "Small Business Health Care Tax Credit",
+   "shortName": "Health Care Tax Credit",
+   "ministry": "Internal Revenue Service",
+   "part": "B",
+   "tagline": "A tax credit up to 50% of premiums paid — 35% for nonprofits — for small employers who offer health coverage through the SHOP marketplace.",
+   "whatIsThis": "This credit offsets part of the cost of employer-sponsored health insurance for the smallest employers, aimed at increasing the share of small businesses that offer coverage at all.",
+   "objectives": "Make offering health insurance more financially viable for very small employers, where coverage rates otherwise lag much larger companies.",
+   "eligibility": [
+    "Fewer than 25 full-time-equivalent employees.",
+    "Average annual wages below an inflation-adjusted threshold (roughly $50,000 in the base year).",
+    "Employer pays at least 50% of employee-only premium cost uniformly.",
+    "Coverage must generally be purchased through the SHOP marketplace."
+   ],
+   "benefits": [
+    "Credit up to 50% of premiums paid (35% for tax-exempt employers).",
+    "Credit is largest for employers with fewer than 10 employees averaging $27,000 or less in wages.",
+    "Claimed via IRS Form 8941."
+   ],
+   "howToApply": "Calculate and claim the credit on your federal return using IRS Form 8941, alongside SHOP marketplace enrollment.",
+   "links": [
+    {
+     "label": "HealthCare.gov — Small Business Health Care Tax Credit",
+     "url": "https://www.healthcare.gov/small-businesses/provide-shop-coverage/small-business-tax-credits/"
+    }
+   ],
+   "bestSuitedFor": "Growth",
+   "stages": [
+    "growth"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "early-stage-startups"
+   ],
+   "maxFunding": "Up to 50% of premiums paid",
+   "category": "other",
+   "howMuch": "Up to 50% of premiums (35% for nonprofits)",
+   "stageFocus": "Growth"
+  },
+  {
+   "slug": "section-1244-stock",
+   "name": "Section 1244 Small Business Stock Ordinary Loss Treatment",
+   "shortName": "Section 1244 Stock",
+   "ministry": "Internal Revenue Service",
+   "part": "B",
+   "tagline": "Lets founders and early investors deduct losses on qualifying startup stock as ordinary income — up to $50,000 ($100,000 joint) — instead of a capped capital loss.",
+   "whatIsThis": "Section 1244 is the downside-risk mirror of QSBS's upside benefit: if a small-business corporation's stock becomes worthless or is sold at a loss, an original individual holder can treat the loss as an ordinary loss rather than a capital loss, avoiding the usual $3,000/year capital-loss deduction limit.",
+   "objectives": "Encourage individuals to invest in small business by softening the tax consequence of a startup failing, not just rewarding success.",
+   "eligibility": [
+    "Stock must be issued directly to the individual (or a partnership) for cash or property, not services.",
+    "Holder must be the original recipient of the stock, not a later purchaser.",
+    "Issuing corporation must meet Section 1244 small-business-corporation size tests at the time of issuance."
+   ],
+   "benefits": [
+    "Ordinary-loss treatment up to $50,000 per individual ($100,000 married filing jointly) per year.",
+    "Loss can offset ordinary income (wages, other business income), not just capital gains.",
+    "No separate application — a self-executing Internal Revenue Code provision."
+   ],
+   "howToApply": "No application is required — qualification is determined at tax-filing time. Keep documentation from the original stock issuance (amount paid, corporate financials at issuance) and consult a tax advisor when claiming the loss.",
+   "links": [
+    {
+     "label": "eCFR — Section 1244 Loss on Small Business Stock",
+     "url": "https://www.ecfr.gov/current/title-26/chapter-I/subchapter-A/part-1/subject-group-ECFR56edfa33b27e3cf/section-1.1244(a)-1"
+    }
+   ],
+   "bestSuitedFor": "Ideation / Early-Stage",
+   "stages": [
+    "ideation",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "early-stage-startups"
+   ],
+   "maxFunding": "Up to $50,000 ordinary-loss deduction ($100,000 joint)",
+   "category": "other",
+   "howMuch": "Up to $50,000/$100,000 ordinary-loss deduction",
+   "stageFocus": "Ideation / Early-Stage"
+  },
+  {
+   "slug": "section-195-startup-costs",
+   "name": "Section 195 Start-Up Cost Deduction",
+   "shortName": "Section 195",
+   "ministry": "Internal Revenue Service",
+   "part": "B",
+   "tagline": "Lets a new business immediately deduct up to $5,000 in start-up costs, amortizing the rest over 15 years instead of capitalizing everything until the business begins.",
+   "whatIsThis": "Section 195 allows a new active trade or business to deduct up to $5,000 of investigatory and pre-opening costs in its first year, with any remaining start-up costs amortized ratably over 180 months (15 years), rather than treating all pre-opening spend as non-deductible until a later sale.",
+   "objectives": "Give new businesses immediate tax relief for the real costs of getting started — market research, travel to secure suppliers or customers, professional fees — rather than locking that spend away until the business winds down.",
+   "eligibility": [
+    "Applies to costs incurred investigating or creating an active trade or business before it begins operating.",
+    "The $5,000 immediate deduction phases out dollar-for-dollar once total start-up costs exceed $50,000.",
+    "Costs must otherwise be deductible if paid for an existing business."
+   ],
+   "benefits": [
+    "Up to $5,000 immediately deductible in the first year of operation.",
+    "Remaining costs amortized over 180 months.",
+    "Applies alongside a similar rule for organizational costs (Section 248/709)."
+   ],
+   "howToApply": "Elect and calculate the deduction on your business's federal tax return (Form 4562 for amortization) in the year the business begins active operation; consult a tax advisor on what qualifies as a start-up vs. organizational cost.",
+   "links": [
+    {
+     "label": "IRS — Deducting Business Expenses (start-up costs)",
+     "url": "https://www.irs.gov/businesses/small-businesses-self-employed/deducting-business-expenses"
+    }
+   ],
+   "bestSuitedFor": "Ideation",
+   "stages": [
+    "ideation"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "early-stage-startups"
+   ],
+   "maxFunding": "Up to $5,000 immediate deduction (phases out above $50,000 in costs)",
+   "category": "other",
+   "howMuch": "Up to $5,000 immediate; remainder amortized over 15 years",
+   "stageFocus": "Ideation"
   }
  ]
 }

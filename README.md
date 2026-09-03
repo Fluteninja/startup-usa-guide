@@ -2,7 +2,7 @@
 
 **Federal and state funding programs for US startups — one searchable, source-linked reference, plus the visa and immigration pathways founders actually need.**
 
-An independent guide to US startup funding: 40 federal programs, federal-agency innovation programs (AFWERX, DIU, NSIN, In-Q-Tel), 65 state-level incentive programs across all 50 states + DC, a 111-entry incubator/accelerator directory covering all 50 states + DC, every state's economic-development portal, and — the one thing the source template didn't have — a 7-pathway Visas & Immigration section for founders who aren't US citizens or permanent residents.
+An independent guide to US startup funding: 80 federal programs, federal-agency innovation programs (AFWERX, DIU, NSIN, In-Q-Tel), 65 state-level incentive programs across all 50 states + DC, a 111-entry incubator/accelerator directory covering all 50 states + DC, every state's economic-development portal, and — the one thing the source template didn't have — a 7-pathway Visas & Immigration section for founders who aren't US citizens or permanent residents.
 
 This repo is an adaptation of [`startup-india-guide`](https://github.com/fritzhand/startup-india-guide), which documents India's central government startup schemes from a single official playbook PDF. The **engine** (`build.mjs`, `site/*.js`, `site/*.css`) is reused essentially unchanged — it was built to be content-agnostic. Everything in `data/*.json`, the palette in `site/tokens.css`, and the two map datasets were replaced for the US.
 
@@ -12,7 +12,7 @@ This repo is an adaptation of [`startup-india-guide`](https://github.com/fritzha
 | --- | --- |
 | Overview | Stats, browse by support/stage/sector, flagship programs |
 | Scheme Finder | A 5-question decision tree pointing to relevant federal programs |
-| All programs / Compare | Filter all 40 federal programs; compare up to three side by side |
+| All programs / Compare | Filter all 80 federal programs; compare up to three side by side |
 | Lifecycle Map | Ideation → prototype → seed → growth → market access |
 | What do you need? | From a need (grant/loan/lab/buyers/IP/tax savings/**immigration status**) to what provides it |
 | Explore the USA map | Real state-shaped choropleth + a 3D walkable map (all 50 states + DC — Alaska/Hawaii as Albers-USA-style insets) |
@@ -27,7 +27,7 @@ This repo is an adaptation of [`startup-india-guide`](https://github.com/fritzha
 
 | Area | India | USA |
 | --- | --- | --- |
-| Central schemes | 69 India-specific schemes tied to DPIIT recognition | 40 federal programs (SBA loans, SBIR/STTR, EDA Build to Scale & Tech Hubs, NSF I-Corps/Engines/Convergence Accelerator, R&D tax credit, QSBS, Opportunity Zones, USPTO fee reductions & pro bono patents, EXIM, MBDA, SBIC, DOE, USDA, NIST MEP, ARPA-E, GSA Schedules, 8(a)/HUBZone, clean-energy ITC, Manufacturing USA, SSBCI, STEP export grants, Boots to Business, SBA THRIVE, Empower to Grow, and more) |
+| Central schemes | 69 India-specific schemes tied to DPIIT recognition | 80 federal programs — now more than the India edition — spanning SBA loans & resource partners (7(a)/504/microloans/SBDC/SCORE/WBC/VBOC), SBIR/STTR, EDA Build to Scale & Tech Hubs, NSF I-Corps/Engines/Convergence Accelerator, federal contracting set-asides (8(a)/HUBZone/WOSB/VOSB/EDWOSB), R&D and manufacturing tax credits (45X, QSBS, Section 1244/195), Opportunity Zones, USPTO fee reductions/pro bono/Patents for Humanity, EXIM/DFC/USTDA export & development finance, MBDA, SBIC, SSBCI, DOE (LPO + OSBP + ARPA-E), USDA (REAP/RBDG/B&I/RMAP/AFRI/FSA microloans), NIST MEP, GSA Schedules & Startup Springboard, regional commissions (ARC/Delta/Northern Border/Denali), CDFI Fund programs, clean-energy ITC bonus credits, Manufacturing USA, and more |
 | "PSU & regulator programs" | India's public-sector-undertaking corporate funds (ONGC, BHEL, ...) | Federal agency / defense innovation programs (AFWERX, DIU, NSIN, In-Q-Tel) — a genuine conceptual swap, not a content copy |
 | Incubators | 220+ Technology Business Incubators / Atal Incubation Centres | 111 verified entries: SBA Small Business Development Centers, NSF I-Corps hubs, major accelerators (Y Combinator, Techstars, MassChallenge, gener8tor, Greentown Labs, mHUB), and 1-3+ named programs per state |
 | Geography | India's real state/UT outlines + Himalaya/Deccan terrain | Real US state outlines for all 50 states + DC (Alaska/Hawaii as Albers-USA-style insets) via public GeoJSON, plus real mainland terrain (Rockies, Appalachians, 100+ rivers, 90+ lakes, 40+ named peaks) from Natural Earth |
@@ -74,6 +74,7 @@ Alaska and Hawaii are on the map as independently-projected insets (the same "Al
 ## Honest limitations
 
 - **A few state programs have sunset or paused for new applicants** (e.g. Maine's Pine Tree Development Zone, Rhode Island's Qualified Jobs Incentive Act, Montana's Big Sky Trust Fund) — each is flagged in its own entry in `data/state-schemes.json` rather than silently presented as active.
+- **The Work Opportunity Tax Credit (WOTC)'s federal authorization lapsed** for wages paid after December 31, 2025, and had not been reauthorized as of this writing — its entry flags this explicitly rather than presenting it as unconditionally active.
 - **Puerto Rico isn't on the map** (walkable or choropleth) and has no incubator/state-scheme entry yet — the plan treated territories as optional; Alaska and Hawaii are fully in.
 - **Alaska and Hawaii's insets have no terrain** (flat land, like the rest of the map got before terrain was added) and their shapes are simplified more aggressively than the mainland to fit their small inset boxes — real outlines, just lower fidelity.
 - **This is an independent reference, not a government website, and not legal, tax, or immigration advice** — especially true for the Visas & Immigration section.
@@ -82,3 +83,7 @@ Alaska and Hawaii are on the map as independently-projected insets (the same "Al
 ## License
 
 MIT — see [LICENSE](LICENSE). Most program content describes US federal government works, which are generally public domain under 17 U.S.C. §105. State-program and accelerator content is summarized from each organization's own public materials with a link back to the source.
+
+## Acknowledgments
+
+Thanks to Jeremy Fritzhand ([@fritzhand](https://github.com/fritzhand)), whose [`startup-india-guide`](https://github.com/fritzhand/startup-india-guide) is the engine this project adapts, and who set this as the assignment that became this repo.
