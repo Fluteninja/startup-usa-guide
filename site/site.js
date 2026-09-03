@@ -544,7 +544,11 @@
       found.forEach((r) => (counts[r.state] = (counts[r.state] || 0) + 1));
       const [W, H] = MAP.viewBox;
       const p = MAP.proj;
-      const P = (lng, lat) => [p.pad + (lng * p.cosLat0 - p.rxMin) * p.s, p.pad + (p.ryMax - lat) * p.s];
+      const P = (lng, lat, stateName) => {
+        const q = (p.insets && p.insets[stateName]) || p;
+        const px = q.padX ?? q.pad, py = q.padY ?? q.pad;
+        return [px + (lng * q.cosLat0 - q.rxMin) * q.s, py + (q.ryMax - lat) * q.s];
+      };
 
       const paths = Object.entries(MAP.states).map(([name, st]) => {
         const n = counts[name] || 0;
@@ -559,7 +563,7 @@
         (cityMap[k] = cityMap[k] || { lat: r.lat, lng: r.lng, city: r.city, items: [] }).items.push(r);
       });
       const markers = Object.values(cityMap).sort((a, b) => a.items.length - b.items.length).map((c) => {
-        const [x, y] = P(c.lng, c.lat);
+        const [x, y] = P(c.lng, c.lat, c.items[0]?.state);
         const n = c.items.length;
         const rad = Math.min(15, 3.5 + Math.sqrt(n) * 2.3);
         const active = state.city === `${c.lat},${c.lng}` ? " active" : "";

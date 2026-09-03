@@ -463,7 +463,11 @@ const write = (rel, html) => { mkdirSync(dirname(join(OUT, rel)), { recursive: t
     const bucket = (n) => (n === 0 ? 0 : n <= 2 ? 1 : n <= 5 ? 2 : n <= 10 ? 3 : n <= 20 ? 4 : 5);
     const [W, H] = indiaMap.viewBox;
     const pr = indiaMap.proj;
-    const P = (lng, lat) => [pr.pad + (lng * pr.cosLat0 - pr.rxMin) * pr.s, pr.pad + (pr.ryMax - lat) * pr.s];
+    const P = (lng, lat, stateName) => {
+      const q = (pr.insets && pr.insets[stateName]) || pr;
+      const px = q.padX ?? q.pad, py = q.padY ?? q.pad;
+      return [px + (lng * q.cosLat0 - q.rxMin) * q.s, py + (q.ryMax - lat) * q.s];
+    };
     const paths = Object.entries(indiaMap.states).map(([name, r]) =>
       `<path d="${r.d}" class="hm${bucket(counts[name] || 0)}"/>`).join("");
     const cityKeys = new Set();
@@ -471,7 +475,7 @@ const write = (rel, html) => { mkdirSync(dirname(join(OUT, rel)), { recursive: t
       const k = `${o.lat},${o.lng}`;
       if (cityKeys.has(k)) return "";
       cityKeys.add(k);
-      const [x, y] = P(o.lng, o.lat);
+      const [x, y] = P(o.lng, o.lat, o.state);
       return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="6"/>`;
     }).join("");
     heroMap = `<a class="hero-map" href="ecosystem-map.html" aria-label="Choose how to explore the USA map — ${incubators.incubators.length} incubators mapped nationwide">
@@ -985,7 +989,7 @@ ${sorted.map((st) => st.url ? `
   <aside class="walkable-minimap" aria-label="USA inset map">
     <div class="walkable-minimap-head"><strong>USA</strong><span>You are here</span></div>
     <div class="walkable-minimap-stage">
-      <svg class="walkable-minimap-map" viewBox="0 0 1000 1113" aria-hidden="true"></svg>
+      <svg class="walkable-minimap-map" viewBox="0 0 ${indiaMap.viewBox[0]} ${indiaMap.viewBox[1]}" aria-hidden="true"></svg>
       <div class="walkable-minimap-states">${minimapStates}</div>
       <span class="walkable-minimap-dot" aria-hidden="true"></span>
     </div>

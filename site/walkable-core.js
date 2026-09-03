@@ -1,5 +1,5 @@
 export const MAP_WIDTH = 1000;
-export const MAP_HEIGHT = 1113;
+export const MAP_HEIGHT = 756; // must match data/usa-map.json's viewBox height
 export const WORLD_SCALE = 18;
 export const WALK_SPEED = 360;
 export const DEFAULT_ZOOM = 0.65;

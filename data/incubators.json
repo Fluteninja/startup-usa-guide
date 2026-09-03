@@ -1365,6 +1365,36 @@
    "email": "",
    "phone": "",
    "contact": ""
+  },
+  {
+   "name": "gBETA Alaska",
+   "host": "gener8tor / UAF Center for Innovation, Commercialization & Entrepreneurship",
+   "city": "Anchorage",
+   "state": "Alaska",
+   "type": "Private",
+   "supportedBy": "Private",
+   "sectors": [],
+   "website": "https://www.gener8tor.com/gbeta-alaska",
+   "lat": 61.2181,
+   "lng": -149.9003,
+   "email": "",
+   "phone": "",
+   "contact": ""
+  },
+  {
+   "name": "HTDC Entrepreneurs Sandbox",
+   "host": "Hawaii Technology Development Corporation",
+   "city": "Honolulu",
+   "state": "Hawaii",
+   "type": "Government",
+   "supportedBy": "State",
+   "sectors": [],
+   "website": "https://www.htdc.org/",
+   "lat": 21.3069,
+   "lng": -157.8583,
+   "email": "",
+   "phone": "",
+   "contact": ""
   }
  ]
 }
