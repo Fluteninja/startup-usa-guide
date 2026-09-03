@@ -25,7 +25,10 @@
    ],
    "howToApply": "File Form I-129 with a US petitioner (often the founder's own startup, using an immigration attorney as agent), including the evidentiary package. Premium Processing (Form I-907) can be added for a faster decision.",
    "links": [
-    { "label": "USCIS — O-1 Visa: Extraordinary Ability", "url": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/o-1-visa-individuals-with-extraordinary-ability-or-achievement" }
+    {
+     "label": "USCIS — O-1 Visa: Extraordinary Ability",
+     "url": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/o-1-visa-individuals-with-extraordinary-ability-or-achievement"
+    }
    ],
    "bestFor": "Founders with a real public track record — prior funding, press, patents, awards, or a notable prior role — who need to be in the US soon."
   },
@@ -52,7 +55,10 @@
    ],
    "howToApply": "File Form I-140 (Immigrant Petition for Alien Worker) directly — no labor certification step. Adjustment of status or consular processing follows once a visa number is available.",
    "links": [
-    { "label": "USCIS — EB-1 Immigrant Visa Preference", "url": "https://www.uscis.gov/working-in-the-united-states/permanent-workers/employment-based-immigration-first-preference-eb-1" }
+    {
+     "label": "USCIS — EB-1 Immigrant Visa Preference",
+     "url": "https://www.uscis.gov/working-in-the-united-states/permanent-workers/employment-based-immigration-first-preference-eb-1"
+    }
    ],
    "bestFor": "Founders who already have (or can quickly build) a strong, documented record of achievement and want a direct path to permanent residency rather than a renewable temporary status."
   },
@@ -79,7 +85,10 @@
    ],
    "howToApply": "File Form I-140 with the National Interest Waiver request, including a detailed statement addressing all three Dhanasar prongs and supporting evidence.",
    "links": [
-    { "label": "USCIS — EB-2 Immigrant Visa Preference", "url": "https://www.uscis.gov/working-in-the-united-states/permanent-workers/employment-based-immigration-second-preference-eb-2" }
+    {
+     "label": "USCIS — EB-2 Immigrant Visa Preference",
+     "url": "https://www.uscis.gov/working-in-the-united-states/permanent-workers/employment-based-immigration-second-preference-eb-2"
+    }
    ],
    "bestFor": "Founders with an advanced degree or strong domain expertise whose startup addresses a problem they can credibly argue matters to the national interest (e.g. health, energy, critical technology)."
   },
@@ -107,7 +116,10 @@
    ],
    "howToApply": "File Form I-941, Application for Entrepreneur Parole, with evidence of the qualifying investment or government funding and the company's growth potential.",
    "links": [
-    { "label": "USCIS — International Entrepreneur Parole", "url": "https://www.uscis.gov/humanitarian/international-entrepreneur-parole" }
+    {
+     "label": "USCIS — International Entrepreneur Parole",
+     "url": "https://www.uscis.gov/humanitarian/international-entrepreneur-parole"
+    }
    ],
    "bestFor": "Founders who don't yet have a personal extraordinary-ability record but have raised meaningful institutional funding (or won qualifying government grants like SBIR) for a US-formed startup."
   },
@@ -135,7 +147,10 @@
    ],
    "howToApply": "Apply directly at a US embassy or consulate abroad (E-2 is generally not filed via USCIS petition the way most other work visas are), or via Form I-129 for a change of status if already lawfully in the US.",
    "links": [
-    { "label": "US Department of State — Treaty Trader/Investor (E) Visas", "url": "https://travel.state.gov/content/travel/en/us-visas/employment/treaty-trader-investor-e.html" }
+    {
+     "label": "US Department of State — Treaty Trader/Investor (E) Visas",
+     "url": "https://travel.state.gov/content/travel/en/us-visas/employment/treaty-trader-investor-e.html"
+    }
    ],
    "bestFor": "Founders who are nationals of an E-2 treaty country and are personally funding and running their US company, rather than relying on outside investors."
   },
@@ -162,9 +177,44 @@
    ],
    "howToApply": "The foreign company (as petitioner) files Form I-129 with the L supplement, including evidence of the qualifying corporate relationship and the transferring executive's role abroad.",
    "links": [
-    { "label": "USCIS — L-1A Intracompany Transferee Executive or Manager", "url": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/l-1a-intracompany-transferee-executive-or-manager" }
+    {
+     "label": "USCIS — L-1A Intracompany Transferee Executive or Manager",
+     "url": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/l-1a-intracompany-transferee-executive-or-manager"
+    }
    ],
    "bestFor": "Founders who already operate a business outside the US and want to establish and personally run a US office of that same company."
+  },
+  {
+   "slug": "eb-5",
+   "name": "EB-5 Immigrant Investor Program",
+   "shortName": "EB-5",
+   "category": "Permanent residency (green card)",
+   "tagline": "A green card for investors who put at least $800,000-$1,050,000 at risk in a new US commercial enterprise that creates 10+ full-time jobs.",
+   "whatIsThis": "EB-5 grants permanent residency to investors (and their spouse and unmarried children under 21) who invest the required minimum capital in a new commercial enterprise and create or preserve at least 10 full-time jobs for qualifying US workers.",
+   "eligibility": [
+    "Minimum investment of $800,000 in a Targeted Employment Area (TEA, including qualifying infrastructure projects) or $1,050,000 elsewhere (2026 figures, adjusted for inflation every 5 years).",
+    "Capital must be genuinely at risk in a new commercial enterprise, not a guaranteed-return arrangement.",
+    "Must create or preserve at least 10 full-time jobs for qualifying US workers within the required timeframe.",
+    "Can invest directly in your own startup, or through a USCIS-designated Regional Center that pools EB-5 capital into larger projects."
+   ],
+   "benefits": [
+    "Leads directly to a green card for the investor plus spouse and unmarried children under 21.",
+    "No advanced degree, extraordinary-ability record, or employer sponsor required — the qualifying facts are the investment and the jobs it creates.",
+    "Investing directly in your own company (rather than a Regional Center project) is a real option for well-funded founders."
+   ],
+   "limitations": [
+    "The capital requirement is out of reach for most early-stage founders — this pathway is really for well-capitalized investor-founders.",
+    "Conditional permanent residence must be confirmed roughly 2 years later by proving the investment and job-creation requirements were actually met.",
+    "Regional Center EB-5 projects carry real due-diligence risk — vet sponsors carefully; direct investment in your own startup avoids that specific risk but concentrates all the capital risk on you."
+   ],
+   "howToApply": "File Form I-526 (or I-526E for a Regional Center investment) with evidence of the qualifying investment and business plan, then adjust status or complete consular processing once approved.",
+   "links": [
+    {
+     "label": "USCIS — EB-5 Immigrant Investor Program",
+     "url": "https://www.uscis.gov/working-in-the-united-states/permanent-workers/eb-5-immigrant-investor-program"
+    }
+   ],
+   "bestFor": "Well-capitalized founders or investors able to place $800K+ at risk in a new US business that will create at least 10 jobs."
   }
  ]
 }

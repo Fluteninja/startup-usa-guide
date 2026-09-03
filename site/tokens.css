@@ -1,17 +1,19 @@
 /* ============================================================
    tokens.css — the brand skin for the Startup USA Guide site.
-   Civic navy + teal + green — deliberately not a red/white/blue
-   flag palette. The engine (site.css) consumes ONLY these custom
-   properties — zero colour/font/radius literals live outside this
-   file. All pairings below are WCAG 2.1 AA-checked (4.5:1+ for
-   text-sized use) in both light and dark themes.
+   Civic navy + a muted brick red + green — a subtly American
+   identity (not a literal red/white/blue flag lift). The engine
+   (site.css) consumes ONLY these custom properties — zero colour/
+   font/radius literals live outside this file. All pairings below
+   are WCAG 2.1 AA-checked (4.5:1+ for text-sized use) in both
+   light and dark themes.
    ============================================================ */
 
 :root {
   /* ---- brand anchors ---- */
   --brand-navy: #1f3864;        /* section banners, one-pager title bars */
   --brand-navy-deep: #14263f;   /* banner gradient floor */
-  --brand-teal: #0e7490;        /* decision-tree "yes" branches, accent family */
+  --brand-red: #8c1d2b;         /* decision-tree "yes" branches, accent family */
+  --brand-teal: #0e7490;        /* categorical hue — incubation/SBDC, not the brand accent */
   --brand-green: #359a4c;       /* decision-tree "no" branches, success */
   --brand-blue: #2456a6;        /* hyperlink blue */
 
@@ -54,10 +56,10 @@
 
   --primary: #1f3864;           /* navy — nav, headings, hero */
   --primary-contrast: #ffffff;
-  --accent: #0b5c6e;            /* teal — AA with white text and on bg (7.58:1) */
-  --accent-strong: #0a4f5e;
+  --accent: #8c1d2b;            /* civic red — AA with white text and on bg (9.03:1) */
+  --accent-strong: #7a1826;
   --accent-contrast: #ffffff;
-  --accent-tint: #e3f2f1;
+  --accent-tint: #f5e6e8;
   --link: #2456a6;
   --link-hover: #1a4488;
   --success: #27753a;           /* AA as small bold text on white */
@@ -86,7 +88,7 @@
   --walk-overlay: rgb(255 255 255 / 0.9);
   --walk-overlay-strong: #ffffff;
   --walk-shadow: rgb(31 56 100 / 0.25);
-  --walk-avatar: #0b5c6e;
+  --walk-avatar: #8c1d2b;
   --walk-avatar-detail: #ffffff;
   --walk-sign: #fff4d3;
   --walk-sign-border: #9b6717;
@@ -130,13 +132,13 @@
   --cat-loan: #8f5e12;          --cat-loan-tint: #fdf3e1;
   --cat-incubation: #0e7490;    --cat-incubation-tint: #e4f4f8;
   --cat-market: #2456a6;        --cat-market-tint: #e9f0fa;
-  --cat-mixed: #0a4f5e;         --cat-mixed-tint: #e3f2f1;
+  --cat-mixed: #7a1826;         --cat-mixed-tint: #f5e6e8;
   --cat-other: #5b6474;         --cat-other-tint: #eef0f3;
 
   /* lifecycle stage hues */
   --stage-ideation: #b7791f;
   --stage-prototype: #0e7490;
-  --stage-early: #0a4f5e;
+  --stage-early: #7a1826;
   --stage-growth: #1f3864;
   --stage-market: #2e8b44;
 }
@@ -158,10 +160,10 @@
 
   --primary: #93b4e6;
   --primary-contrast: #0d1420;
-  --accent: #2bb3ae;
-  --accent-strong: #4fc9c4;
-  --accent-contrast: #071c1b;
-  --accent-tint: #0d2c2a;
+  --accent: #e8697a;
+  --accent-strong: #f08a98;
+  --accent-contrast: #180a0b;
+  --accent-tint: #2e1418;
   --link: #7fa9e8;
   --link-hover: #a3c2f2;
   --success: #4cc26b;
@@ -190,7 +192,7 @@
   --walk-overlay: rgb(19 28 43 / 0.91);
   --walk-overlay-strong: #131c2b;
   --walk-shadow: rgb(0 0 0 / 0.56);
-  --walk-avatar: #2bb3ae;
+  --walk-avatar: #e8697a;
   --walk-avatar-detail: #ffffff;
   --walk-sign: #35280d;
   --walk-sign-border: #d9a13f;
@@ -231,12 +233,12 @@
   --cat-loan: #d9a13f;          --cat-loan-tint: #33270e;
   --cat-incubation: #4cc0dd;    --cat-incubation-tint: #0d2c36;
   --cat-market: #7fa9e8;        --cat-market-tint: #16263f;
-  --cat-mixed: #4fc9c4;         --cat-mixed-tint: #0d2c2a;
+  --cat-mixed: #e8697a;         --cat-mixed-tint: #2e1418;
   --cat-other: #97a4ba;         --cat-other-tint: #1d2839;
 
   --stage-ideation: #d9a13f;
   --stage-prototype: #4cc0dd;
-  --stage-early: #4fc9c4;
+  --stage-early: #e8697a;
   --stage-growth: #93b4e6;
   --stage-market: #4cc26b;
 

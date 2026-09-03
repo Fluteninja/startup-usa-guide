@@ -7,11 +7,14 @@
    "startupSpecific": [
     "SBIR/STTR",
     "NSF I-Corps",
-    "B2S"
+    "B2S",
+    "ARPA-E"
    ],
    "startupRelevant": [
     "R&D Payroll Offset",
-    "RBDG"
+    "RBDG",
+    "REAP",
+    "VAPG"
    ]
   },
   {
@@ -23,7 +26,8 @@
     "SBA 504",
     "SBA Microloans",
     "EXIM WCGP",
-    "SBIC"
+    "SBIC",
+    "Community Advantage"
    ]
   },
   {
@@ -36,7 +40,9 @@
    "startupRelevant": [
     "B2S",
     "APEX Accelerators",
-    "RBDG"
+    "RBDG",
+    "NIST MEP",
+    "Manufacturing USA"
    ]
   },
   {
@@ -48,14 +54,20 @@
    ],
    "startupRelevant": [
     "EXIM WCGP",
-    "DOE OSBP"
+    "DOE OSBP",
+    "GSA MAS",
+    "8(a) BD",
+    "HUBZone",
+    "DOD Mentor-Protégé",
+    "Surety Bond Guarantee"
    ]
   },
   {
    "need": "IP Protection",
    "needNote": "Patent, trademark, and related cost reduction",
    "startupSpecific": [
-    "USPTO Fee Reduction"
+    "USPTO Fee Reduction",
+    "Patent Pro Bono"
    ],
    "startupRelevant": []
   },
@@ -68,7 +80,8 @@
    ],
    "startupRelevant": [
     "Opportunity Zones",
-    "USPTO Fee Reduction"
+    "USPTO Fee Reduction",
+    "Clean Energy ITC"
    ]
   }
  ]

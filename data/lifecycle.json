@@ -12,7 +12,9 @@
    "relevant": [
     "SBA Microloans",
     "QSBS",
-    "RBDG"
+    "RBDG",
+    "VAPG",
+    "Patent Pro Bono"
    ]
   },
   {
@@ -28,7 +30,9 @@
     "SBA Microloans",
     "R&D Payroll Offset",
     "QSBS",
-    "USPTO Fee Reduction"
+    "USPTO Fee Reduction",
+    "ARPA-E",
+    "Patent Pro Bono"
    ]
   },
   {
@@ -44,7 +48,9 @@
     "SBA Microloans",
     "R&D Payroll Offset",
     "QSBS",
-    "USPTO Fee Reduction"
+    "USPTO Fee Reduction",
+    "Community Advantage",
+    "ARPA-E"
    ]
   },
   {
@@ -60,7 +66,14 @@
     "QSBS",
     "Set-Asides",
     "APEX Accelerators",
-    "SBIC"
+    "SBIC",
+    "NIST MEP",
+    "REAP",
+    "Manufacturing USA",
+    "Clean Energy ITC",
+    "GSA MAS",
+    "8(a) BD",
+    "HUBZone"
    ]
   },
   {
@@ -74,7 +87,12 @@
    "relevant": [
     "EXIM WCGP",
     "USPTO Fee Reduction",
-    "DOE OSBP"
+    "DOE OSBP",
+    "GSA MAS",
+    "8(a) BD",
+    "HUBZone",
+    "Surety Bond Guarantee",
+    "DOD Mentor-Protégé"
    ]
   }
  ]

@@ -824,6 +824,704 @@
    "category": "mixed",
    "howMuch": "Indirect — via a funded rural intermediary",
    "stageFocus": "Ideation / Early-Stage"
+  },
+  {
+   "slug": "nist-mep",
+   "name": "Manufacturing Extension Partnership",
+   "shortName": "NIST MEP",
+   "ministry": "National Institute of Standards and Technology (NIST)",
+   "part": "B",
+   "tagline": "Free-to-low-cost technical assistance from a nationwide network of 51 MEP Centers helping small manufacturers adopt new technology and improve production.",
+   "whatIsThis": "MEP is a network of centers in all 50 states and Puerto Rico that helps small and medium-sized manufacturers (500 or fewer employees) improve production processes, adopt new technology, and bring new products to market. Since 1988 it has worked with more than 86,000 manufacturers.",
+   "objectives": "Strengthen US manufacturing competitiveness by pairing small manufacturers with trusted local advisors — over 1,450 of them across more than 430 service locations — combining federal funding with matched state contributions.",
+   "eligibility": [
+    "US-based small or medium-sized manufacturer (typically 500 or fewer employees).",
+    "Services are client-fee-based for larger firms but often subsidized or free for smaller ones — check with your local Center."
+   ],
+   "benefits": [
+    "Hands-on help with process improvement, technology adoption, workforce training, and supply-chain upgrades.",
+    "Access to a trusted local advisor network rather than a generic hotline.",
+    "Historic impact: $96.4B in sales impact and nearly 800,000 jobs supported since 1988."
+   ],
+   "howToApply": "Find and contact your state's MEP Center directly through the national NIST MEP site.",
+   "links": [
+    {
+     "label": "NIST — Manufacturing Extension Partnership",
+     "url": "https://www.nist.gov/mep"
+    }
+   ],
+   "bestSuitedFor": "Growth",
+   "stages": [
+    "growth"
+   ],
+   "supportTypes": [
+    "incubation"
+   ],
+   "sectors": [
+    "manufacturing"
+   ],
+   "audience": [
+    "small-businesses",
+    "growth-startups"
+   ],
+   "maxFunding": "Technical assistance (fee varies by firm size)",
+   "category": "incubation",
+   "howMuch": "Often free or low-cost for small manufacturers",
+   "stageFocus": "Growth"
+  },
+  {
+   "slug": "arpa-e",
+   "name": "Advanced Research Projects Agency-Energy",
+   "shortName": "ARPA-E",
+   "ministry": "US Department of Energy",
+   "part": "A",
+   "tagline": "DOE's DARPA-style program funding high-risk, high-reward energy technology too early for private investment — average award $2-3M over several years.",
+   "whatIsThis": "ARPA-E funds transformational energy technologies at a stage before they're ready for private-sector investment, working with academia, national labs, startups, and small businesses.",
+   "objectives": "Accelerate energy innovations that improve US energy security, affordability, and sustainability, established by the America COMPETES Act of 2007.",
+   "eligibility": [
+    "Open to startups, small businesses, universities, and national labs proposing high-potential, early-stage energy technology.",
+    "Apply through specific ARPA-E funding opportunity announcements (FOAs), not a rolling general application."
+   ],
+   "benefits": [
+    "Average award of $2-3 million per project over several years.",
+    "$3.27B provided to over 1,415 projects since 2009 through September 2022.",
+    "200+ funded projects have attracted over $11B in private follow-on funding; 131 companies formed from ARPA-E projects."
+   ],
+   "howToApply": "Monitor and apply through ARPA-E eXCHANGE for open funding opportunity announcements in your technology area.",
+   "links": [
+    {
+     "label": "DOE — ARPA-E",
+     "url": "https://www.energy.gov/advanced-research-projects-agency-energy-arpa-e"
+    }
+   ],
+   "bestSuitedFor": "Ideation / Prototype",
+   "stages": [
+    "ideation",
+    "prototype",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "grant"
+   ],
+   "sectors": [
+    "energy-cleantech"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "researchers",
+    "early-stage-startups"
+   ],
+   "maxFunding": "Typically $2-3M per project",
+   "category": "grant",
+   "howMuch": "~$2-3M average award",
+   "stageFocus": "Ideation / Prototype"
+  },
+  {
+   "slug": "usda-reap",
+   "name": "Rural Energy for America Program",
+   "shortName": "REAP",
+   "ministry": "US Department of Agriculture, Rural Development",
+   "part": "B",
+   "tagline": "Grants and guaranteed loans for agricultural producers and rural small businesses installing renewable energy systems or improving energy efficiency.",
+   "whatIsThis": "REAP funds renewable energy systems (solar, wind, biomass, geothermal, and more) and energy-efficiency improvements for agricultural producers and rural small businesses, expanded significantly by the Inflation Reduction Act.",
+   "objectives": "Reduce energy costs and expand renewable energy use in rural America, supporting both climate and rural-economy goals.",
+   "eligibility": [
+    "Agricultural producers (50%+ income from agricultural operations) or rural small businesses.",
+    "Project must be in an eligible rural area (for the small-business track)."
+   ],
+   "benefits": [
+    "Combined grant and guaranteed-loan funding, up to $1,000,000 per applicant.",
+    "$200M+ available with roughly 6,000 awards estimated in recent cycles.",
+    "Over $2B provided through 2031 under the Inflation Reduction Act expansion."
+   ],
+   "howToApply": "Apply through your state USDA Rural Development office; funding announcements are published periodically in the Federal Register.",
+   "links": [
+    {
+     "label": "USDA Rural Development — REAP",
+     "url": "https://www.rd.usda.gov/programs-services/energy-programs/rural-energy-america-program-renewable-energy-systems-energy-efficiency-improvement-guaranteed-loans"
+    }
+   ],
+   "bestSuitedFor": "Growth",
+   "stages": [
+    "growth"
+   ],
+   "supportTypes": [
+    "grant",
+    "loan-credit"
+   ],
+   "sectors": [
+    "energy-cleantech",
+    "agriculture-food"
+   ],
+   "audience": [
+    "rural-businesses",
+    "small-businesses"
+   ],
+   "maxFunding": "Up to $1,000,000",
+   "category": "mixed",
+   "howMuch": "Grant + guaranteed loan, up to $1M",
+   "stageFocus": "Growth"
+  },
+  {
+   "slug": "cdfi-fund",
+   "name": "CDFI Fund — Financial & Technical Assistance Awards",
+   "shortName": "CDFI Fund",
+   "ministry": "US Department of the Treasury",
+   "part": "B",
+   "tagline": "Treasury funding that builds up Community Development Financial Institutions, which in turn lend to underserved small businesses and founders.",
+   "whatIsThis": "The CDFI Fund doesn't lend to startups directly — it certifies and funds Community Development Financial Institutions (banks, credit unions, loan funds, and venture funds with a community-development mission) so they can lend more to underserved communities.",
+   "objectives": "Expand economic opportunity for underserved people and communities by growing the capacity of mission-driven community lenders — over 1,300 certified CDFIs nationwide.",
+   "eligibility": [
+    "A startup benefits indirectly by borrowing from or raising from a certified CDFI in its area — not by applying to the CDFI Fund itself.",
+    "CDFIs themselves must be certified by Treasury to receive Financial Assistance (FA) or Technical Assistance (TA) awards."
+   ],
+   "benefits": [
+    "Grows the pool of mission-driven lenders willing to serve underserved founders and small businesses.",
+    "Some certified CDFIs run their own venture-capital funds, not just debt products."
+   ],
+   "limitations": [
+    "Not a direct-to-founder program — find a certified CDFI serving your community instead of applying to Treasury."
+   ],
+   "howToApply": "Search the CDFI Fund's certified-CDFI list for a lender or investor in your area, and apply to that institution directly.",
+   "links": [
+    {
+     "label": "CDFI Fund — About Us",
+     "url": "https://www.cdfifund.gov/about"
+    }
+   ],
+   "bestSuitedFor": "Any stage (via a local CDFI)",
+   "stages": [
+    "ideation",
+    "prototype",
+    "early-stage",
+    "growth"
+   ],
+   "supportTypes": [
+    "loan-credit",
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "minority-owned-businesses",
+    "rural-businesses"
+   ],
+   "maxFunding": "Indirect — via a certified CDFI lender",
+   "category": "other",
+   "howMuch": "Indirect — via a certified CDFI",
+   "stageFocus": "Any stage"
+  },
+  {
+   "slug": "new-markets-tax-credit",
+   "name": "New Markets Tax Credit Program",
+   "shortName": "NMTC",
+   "ministry": "US Department of the Treasury (CDFI Fund) / IRS",
+   "part": "B",
+   "tagline": "A tax credit that draws private investment into low-income-community businesses through certified Community Development Entities — a founder benefits by being located in a qualifying area.",
+   "whatIsThis": "NMTC gives investors a federal tax credit (39% of their investment over 7 years) for equity investments in certified Community Development Entities (CDEs), which then lend to or invest in businesses in low-income communities.",
+   "objectives": "Encourage private capital investment in impoverished, low-income communities that otherwise struggle to attract conventional financing.",
+   "eligibility": [
+    "A business benefits by being located in, and getting financing from, a CDE operating in a qualifying low-income census tract.",
+    "$10 billion in allocation authority was available for the combined CY2024-2025 round."
+   ],
+   "benefits": [
+    "Below-market financing terms are common since CDEs pass along some of the investor tax benefit.",
+    "Can fund business loans, real estate, and other qualified low-income community investments."
+   ],
+   "limitations": [
+    "A founder can't apply directly to the CDFI Fund — the credit goes to investors and flows through a CDE."
+   ],
+   "howToApply": "Identify a CDE operating in your low-income census tract and inquire about financing — the CDFI Fund publishes a list of allocatees.",
+   "links": [
+    {
+     "label": "CDFI Fund — New Markets Tax Credit Program",
+     "url": "https://www.cdfifund.gov/programs-training/programs/new-markets-tax-credit"
+    }
+   ],
+   "bestSuitedFor": "Growth",
+   "stages": [
+    "growth"
+   ],
+   "supportTypes": [
+    "loan-credit",
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses"
+   ],
+   "maxFunding": "Below-market financing via a CDE",
+   "category": "other",
+   "howMuch": "Indirect — via a CDE in a qualifying tract",
+   "stageFocus": "Growth"
+  },
+  {
+   "slug": "gsa-mas",
+   "name": "GSA Multiple Award Schedule",
+   "shortName": "GSA MAS",
+   "ministry": "US General Services Administration",
+   "part": "B",
+   "tagline": "A long-term federal contract vehicle that lets your company sell commercial products/services to any federal, state, or local buyer under pre-negotiated terms — no per-agency bidding required.",
+   "whatIsThis": "The MAS program is one of the government's most widely used procurement vehicles. Once on schedule, agencies can order from you directly without a new competitive bid each time, for up to 20 years (5-year base plus three 5-year options).",
+   "objectives": "Give commercial companies — 80% of MAS contractors are small businesses — a standing, streamlined path to sell to government buyers.",
+   "eligibility": [
+    "Commercial company offering a product or service the government buys.",
+    "Small businesses, including 8(a), HUBZone, WOSB, VOSB, and SDVOSB firms, are strongly represented and can be set aside for exclusively."
+   ],
+   "benefits": [
+    "No ceiling value; unlimited task/delivery orders under the schedule.",
+    "Access to federal, state, local, and tribal buyers through one contract vehicle.",
+    "Ordering activities can set aside requirements for eligible small-business categories."
+   ],
+   "howToApply": "Prepare a GSA Schedule offer (pricing, past performance, compliance documentation) and submit via GSA's eOffer system — an APEX Accelerator can help with this.",
+   "links": [
+    {
+     "label": "GSA — Getting on Schedule (small business)",
+     "url": "https://www.gsa.gov/small-business/small-business-resources/training-resources/getting-on-the-gsa-schedule"
+    }
+   ],
+   "bestSuitedFor": "Market Access",
+   "stages": [
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "market-access"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "sam-registered",
+    "growth-startups"
+   ],
+   "maxFunding": "No contract ceiling",
+   "category": "market-access",
+   "howMuch": "N/A — a sales contract vehicle, not funding",
+   "stageFocus": "Market Access"
+  },
+  {
+   "slug": "uspto-pro-bono",
+   "name": "USPTO Patent Pro Bono Program",
+   "shortName": "Patent Pro Bono",
+   "ministry": "US Patent and Trademark Office",
+   "part": "B",
+   "tagline": "Free patent attorney matching for financially under-resourced inventors and small businesses — over $39M in donated legal services since 2015.",
+   "whatIsThis": "20 regional pro bono programs match eligible inventors and small businesses with volunteer patent attorneys and agents to prepare and file patent applications, established under the America Invents Act.",
+   "objectives": "Increase access to the patent system for inventors who couldn't otherwise afford a patent attorney, while improving overall patent application quality.",
+   "eligibility": [
+    "Gross household income up to 400% of federal poverty guidelines (e.g., roughly $58,320 for a single person).",
+    "Some demonstrated knowledge of the patent system (e.g., a provisional application on file, or a training course).",
+    "A genuine invention, not just an idea, and ability to pay standard USPTO filing fees."
+   ],
+   "benefits": [
+    "Free attorney/agent time to prepare and prosecute a patent application.",
+    "Regional programs may charge a small application fee ($25-$150).",
+    "Access to experienced patent practitioners who would otherwise be cost-prohibitive."
+   ],
+   "howToApply": "Apply through your regional pro bono program (find yours via the USPTO website); you remain responsible for USPTO filing fees.",
+   "links": [
+    {
+     "label": "USPTO — Patent Pro Bono Program",
+     "url": "https://www.uspto.gov/patents/basics/using-legal-services/pro-bono"
+    }
+   ],
+   "bestSuitedFor": "Ideation / Prototype",
+   "stages": [
+    "ideation",
+    "prototype"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "small-businesses"
+   ],
+   "maxFunding": "Free legal services (fees still apply)",
+   "category": "other",
+   "howMuch": "Free attorney time; standard USPTO fees still due",
+   "stageFocus": "Ideation / Prototype"
+  },
+  {
+   "slug": "sba-8a",
+   "name": "8(a) Business Development Program",
+   "shortName": "8(a) BD",
+   "ministry": "Small Business Administration",
+   "part": "B",
+   "tagline": "A 9-year program pairing socially and economically disadvantaged business owners with training, technical assistance, and sole-source federal contracting eligibility.",
+   "whatIsThis": "8(a) is structured as a 4-year development stage followed by a 5-year transition stage, designed to build a small business's ability to compete in federal contracting over time rather than just certifying it for set-asides.",
+   "objectives": "Help socially and economically disadvantaged small business owners overcome historic barriers to participating in federal contracting.",
+   "eligibility": [
+    "Small business under SBA size standards; at least 51% owned/controlled by a US citizen who is socially and economically disadvantaged.",
+    "Personal net worth under $850,000, adjusted gross income under $400,000, assets under $6.5 million.",
+    "In business for a demonstrated period showing potential for success; Alaska Native corporations, CDCs, tribes, and Native Hawaiian organizations are also eligible.",
+    "Cannot have previously participated in the 8(a) program."
+   ],
+   "benefits": [
+    "Sole-source contracts up to $7M (manufacturing) or $4.5M (services).",
+    "Structured business-development training and technical assistance throughout the 9-year term.",
+    "Access to the SBA's Mentor-Protégé Program."
+   ],
+   "howToApply": "Apply through SBA's certification portal (certify.sba.gov) after registering in SAM.gov.",
+   "links": [
+    {
+     "label": "SBA — 8(a) Business Development eligibility",
+     "url": "https://www.sba.gov/contracting/government-contracting-programs/8a-business-development-program/eligibility-requirements"
+    }
+   ],
+   "bestSuitedFor": "Growth / Market Access",
+   "stages": [
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "market-access"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "minority-owned-businesses",
+    "small-businesses",
+    "sam-registered"
+   ],
+   "maxFunding": "Sole-source contracts up to $7M",
+   "category": "market-access",
+   "howMuch": "Sole-source up to $4.5-7M",
+   "stageFocus": "Growth / Market Access"
+  },
+  {
+   "slug": "sba-hubzone",
+   "name": "HUBZone Program",
+   "shortName": "HUBZone",
+   "ministry": "Small Business Administration",
+   "part": "B",
+   "tagline": "Federal contracting set-asides and a 10% price-evaluation preference for small businesses located in — and employing residents of — historically underutilized business zones.",
+   "whatIsThis": "Unlike ownership-based certifications, HUBZone eligibility depends on where your business operates and where your employees live, not who owns the company.",
+   "objectives": "Drive job creation and capital investment into distressed communities by channeling federal contracting dollars toward businesses rooted there.",
+   "eligibility": [
+    "Small business under SBA size standards.",
+    "At least 51% owned/controlled by US citizens (or a CDC, agricultural cooperative, Alaska Native corporation, Native Hawaiian organization, or Native American tribe).",
+    "Principal office located in a HUBZone (check the official map).",
+    "At least 35% of employees must be HUBZone residents."
+   ],
+   "benefits": [
+    "10% price-evaluation preference in full-and-open competitions.",
+    "Sole-source contracts up to $4.5 million.",
+    "HUBZone-restricted set-aside competitions."
+   ],
+   "howToApply": "Check your address against SBA's HUBZone map, then apply for certification via certify.sba.gov.",
+   "links": [
+    {
+     "label": "SBA — HUBZone Map",
+     "url": "https://maps.certify.sba.gov/hubzone/map"
+    }
+   ],
+   "bestSuitedFor": "Growth / Market Access",
+   "stages": [
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "market-access"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "sam-registered"
+   ],
+   "maxFunding": "Sole-source contracts up to $4.5M",
+   "category": "market-access",
+   "howMuch": "Sole-source up to $4.5M; 10% price preference",
+   "stageFocus": "Growth / Market Access"
+  },
+  {
+   "slug": "clean-energy-itc",
+   "name": "Clean Electricity Investment Tax Credit",
+   "shortName": "Clean Energy ITC",
+   "ministry": "Internal Revenue Service (IRC §48/§48E)",
+   "part": "B",
+   "tagline": "A tax credit worth up to 30%+ of qualifying clean-energy property costs — relevant to any startup building, owning, or hosting solar, storage, or other clean-energy systems.",
+   "whatIsThis": "Sections 48 and 48E provide an investment tax credit for a wide range of clean-energy and energy-storage property, with a base rate that multiplies substantially if prevailing-wage/apprenticeship, domestic-content, or energy-community conditions are met.",
+   "objectives": "Lower the effective cost of clean-energy investment to accelerate deployment of solar, wind, storage, geothermal, and other qualifying technologies.",
+   "eligibility": [
+    "Ownership of qualifying clean-energy or storage property placed in service in the US.",
+    "Base rate is 6%; boosted to 30% by meeting prevailing wage and apprenticeship requirements.",
+    "Additional 10-point bonuses available for domestic content and for projects in designated energy communities."
+   ],
+   "benefits": [
+    "Dollar-for-dollar reduction in tax liability tied to qualifying investment.",
+    "Stackable bonus adders can push the effective credit well above the 30% boosted base rate.",
+    "Applies to a broad list of technologies: solar, wind, geothermal, storage, fuel cells, microgrid controllers, and more."
+   ],
+   "howToApply": "Claim via the applicable IRS form when filing; project-level tax and engineering review is standard given the technical eligibility rules — work with a qualified tax advisor.",
+   "links": [
+    {
+     "label": "Cornell LII — 26 U.S. Code §48E",
+     "url": "https://www.law.cornell.edu/uscode/text/26/48E"
+    }
+   ],
+   "bestSuitedFor": "Growth",
+   "stages": [
+    "growth"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "energy-cleantech"
+   ],
+   "audience": [
+    "growth-startups",
+    "small-businesses"
+   ],
+   "maxFunding": "Up to 30%+ of qualifying investment",
+   "category": "other",
+   "howMuch": "6% base, up to 30%+ with bonus adders",
+   "stageFocus": "Growth"
+  },
+  {
+   "slug": "sba-community-advantage",
+   "name": "SBA Community Advantage Loan Program",
+   "shortName": "Community Advantage",
+   "ministry": "Small Business Administration",
+   "part": "B",
+   "tagline": "A streamlined SBA 7(a)-family loan (up to $250,000) delivered through mission-driven, community-based lenders in underserved areas — often a faster, friendlier path than a bank for a very early business.",
+   "whatIsThis": "Community Advantage channels 7(a)-style guaranteed lending through Community Advantage SBLCs — mission-focused, community-based lenders, including Certified Development Companies — rather than traditional banks.",
+   "objectives": "Expand access to capital in underserved and rural communities by empowering mission-driven lenders to make smaller SBA-guaranteed loans with lighter paperwork.",
+   "eligibility": [
+    "Startups and existing small businesses in underserved or rural communities.",
+    "Apply through a designated Community Advantage lender, not a conventional bank."
+   ],
+   "benefits": [
+    "Loans up to $250,000; 85% guarantee below $150,000, 75% above.",
+    "Two-page streamlined application; approvals often in 5-10 days.",
+    "7-10 year terms for working capital, inventory, acquisitions, or start-up expenses."
+   ],
+   "howToApply": "Find a Community Advantage SBLC lender through SBA's lender directory — the loan is not applied for directly through SBA.",
+   "links": [
+    {
+     "label": "SBA — 7(a) loans (Community Advantage is a 7(a) variant)",
+     "url": "https://www.sba.gov/funding-programs/loans/7a-loans"
+    }
+   ],
+   "bestSuitedFor": "Ideation / Prototype",
+   "stages": [
+    "ideation",
+    "prototype",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "loan-credit"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "minority-owned-businesses",
+    "rural-businesses"
+   ],
+   "maxFunding": "Up to $250,000",
+   "category": "loan-credit",
+   "howMuch": "Up to $250,000",
+   "stageFocus": "Ideation / Prototype"
+  },
+  {
+   "slug": "manufacturing-usa",
+   "name": "Manufacturing USA Institutes",
+   "shortName": "Manufacturing USA",
+   "ministry": "NIST (coordinating Commerce, Defense, and Energy)",
+   "part": "A",
+   "tagline": "A network of 16 public-private manufacturing-technology institutes where startups can de-risk new manufacturing processes alongside industry and university partners.",
+   "whatIsThis": "Modeled on Germany's Fraunhofer Institutes, each Manufacturing USA institute focuses on a specific advanced-manufacturing technology area, funded through multi-year cooperative agreements between a federal sponsor and a nonfederal operating entity.",
+   "objectives": "Bridge the gap between basic research and commercial-scale manufacturing by reducing the cost and risk of adopting new manufacturing processes, and by training the manufacturing workforce.",
+   "eligibility": [
+    "Startups, small manufacturers, and researchers can typically join as institute members or project participants — eligibility and cost vary by institute and technology focus.",
+    "Institutes are led by the Departments of Commerce, Defense, or Energy depending on their focus area."
+   ],
+   "benefits": [
+    "Access to shared equipment, pilot lines, and technical expertise not affordable to build alone.",
+    "Direct connections to industry and university partners solving the same class of manufacturing problem.",
+    "Workforce training programs at all skill levels."
+   ],
+   "howToApply": "Identify the institute matching your technology area on the Manufacturing USA site and contact it directly about membership or project participation.",
+   "links": [
+    {
+     "label": "Manufacturing USA — Institutes",
+     "url": "https://www.manufacturingusa.com/institutes"
+    }
+   ],
+   "bestSuitedFor": "Prototype / Early-Stage",
+   "stages": [
+    "prototype",
+    "early-stage",
+    "growth"
+   ],
+   "supportTypes": [
+    "incubation"
+   ],
+   "sectors": [
+    "manufacturing"
+   ],
+   "audience": [
+    "early-stage-startups",
+    "researchers",
+    "small-businesses"
+   ],
+   "maxFunding": "Membership/participation cost varies by institute",
+   "category": "incubation",
+   "howMuch": "Varies by institute",
+   "stageFocus": "Prototype / Early-Stage"
+  },
+  {
+   "slug": "sba-surety-bonds",
+   "name": "SBA Surety Bond Guarantee Program",
+   "shortName": "Surety Bond Guarantee",
+   "ministry": "Small Business Administration",
+   "part": "B",
+   "tagline": "SBA guarantees 80-90% of a surety's loss on bid, performance, and payment bonds — letting small contractors bond contracts they couldn't get bonded for commercially.",
+   "whatIsThis": "Running since 1971, this program guarantees surety bonds for small businesses that can't obtain them through regular commercial channels, covering contracts up to $9 million ($14 million for certified federal contracts).",
+   "objectives": "Increase small businesses' access to federal, state, local, and private-sector contracting that requires bonding.",
+   "eligibility": [
+    "Small business under SBA size standards unable to obtain bonding through normal commercial surety channels.",
+    "Applies to contracts up to $9M generally, or $14M with a federal contracting officer's certification of necessity."
+   ],
+   "benefits": [
+    "SBA guarantees 80-90% of the surety's loss if the contractor defaults.",
+    "In FY2024, SBA guaranteed 11,092 bonds worth $9.21B in total contract value.",
+    "Makes sureties willing to bond contractors they'd otherwise decline."
+   ],
+   "howToApply": "Apply through an SBA-participating surety bond agent/company, not SBA directly.",
+   "links": [
+    {
+     "label": "SBA — Surety bond partners and agents",
+     "url": "https://www.sba.gov/partners/surety-bond-partners-agents/become-sba-surety-partner"
+    }
+   ],
+   "bestSuitedFor": "Market Access",
+   "stages": [
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "other",
+    "market-access"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses"
+   ],
+   "maxFunding": "Contracts up to $9M ($14M federal)",
+   "category": "market-access",
+   "howMuch": "80-90% guarantee of surety's loss",
+   "stageFocus": "Market Access"
+  },
+  {
+   "slug": "usda-vapg",
+   "name": "Value-Added Producer Grants",
+   "shortName": "VAPG",
+   "ministry": "US Department of Agriculture, Rural Development",
+   "part": "B",
+   "tagline": "Grants for agricultural producers turning raw commodities into higher-value products — think berries into jam, or milk into cheese — up to $200,000 for working capital.",
+   "whatIsThis": "VAPG funds planning (feasibility studies, business plans) and working capital (processing, packaging, marketing) for agricultural producers moving into value-added products.",
+   "objectives": "Generate new products, expand marketing opportunities, and increase producer income by helping farms capture more value from what they grow or raise.",
+   "eligibility": [
+    "Agricultural producers, producer groups, farmer/rancher cooperatives, or majority-controlled producer-based ventures.",
+    "Must own and produce more than 50% of the raw commodity and retain greater revenue from the value-added product than from the raw commodity.",
+    "Requires a 1:1 matching contribution (cash or eligible in-kind)."
+   ],
+   "benefits": [
+    "Planning grants up to $50,000; working capital grants up to $200,000.",
+    "~$25 million in total funding available in recent cycles.",
+    "10% of funds reserved for beginning, veteran, and socially disadvantaged farmers/ranchers plus food-safety projects."
+   ],
+   "howToApply": "Apply through USDA Rural Development during an open funding cycle; watch for the annual Notice of Funding Opportunity.",
+   "links": [
+    {
+     "label": "USDA Rural Development — Value-Added Producer Grants",
+     "url": "https://www.rd.usda.gov/programs-services/business-programs/value-added-producer-grants"
+    }
+   ],
+   "bestSuitedFor": "Ideation / Early-Stage",
+   "stages": [
+    "ideation",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "grant"
+   ],
+   "sectors": [
+    "agriculture-food"
+   ],
+   "audience": [
+    "rural-businesses",
+    "aspiring-founders"
+   ],
+   "maxFunding": "Up to $200,000",
+   "category": "grant",
+   "howMuch": "Up to $50K planning / $200K working capital",
+   "stageFocus": "Ideation / Early-Stage"
+  },
+  {
+   "slug": "dod-mentor-protege",
+   "name": "DOD Mentor-Protégé Program",
+   "shortName": "DOD Mentor-Protégé",
+   "ministry": "Department of Defense",
+   "part": "B",
+   "tagline": "Large, experienced DOD contractors formally mentor small businesses to build their capacity as subcontractors and suppliers — made a permanent program in 2023 after 35+ years as a pilot.",
+   "whatIsThis": "A large prime contractor (the mentor) enters a formal, DOD-approved agreement to help a small business (the protégé) build technical and business capacity, in exchange for incentives to the mentor.",
+   "objectives": "Increase small-business participation and capability in DOD's supply chain, and build durable subcontracting relationships.",
+   "eligibility": [
+    "Protégé must be an eligible small business (including 8(a), HUBZone, WOSB, SDVOSB categories).",
+    "Mentor must be an experienced DOD prime contractor entering a mutually developed, DOD-approved agreement."
+   ],
+   "benefits": [
+    "Structured technical, managerial, and financial capacity-building from an established prime.",
+    "Can lead to real subcontracting work and long-term teaming relationships.",
+    "Agency-specific variants exist across DOD components (Navy, Air Force, DTRA, NGA, and more)."
+   ],
+   "howToApply": "Identify a DOD prime willing to mentor you and jointly submit a Mentor-Protégé agreement for DOD approval — often initiated by the mentor.",
+   "links": [
+    {
+     "label": "SBA — Mentor-Protégé Program overview",
+     "url": "https://www.sba.gov/federal-contracting/contracting-assistance-programs/sba-mentor-protege-program"
+    }
+   ],
+   "bestSuitedFor": "Growth / Market Access",
+   "stages": [
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "incubation",
+    "market-access"
+   ],
+   "sectors": [
+    "defense"
+   ],
+   "audience": [
+    "small-businesses",
+    "minority-owned-businesses",
+    "veteran-owned-businesses"
+   ],
+   "maxFunding": "Capacity-building support (not direct funding)",
+   "category": "incubation",
+   "howMuch": "N/A — mentorship and capacity-building",
+   "stageFocus": "Growth / Market Access"
   }
  ]
 }
