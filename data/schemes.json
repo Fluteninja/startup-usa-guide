@@ -1522,6 +1522,387 @@
    "category": "incubation",
    "howMuch": "N/A — mentorship and capacity-building",
    "stageFocus": "Growth / Market Access"
+  },
+  {
+   "slug": "nsf-regional-innovation-engines",
+   "name": "NSF Regional Innovation Engines",
+   "shortName": "NSF Engines",
+   "ministry": "National Science Foundation",
+   "part": "A",
+   "tagline": "Federal awards scaling to up to $160M over 10 years to build an entire regional innovation ecosystem around a shared technology focus — a region-level award, not a single-company grant.",
+   "whatIsThis": "NSF Engines funds regional coalitions of industry, academia, government, nonprofits, and community organizations to build innovation ecosystems around a specific technology or industry focus, aiming to make the region a globally competitive hub within about a decade.",
+   "objectives": "Close the gap between federally funded research and regional economic growth by funding multi-year, multi-institution partnerships rather than individual companies — the same instinct as the earlier Build to Scale program, at a much larger scale and time horizon.",
+   "eligibility": [
+    "Applicants are multi-institutional regional teams (a lead institution plus partner universities, companies, nonprofits, and local government), not individual startups applying directly.",
+    "A founder benefits by joining, partnering with, or being served by an NSF Engine operating in their region and technology area.",
+    "NSF Engines Development Awards (Type-1) are a lower-barrier first step for teams not yet ready for a full Engine award."
+   ],
+   "benefits": [
+    "Type-1 Development Awards: up to $1M over up to 2 years, to help a region form a team and plan.",
+    "Full NSF Engines: start at roughly $15M over the first 2 years, scaling to up to $160M over 10 years for teams that hit milestones.",
+    "The first 9 inaugural Engines drew more than $2B in matching commitments from industry, philanthropy, and state/local government."
+   ],
+   "howToApply": "Individual founders don't apply directly — check NSF's Regional Innovation Engines page for an active Engine in your region and technology area, or join a regional coalition applying for a new one.",
+   "links": [
+    {
+     "label": "NSF — Regional Innovation Engines",
+     "url": "https://www.nsf.gov/funding/initiatives/regional-innovation-engines"
+    }
+   ],
+   "bestSuitedFor": "Early-Stage / Growth (regional ecosystem)",
+   "stages": [
+    "prototype",
+    "early-stage",
+    "growth"
+   ],
+   "supportTypes": [
+    "grant",
+    "incubation"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "incubators-institutions",
+    "early-stage-startups",
+    "growth-startups",
+    "researchers"
+   ],
+   "maxFunding": "Up to $160M per Engine (over 10 years)",
+   "category": "grant",
+   "howMuch": "~$15M initial award; up to $160M over 10 years",
+   "stageFocus": "Early-Stage / Growth (regional ecosystem)"
+  },
+  {
+   "slug": "eda-tech-hubs",
+   "name": "Regional Technology and Innovation Hubs Program",
+   "shortName": "Tech Hubs",
+   "ministry": "Economic Development Administration (US Dept. of Commerce)",
+   "part": "A",
+   "tagline": "CHIPS and Science Act regional grants — $19M to $51M per hub in the first implementation round — designating and funding US regions as globally competitive technology hubs.",
+   "whatIsThis": "Tech Hubs is a CHIPS and Science Act program that designates regions positioned to become globally competitive innovation centers within about a decade, then funds a subset of those designated hubs to execute a strategy built around a specific critical technology (semiconductors, biotech, clean energy, and more).",
+   "objectives": "Authorized to spend up to $10B over five years (though actual appropriations have been far lower), Tech Hubs aims to spread advanced-technology economic growth beyond existing coastal hubs, strengthening US competitiveness and supply-chain resilience.",
+   "eligibility": [
+    "Applicants are regional consortia (a lead organization plus universities, companies, state/local government, and workforce partners), not individual startups applying directly.",
+    "31 regions were designated as official Tech Hubs in October 2023; a subset received Phase 2 implementation funding.",
+    "A founder benefits by operating in a designated Tech Hub region and engaging with its consortium's programming."
+   ],
+   "benefits": [
+    "Phase 2 implementation awards ranged from about $19M to $51M per hub, totaling roughly $504M across 12 hubs in the first round.",
+    "Designated (non-funded) Tech Hubs still gain a federal designation useful for attracting private and state investment."
+   ],
+   "howToApply": "Individual founders don't apply directly — check EDA's Tech Hubs page for whether your region holds a designation, and connect with that hub's lead consortium organization.",
+   "links": [
+    {
+     "label": "EDA — Regional Technology and Innovation Hubs",
+     "url": "https://www.eda.gov/funding/programs/regional-technology-and-innovation-hubs"
+    }
+   ],
+   "bestSuitedFor": "Growth (regional ecosystem)",
+   "stages": [
+    "early-stage",
+    "growth"
+   ],
+   "supportTypes": [
+    "grant",
+    "incubation"
+   ],
+   "sectors": [
+    "sector-agnostic",
+    "manufacturing",
+    "energy-cleantech",
+    "defense"
+   ],
+   "audience": [
+    "incubators-institutions",
+    "growth-startups",
+    "small-businesses"
+   ],
+   "maxFunding": "~$51M per hub (Phase 2 implementation)",
+   "category": "grant",
+   "howMuch": "$19M-$51M per hub (Phase 2)",
+   "stageFocus": "Growth (regional ecosystem)"
+  },
+  {
+   "slug": "ssbci",
+   "name": "State Small Business Credit Initiative",
+   "shortName": "SSBCI",
+   "ministry": "US Department of the Treasury",
+   "part": "A",
+   "tagline": "A $10B federal program that capitalizes state-run venture-capital, loan-participation, and collateral-support programs — you apply through your state's specific SSBCI program, not Treasury directly.",
+   "whatIsThis": "SSBCI is a Treasury program that allocates federal funds to all 50 states, DC, territories, and participating tribal governments to capitalize their own small-business lending and equity-investment programs, rather than funding companies directly from Washington.",
+   "objectives": "Originally created in 2010 and reauthorized and expanded by the American Rescue Plan Act in 2021 with a fresh $10B, SSBCI aims to unlock private lending and investment for small businesses that traditional credit markets underserve, with jurisdictions expected to leverage each federal dollar into roughly $10 of private financing.",
+   "eligibility": [
+    "Eligibility depends entirely on the specific program your state built with its SSBCI allocation — a venture-capital co-investment fund, loan-participation program, loan-guarantee program, or collateral-support program.",
+    "Most SSBCI-funded programs target small businesses and startups that can show a private lender or investor already willing to participate alongside the state.",
+    "States are required to dedicate a portion of funds to very small businesses (fewer than 10 employees) and underserved entrepreneurs."
+   ],
+   "benefits": [
+    "Access to state-run venture funds, loan guarantees, or collateral support that make a private lender or investor's deal possible.",
+    "Program terms (loan size, equity check size, guarantee percentage) vary widely by state — check your state's specific SSBCI program page."
+   ],
+   "howToApply": "Find your state's SSBCI-capitalized program through your state's economic development or treasury agency — Treasury's SSBCI page links to each participating jurisdiction's program page.",
+   "links": [
+    {
+     "label": "US Treasury — State Small Business Credit Initiative",
+     "url": "https://home.treasury.gov/policy-issues/small-business-programs/state-small-business-credit-initiative-ssbci"
+    }
+   ],
+   "bestSuitedFor": "Early-Stage / Growth",
+   "stages": [
+    "early-stage",
+    "growth"
+   ],
+   "supportTypes": [
+    "loan-credit",
+    "equity"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "early-stage-startups",
+    "small-businesses",
+    "growth-startups",
+    "women-owned-businesses",
+    "minority-owned-businesses",
+    "rural-businesses"
+   ],
+   "maxFunding": "Varies by state program",
+   "category": "mixed",
+   "howMuch": "Varies by state program (loan, guarantee, or equity co-investment)",
+   "stageFocus": "Early-Stage / Growth"
+  },
+  {
+   "slug": "sba-step",
+   "name": "State Trade Expansion Program",
+   "shortName": "STEP",
+   "ministry": "Small Business Administration",
+   "part": "A",
+   "tagline": "SBA grants to states — $100,000 to $900,000 per award — that fund export assistance for small businesses, from trade-show travel to website globalization.",
+   "whatIsThis": "STEP is an SBA grant program that funds individual states to help their small businesses start or expand exporting, running since 2011. States use the grant to reimburse small-business exporters for specific eligible costs.",
+   "objectives": "Increase the number of small businesses exporting, increase the dollar value of small-business exports, and help small businesses explore significant new international trade opportunities.",
+   "eligibility": [
+    "Small business as defined by SBA size standards, already exporting or actively pursuing export opportunities.",
+    "Apply through your state's STEP program administrator — eligible activities and reimbursement amounts vary by state."
+   ],
+   "benefits": [
+    "Reimbursement for costs like trade-show participation, trade-mission travel, export training, translated marketing materials, and website globalization/e-commerce.",
+    "FY2026 state awards ranged from $100,000 to $900,000, with SBA anticipating about $20M in total awards nationally."
+   ],
+   "howToApply": "Find your state's STEP program (usually run by the state's international trade or commerce office) and apply through that state's specific application cycle and rules.",
+   "links": [
+    {
+     "label": "SBA — State Trade Expansion Program (STEP)",
+     "url": "https://www.sba.gov/funding-programs/grants/state-trade-expansion-program-step"
+    }
+   ],
+   "bestSuitedFor": "Growth / Market Access",
+   "stages": [
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "grant",
+    "market-access"
+   ],
+   "sectors": [
+    "trade",
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "growth-startups"
+   ],
+   "maxFunding": "Varies by state (state awards up to $900,000 total)",
+   "category": "grant",
+   "howMuch": "Reimbursement grants; state awards $100K-$900K",
+   "stageFocus": "Growth / Market Access"
+  },
+  {
+   "slug": "sba-boots-to-business",
+   "name": "Boots to Business",
+   "shortName": "Boots to Business",
+   "ministry": "Small Business Administration",
+   "part": "B",
+   "tagline": "Free entrepreneurship training for transitioning service members, veterans, and military spouses, delivered on military installations worldwide and online.",
+   "whatIsThis": "Boots to Business is an entrepreneurial education program SBA runs as part of the Department of Defense's Transition Assistance Program, teaching the fundamentals of business ownership to people leaving military service.",
+   "objectives": "Give transitioning service members and military spouses a structured, no-cost introduction to entrepreneurship and startup capital resources as one option for their post-service career.",
+   "eligibility": [
+    "Active-duty service members (including National Guard and Reserve) within the Transition Assistance Program window.",
+    "Boots to Business Reboot extends the same curriculum to veterans of any era in their local community.",
+    "Military spouses are eligible for both formats; there is no cost to participants."
+   ],
+   "benefits": [
+    "In-person or virtual training on business fundamentals, delivered on 195+ military installations worldwide.",
+    "Boots to Business Revenue Readiness: a 6-week online program turning an idea into an actual business model.",
+    "Graduates can continue into an 8-week advanced online course through partners like Syracuse University's Institute for Veterans and Military Families, covering grant proposals and business planning."
+   ],
+   "howToApply": "Sign up through your installation's Transition Assistance Program office (active duty) or via SBA's Boots to Business page (Reboot, for veterans in the community).",
+   "links": [
+    {
+     "label": "SBA — Boots to Business",
+     "url": "https://www.sba.gov/counseling/boots-to-business/"
+    }
+   ],
+   "bestSuitedFor": "Ideation",
+   "stages": [
+    "ideation"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "veteran-owned-businesses",
+    "aspiring-founders"
+   ],
+   "maxFunding": "N/A — free training, not funding",
+   "category": "other",
+   "howMuch": "Free",
+   "stageFocus": "Ideation"
+  },
+  {
+   "slug": "sba-thrive-emerging-leaders",
+   "name": "T.H.R.I.V.E. Emerging Leaders Reimagined",
+   "shortName": "SBA THRIVE",
+   "ministry": "Small Business Administration",
+   "part": "B",
+   "tagline": "A free, 6-month executive growth program for established small businesses with at least $250,000 in revenue — built for scaling an existing business, not a pre-revenue startup.",
+   "whatIsThis": "SBA THRIVE (successor to the Emerging Leaders initiative launched in 2008-09) is an executive-level training series pairing established small-business owners with professional coaches and mentors to build a concrete growth plan.",
+   "objectives": "Accelerate the growth of high-potential small businesses, particularly in historically underserved communities, by developing owners' strategic and leadership capacity rather than handing out capital.",
+   "eligibility": [
+    "Business must have at least $250,000 in annual revenue.",
+    "Must have been operating for at least 3 years.",
+    "Must have at least one employee besides the owner."
+   ],
+   "benefits": [
+    "In-person and self-paced instruction, mentoring, and classroom time over roughly 6 months, at no cost.",
+    "Participants produce a 3-year strategic growth action plan with concrete benchmarks.",
+    "Access to a peer cohort, local business leaders, and the local financial community."
+   ],
+   "howToApply": "Apply through SBA's THRIVE program page or a local SBA district office running a cohort in your area.",
+   "links": [
+    {
+     "label": "SBA — T.H.R.I.V.E. Emerging Leaders Reimagined",
+     "url": "https://www.sba.gov/sba-learning-platform/thrive-emerging-leaders-reimagined"
+    }
+   ],
+   "bestSuitedFor": "Growth",
+   "stages": [
+    "growth"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "growth-startups"
+   ],
+   "maxFunding": "N/A — free training, not funding",
+   "category": "other",
+   "howMuch": "Free",
+   "stageFocus": "Growth"
+  },
+  {
+   "slug": "sba-7j-empower-to-grow",
+   "name": "Empower to Grow (7(j) Management and Technical Assistance Program)",
+   "shortName": "Empower to Grow",
+   "ministry": "Small Business Administration",
+   "part": "B",
+   "tagline": "Free business courses, tailored training, and one-on-one consulting for small businesses in underserved areas or federal contracting certifications, aimed at winning government contracts.",
+   "whatIsThis": "Empower to Grow (formerly the 7(j) Management and Technical Assistance Program, authorized under Section 7(j) of the Small Business Act) funds private-sector service providers to deliver management and technical assistance to eligible small businesses.",
+   "objectives": "Build the operational, financial, and government-contracting capacity of small businesses that face structural barriers to accessing capital and federal contracts.",
+   "eligibility": [
+    "Located in an area of high unemployment or low income, OR",
+    "Owned by low-income individuals, OR",
+    "Certified as an 8(a), HUBZone, or Economically Disadvantaged Women-Owned Small Business (EDWOSB) participant."
+   ],
+   "benefits": [
+    "Free counseling and training in financing, accounting, marketing, and operations.",
+    "Help identifying and developing new business opportunities, including federal contracting bids.",
+    "In FY2023, participating firms averaged a self-reported 45% growth in annual revenue, with a 60% win rate on federal contract bids submitted."
+   ],
+   "howToApply": "Apply through SBA's Empower to Grow / 7(j) program page, which connects eligible businesses to an approved service provider.",
+   "links": [
+    {
+     "label": "SBA — Empower to Grow (7(j) program)",
+     "url": "https://www.sba.gov/federal-contracting/contracting-assistance-programs/7j-management-technical-assistance-program"
+    }
+   ],
+   "bestSuitedFor": "Early-Stage / Growth",
+   "stages": [
+    "early-stage",
+    "growth"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "minority-owned-businesses",
+    "women-owned-businesses"
+   ],
+   "maxFunding": "N/A — free training and consulting, not funding",
+   "category": "other",
+   "howMuch": "Free",
+   "stageFocus": "Early-Stage / Growth"
+  },
+  {
+   "slug": "nsf-convergence-accelerator",
+   "name": "NSF Convergence Accelerator",
+   "shortName": "Convergence Accelerator",
+   "ministry": "National Science Foundation",
+   "part": "A",
+   "tagline": "Multi-phase NSF funding for multidisciplinary teams tackling national-scale challenges, moving from proof-of-concept toward real-world deployment.",
+   "whatIsThis": "Launched in 2019, the Convergence Accelerator funds teams that combine research disciplines, sectors, and organization types to accelerate solutions to challenges too broad for any single field, organized into annual thematic tracks (cohorts).",
+   "objectives": "Bridge the gap between basic NSF-funded research and real-world, national-scale impact by funding structured, cohort-based teams through a two-phase process: proof-of-concept, then scaling and transition to practice.",
+   "eligibility": [
+    "Universities, nonprofits, tribal organizations, for-profit companies (including qualified small businesses), and national labs can participate.",
+    "Teams typically form around a specific year's announced thematic track.",
+    "Phase 1 supports team formation, user discovery, and proof-of-concept; Phase 2 supports full development, prototyping, and scaling."
+   ],
+   "benefits": [
+    "Phase 1 funding for planning and proof-of-concept development.",
+    "Phase 2 funding for full solution development and scaling into practice.",
+    "Structured cohort model gives teams facilitated collaboration and mentorship alongside the funding."
+   ],
+   "howToApply": "Watch for NSF's annual Convergence Accelerator solicitation announcing that year's thematic tracks, and apply as part of a multidisciplinary team through NSF's proposal process.",
+   "links": [
+    {
+     "label": "NSF — Convergence Accelerator",
+     "url": "https://www.nsf.gov/funding/initiatives/convergence-accelerator"
+    }
+   ],
+   "bestSuitedFor": "Prototype / Early-Stage",
+   "stages": [
+    "prototype",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "grant"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "researchers",
+    "small-businesses",
+    "growth-startups",
+    "incubators-institutions"
+   ],
+   "maxFunding": "Varies by track and phase",
+   "category": "grant",
+   "howMuch": "Varies by track and phase (Phase 1 + Phase 2)",
+   "stageFocus": "Prototype / Early-Stage"
   }
  ]
 }
