@@ -1,24 +1,160 @@
 {
  "terms": [
-  { "term": "SBA", "definition": "US Small Business Administration — the federal agency behind most general-purpose small-business loans, loan guarantees, and the SBIR/STTR program." },
-  { "term": "SBIR / STTR", "definition": "Small Business Innovation Research / Small Business Technology Transfer — non-dilutive federal R&D grant programs run by 11 participating agencies." },
-  { "term": "SAM.gov", "definition": "System for Award Management — the required federal registry for any business that wants to receive a federal contract, grant, or certain federal set-aside." },
-  { "term": "UEI (Unique Entity Identifier)", "definition": "The 12-character ID assigned via SAM.gov that replaced the older DUNS number in 2022; required for federal contracting and most federal grants." },
-  { "term": "NAICS code", "definition": "North American Industry Classification System code — determines which SBA small-business size standard (revenue or employee count) applies to your company." },
-  { "term": "8(a) / HUBZone / WOSB / SDVOSB", "definition": "SBA certifications that make a business eligible for federal contracts set aside for socially/economically disadvantaged owners (8(a)), zone-located businesses (HUBZone), women-owned businesses (WOSB), or service-disabled-veteran-owned businesses (SDVOSB)." },
-  { "term": "C-Corporation", "definition": "The standard corporate structure for a venture-backed startup — required for QSBS (Section 1202) eligibility and generally preferred by institutional investors." },
-  { "term": "LLC", "definition": "Limited Liability Company — flexible pass-through structure common for early-stage or bootstrapped businesses, but not QSBS-eligible and less common for VC-backed startups." },
-  { "term": "QSBS (Qualified Small Business Stock)", "definition": "Stock in a qualifying small C-corporation that can qualify founders and early investors for a partial or full exclusion of capital-gains tax under Section 1202 of the tax code." },
-  { "term": "83(b) Election", "definition": "A filing made within 30 days of receiving restricted stock that lets a founder pay tax on its value at grant (usually near zero) instead of at vesting, which can matter a great deal for later tax treatment." },
-  { "term": "Cap Table", "definition": "The record of who owns what percentage of a company — founders, employees, and investors — and on what terms." },
-  { "term": "SAFE / Convertible Note", "definition": "Common early-stage fundraising instruments that convert into equity at a later priced round rather than setting a valuation up front." },
-  { "term": "Series Seed / A / B", "definition": "Conventional labels for sequential priced venture-funding rounds, roughly ordered by company maturity and round size." },
-  { "term": "Accredited Investor", "definition": "An SEC-defined income/net-worth (or professional-credential) threshold an individual must meet to invest in most private startup securities offerings." },
-  { "term": "R&D Tax Credit (Section 41)", "definition": "A federal tax credit for qualified research expenses; pre-revenue startups can apply up to $500,000/year of it against payroll taxes instead of income tax." },
-  { "term": "Opportunity Zone", "definition": "A federally designated low-income census tract where investing capital gains through a Qualified Opportunity Fund can defer or eliminate capital-gains tax." },
-  { "term": "SBDC (Small Business Development Center)", "definition": "A nationwide, SBA-funded network of roughly 1,000 centers offering free business consulting and low-cost training." },
-  { "term": "APEX Accelerator", "definition": "Formerly called a PTAC (Procurement Technical Assistance Center) — a free federal program helping businesses win and perform on government contracts." },
-  { "term": "I-Corps", "definition": "NSF's Innovation Corps program — trains research teams in structured customer discovery before they commit to a product direction." },
-  { "term": "MBDA", "definition": "Minority Business Development Agency — the only federal agency dedicated exclusively to growing minority-owned businesses; provides technical assistance, not direct funding." }
+  {
+   "term": "SBA",
+   "definition": "US Small Business Administration — the federal agency behind most general-purpose small-business loans, loan guarantees, and the SBIR/STTR program."
+  },
+  {
+   "term": "SBIR / STTR",
+   "definition": "Small Business Innovation Research / Small Business Technology Transfer — non-dilutive federal R&D grant programs run by 11 participating agencies."
+  },
+  {
+   "term": "SAM.gov",
+   "definition": "System for Award Management — the required federal registry for any business that wants to receive a federal contract, grant, or certain federal set-aside."
+  },
+  {
+   "term": "UEI (Unique Entity Identifier)",
+   "definition": "The 12-character ID assigned via SAM.gov that replaced the older DUNS number in 2022; required for federal contracting and most federal grants."
+  },
+  {
+   "term": "NAICS code",
+   "definition": "North American Industry Classification System code — determines which SBA small-business size standard (revenue or employee count) applies to your company."
+  },
+  {
+   "term": "8(a) / HUBZone / WOSB / SDVOSB",
+   "definition": "SBA certifications that make a business eligible for federal contracts set aside for socially/economically disadvantaged owners (8(a)), zone-located businesses (HUBZone), women-owned businesses (WOSB), or service-disabled-veteran-owned businesses (SDVOSB)."
+  },
+  {
+   "term": "C-Corporation",
+   "definition": "The standard corporate structure for a venture-backed startup — required for QSBS (Section 1202) eligibility and generally preferred by institutional investors."
+  },
+  {
+   "term": "LLC",
+   "definition": "Limited Liability Company — flexible pass-through structure common for early-stage or bootstrapped businesses, but not QSBS-eligible and less common for VC-backed startups."
+  },
+  {
+   "term": "QSBS (Qualified Small Business Stock)",
+   "definition": "Stock in a qualifying small C-corporation that can qualify founders and early investors for a partial or full exclusion of capital-gains tax under Section 1202 of the tax code."
+  },
+  {
+   "term": "83(b) Election",
+   "definition": "A filing made within 30 days of receiving restricted stock that lets a founder pay tax on its value at grant (usually near zero) instead of at vesting, which can matter a great deal for later tax treatment."
+  },
+  {
+   "term": "Cap Table",
+   "definition": "The record of who owns what percentage of a company — founders, employees, and investors — and on what terms."
+  },
+  {
+   "term": "SAFE / Convertible Note",
+   "definition": "Common early-stage fundraising instruments that convert into equity at a later priced round rather than setting a valuation up front."
+  },
+  {
+   "term": "Series Seed / A / B",
+   "definition": "Conventional labels for sequential priced venture-funding rounds, roughly ordered by company maturity and round size."
+  },
+  {
+   "term": "Accredited Investor",
+   "definition": "An SEC-defined income/net-worth (or professional-credential) threshold an individual must meet to invest in most private startup securities offerings."
+  },
+  {
+   "term": "R&D Tax Credit (Section 41)",
+   "definition": "A federal tax credit for qualified research expenses; pre-revenue startups can apply up to $500,000/year of it against payroll taxes instead of income tax."
+  },
+  {
+   "term": "Opportunity Zone",
+   "definition": "A federally designated low-income census tract where investing capital gains through a Qualified Opportunity Fund can defer or eliminate capital-gains tax."
+  },
+  {
+   "term": "SBDC (Small Business Development Center)",
+   "definition": "A nationwide, SBA-funded network of roughly 1,000 centers offering free business consulting and low-cost training."
+  },
+  {
+   "term": "APEX Accelerator",
+   "definition": "Formerly called a PTAC (Procurement Technical Assistance Center) — a free federal program helping businesses win and perform on government contracts."
+  },
+  {
+   "term": "I-Corps",
+   "definition": "NSF's Innovation Corps program — trains research teams in structured customer discovery before they commit to a product direction."
+  },
+  {
+   "term": "MBDA",
+   "definition": "Minority Business Development Agency — the only federal agency dedicated exclusively to growing minority-owned businesses; provides technical assistance, not direct funding."
+  },
+  {
+   "term": "EIN (Employer Identification Number)",
+   "definition": "The IRS-issued tax ID for your business — required before you can open a business bank account, hire employees, or apply for most federal programs."
+  },
+  {
+   "term": "SBIC (Small Business Investment Company)",
+   "definition": "An SBA-licensed private fund that borrows government-guaranteed debt on top of its own capital to invest in small businesses as equity or debt."
+  },
+  {
+   "term": "CDFI (Community Development Financial Institution)",
+   "definition": "A Treasury-certified lender (bank, credit union, or loan fund) with a mission to serve underserved communities — a common source of capital for founders who don’t fit conventional bank criteria."
+  },
+  {
+   "term": "NMTC (New Markets Tax Credit)",
+   "definition": "A federal tax credit that draws private investment into low-income-community businesses through certified Community Development Entities."
+  },
+  {
+   "term": "MEP (Manufacturing Extension Partnership)",
+   "definition": "NIST’s nationwide network of centers giving small manufacturers hands-on help with process improvement and technology adoption."
+  },
+  {
+   "term": "GSA Schedule (MAS)",
+   "definition": "A long-term federal contract vehicle letting a company sell commercial products or services to any government buyer without a new bid each time."
+  },
+  {
+   "term": "ITC (Investment Tax Credit)",
+   "definition": "A federal tax credit (IRC §48/48E) for clean-energy and storage property, worth 6% at a base rate and up to 30%+ with wage, apprenticeship, and other bonus adders."
+  },
+  {
+   "term": "Manufacturing USA",
+   "definition": "A network of 16 public-private manufacturing-technology institutes where companies can de-risk new manufacturing processes alongside industry and university partners."
+  },
+  {
+   "term": "Term Sheet",
+   "definition": "A non-binding document outlining the key terms of a proposed investment before the full legal financing documents are drafted."
+  },
+  {
+   "term": "Pre-money / Post-money Valuation",
+   "definition": "A company’s valuation before (pre-money) versus after (post-money) a new round of investment is added."
+  },
+  {
+   "term": "Vesting",
+   "definition": "The schedule (commonly 4 years with a 1-year cliff) over which a founder or employee earns full ownership of granted equity."
+  },
+  {
+   "term": "Option Pool / ESOP",
+   "definition": "Equity reserved for future employee grants, typically carved out of the cap table before a priced financing round."
+  },
+  {
+   "term": "Runway",
+   "definition": "How many months a company can keep operating at its current spending rate before running out of cash."
+  },
+  {
+   "term": "MRR / ARR",
+   "definition": "Monthly or Annual Recurring Revenue — the standard way subscription businesses report predictable revenue to investors."
+  },
+  {
+   "term": "Due Diligence",
+   "definition": "The investor’s review of a company’s legal, financial, and business records before closing a financing round."
+  },
+  {
+   "term": "O-1A Visa",
+   "definition": "A temporary US work visa for individuals with a documented record of extraordinary ability in business, science, or a related field — a common path for founders with a strong public track record."
+  },
+  {
+   "term": "EB-2 NIW (National Interest Waiver)",
+   "definition": "A self-petitioned green-card category that waives the usual job-offer and labor-certification requirement when a person’s work is judged to be in the US national interest."
+  },
+  {
+   "term": "EB-5",
+   "definition": "An investor green-card category requiring roughly $800,000–$1,050,000 placed at risk in a new US business that creates at least 10 full-time jobs."
+  },
+  {
+   "term": "International Entrepreneur Parole",
+   "definition": "A discretionary status (not a visa) letting a startup founder stay in the US based on the company’s outside investment or government-grant funding rather than personal credentials."
+  }
  ]
 }

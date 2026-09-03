@@ -2,7 +2,7 @@
 
 **Federal and state funding programs for US startups — one searchable, source-linked reference, plus the visa and immigration pathways founders actually need.**
 
-An independent guide to US startup funding: 32 federal programs, federal-agency innovation programs (AFWERX, DIU, NSIN, In-Q-Tel), 65 state-level incentive programs across all 50 states + DC, an 84-entry incubator/accelerator directory covering all 49 mapped states, every state's economic-development portal, and — the one thing the source template didn't have — a 7-pathway Visas & Immigration section for founders who aren't US citizens or permanent residents.
+An independent guide to US startup funding: 32 federal programs, federal-agency innovation programs (AFWERX, DIU, NSIN, In-Q-Tel), 65 state-level incentive programs across all 50 states + DC, a 91-entry incubator/accelerator directory covering all 49 mapped states, every state's economic-development portal, and — the one thing the source template didn't have — a 7-pathway Visas & Immigration section for founders who aren't US citizens or permanent residents.
 
 This repo is an adaptation of [`startup-india-guide`](https://github.com/fritzhand/startup-india-guide), which documents India's central government startup schemes from a single official playbook PDF. The **engine** (`build.mjs`, `site/*.js`, `site/*.css`) is reused essentially unchanged — it was built to be content-agnostic. Everything in `data/*.json`, the palette in `site/tokens.css`, and the two map datasets were replaced for the US.
 
@@ -17,7 +17,7 @@ This repo is an adaptation of [`startup-india-guide`](https://github.com/fritzha
 | What do you need? | From a need (grant/loan/lab/buyers/IP/tax savings/**immigration status**) to what provides it |
 | Explore the USA map | Real state-shaped choropleth + a 3D walkable map (48 contiguous states + DC) |
 | State schemes | 65 state-level incentive programs across all 50 states + DC, each independently sourced |
-| Incubators directory | 84 real, individually-verified incubators/accelerators — at least one per mapped state |
+| Incubators directory | 91 real, individually-verified incubators/accelerators — at least one per mapped state |
 | Federal innovation programs | AFWERX, DIU, NSIN, In-Q-Tel, NASA, DOE national labs |
 | State portals | Every state's official economic-development directory entry |
 | **Visas & Immigration** | O-1A, EB-1A, EB-2 NIW, EB-5, International Entrepreneur Parole, E-2, L-1A — with eligibility, tradeoffs, and official USCIS/State Dept. sources |
@@ -29,7 +29,7 @@ This repo is an adaptation of [`startup-india-guide`](https://github.com/fritzha
 | --- | --- | --- |
 | Central schemes | 69 India-specific schemes tied to DPIIT recognition | 32 federal programs (SBA loans, SBIR/STTR, EDA, NSF I-Corps, R&D tax credit, QSBS, Opportunity Zones, USPTO fee reductions & pro bono patents, EXIM, MBDA, SBIC, DOE, USDA, NIST MEP, ARPA-E, GSA Schedules, 8(a)/HUBZone, clean-energy ITC, Manufacturing USA, and more) |
 | "PSU & regulator programs" | India's public-sector-undertaking corporate funds (ONGC, BHEL, ...) | Federal agency / defense innovation programs (AFWERX, DIU, NSIN, In-Q-Tel) — a genuine conceptual swap, not a content copy |
-| Incubators | 220+ Technology Business Incubators / Atal Incubation Centres | 84 verified entries: SBA Small Business Development Centers, NSF I-Corps hubs, major accelerators (Y Combinator, Techstars, MassChallenge, gener8tor), and 1-2 named programs per state |
+| Incubators | 220+ Technology Business Incubators / Atal Incubation Centres | 91 verified entries: SBA Small Business Development Centers, NSF I-Corps hubs, major accelerators (Y Combinator, Techstars, MassChallenge, gener8tor), and 1-2 named programs per state |
 | Geography | India's real state/UT outlines + Himalaya/Deccan terrain | Real US state outlines (48 contiguous + DC) via public GeoJSON, plus real terrain (Rockies, Appalachians, 100+ rivers, 90+ lakes, 40+ named peaks) from Natural Earth; Alaska/Hawaii covered in data tables, not the map (see "Honest limitations") |
 | New feature | — | **Visas & Immigration Pathways** — a real, underserved gap with no India equivalent |
 | Sourcing | One government PDF, extracted and machine-verified against it | No single source exists for the US — every entry cites its own specific official `.gov` page instead |
