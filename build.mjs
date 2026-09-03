@@ -55,9 +55,9 @@ const incubators = readJSON("incubators.json");
 const indiaMap = readJSON("usa-map.json");
 /* Relief, rivers, lakes and peaks for the walkable map only. The incubator and
    state-scheme maps are choropleths — they encode counts as fill colour, and a
-   terrain tint underneath would corrupt that reading. Empty for now — no
-   relief/river/peak data has been built yet, see startup-usa-guide-PLAN.md §3;
-   the walkable map still works, it just renders as flat, undifferentiated land. */
+   terrain tint underneath would corrupt that reading. Built by
+   scripts/build-usa-terrain.mjs from Natural Earth, scoped to the same 48
+   contiguous states + DC as usa-map.json. */
 const indiaTerrain = readJSON("usa-terrain.json");
 const stateSchemes = readJSON("state-schemes.json");
 
@@ -719,7 +719,13 @@ ${needsResolved.rows.map((r) => `
     <div class="tree-branch"><div class="b-head h-0">Startup-specific</div><div class="b-body">${r.startupSpecific.length ? pillList("", r.startupSpecific) : '<p class="b-note">—</p>'}</div></div>
     <div class="tree-branch"><div class="b-head h-1">Startup-relevant</div><div class="b-body">${r.startupRelevant.length ? pillList("", r.startupRelevant) : '<p class="b-note">—</p>'}</div></div>
   </div>
-</div>`).join("")}`;
+</div>`).join("")}
+<div class="tree-q" style="margin-top:18px">
+  <h3>Immigration Status <span class="muted" style="font-weight:400;font-size:0.85rem">Not a US citizen or permanent resident</span></h3>
+  <div class="tree-branches">
+    <div class="tree-branch" style="grid-column:1/-1"><div class="b-head h-0">Startup-specific</div><div class="b-body"><div class="pill-list">${immigration.pathways.map((p) => `<a href="immigration/${p.slug}.html">${esc(p.shortName)}</a>`).join("")}</div></div></div>
+  </div>
+</div>`;
 
   write("needs.html", shell({
     root: "", active: "needs.html", title: "What Do You Need?",
@@ -964,7 +970,7 @@ ${sorted.map((st) => st.url ? `
     <button class="walkable-intro-close" id="walkable-intro-close" type="button" aria-label="Dismiss instructions">${ICONS.close}</button>
     <div class="walkable-kicker">Walk the USA</div>
     <h1>Explore the incubator ecosystem on foot</h1>
-    <p>Walk the real shape of the 48 contiguous states and DC in 3D. Follow state wayfinders and open a state when you arrive. Incubator pins show state membership—not street addresses. If you get lost, choose Recenter to swing the camera back behind you.</p>
+    <p>Walk the real shape of the 48 contiguous states and DC in 3D — over the Rockies, across the Great Plains, along the Mississippi. Follow state wayfinders and open a state when you arrive. Incubator pins show state membership—not street addresses. If you get lost, choose Recenter to swing the camera back behind you.</p>
     <div class="walkable-keyhint"><span><kbd>WASD</kbd>, arrows, or touch-drag to walk</span><span><kbd>Enter</kbd> to open your current state</span><span>Mouse-drag, <kbd>Q</kbd>/<kbd>E</kbd> to look · pinch to zoom</span></div>
   </section>
 
@@ -1019,7 +1025,7 @@ ${sorted.map((st) => st.url ? `
     root: "",
     active: "walkable-map.html",
     title: "Walkable 3D USA ecosystem map",
-    description: "Walk across a 3D map of the 48 contiguous states and DC — following state wayfinders and discovering incubators and state support.",
+    description: "Walk across a 3D map of the 48 contiguous states and DC — mountains, rivers and lakes — following state wayfinders and discovering incubators and state support.",
     body: walkableBody,
     pageClass: "walkable-page",
     immersive: true,
@@ -1043,7 +1049,7 @@ ${crumbs("", [["Home", "index.html"], ["Explore the USA map", null]])}
     <div class="map-entry-icon">${ICONS.compass}</div>
     <div class="map-entry-label">Immersive 3D experience</div>
     <h2>Walk the USA ecosystem in 3D</h2>
-    <p>Walk a small explorer across the real shape of the 48 contiguous states and DC — follow state wayfinders, and open policy-rich state drawers as you arrive.</p>
+    <p>Walk a small explorer across the real shape of the 48 contiguous states and DC — mountain ranges, rivers and lakes — follow state wayfinders, and open policy-rich state drawers as you arrive.</p>
     <ul>
       <li>Keyboard, touch D-pad, drag-to-look, and pinch controls</li>
       <li>State landmarks and directional signposts</li>
@@ -1284,6 +1290,7 @@ ${(about.supportCategories || []).map((c) => `
 <div class="prose" style="margin-top:36px">
   <h2>About this website</h2>
   <p>This site is an independent reference compiled from official federal and state government sources — SBA.gov, SBIR.gov, Grants.gov, agency program pages, and each state's official economic-development portal. Every program page cites the specific official page it was drawn from, and every entry is re-checked against that source before it ships. There is no single source document the way there is for the India edition this project was adapted from; see <a href="${attr(REPO_URL)}" target="_blank" rel="noopener">the repository</a> for the full sourcing method.</p>
+  ${about.licensingNote ? `<h2>Licensing &amp; attribution</h2><p>${esc(about.licensingNote)}</p>` : ""}
   <h2>Disclaimer</h2>
 </div>
 <div class="callout tone-warn"><span class="ic">${ICONS.info}</span><div>${esc(about.disclaimer)}</div></div>`;
@@ -1468,7 +1475,8 @@ write("404.html", shell({
   for (const t of glossary.terms) idx.push({ t: t.term, u: `glossary.html#${slugify(t.term)}`, k: "glossary", d: t.definition.slice(0, 110) });
   for (const p of psu.programs) idx.push({ t: p.program, m: p.organization, u: "psu.html", k: "psu", d: `${p.organization} startup initiative`, g: p.organization });
   for (const st of states.states) idx.push({ t: `${st.name} startup portal`, u: `states.html#${slugify(st.name)}`, k: "state", d: st.program || "", g: st.name });
-  for (const r of incubators.incubators) idx.push({ t: r.name, m: r.host, u: `incubators.html?q=${encodeURIComponent(r.name)}`, k: "incubator", d: `${r.type === "AIC" ? "Atal Incubation Centre" : r.type} · ${r.city}, ${r.state}`, g: `${r.host} ${r.city} ${r.state} ${(r.sectors || []).join(" ")}` });
+  const INC_TYPE_FULL = { SBDC: "Small Business Development Center", ICORPS: "NSF I-Corps Hub/Site", Academic: "Academic", Government: "Government", Private: "Private" };
+  for (const r of incubators.incubators) idx.push({ t: r.name, m: r.host, u: `incubators.html?q=${encodeURIComponent(r.name)}`, k: "incubator", d: `${INC_TYPE_FULL[r.type] || r.type} · ${r.city}, ${r.state}`, g: `${r.host} ${r.city} ${r.state} ${(r.sectors || []).join(" ")}` });
   for (const st of stateSchemes.states) {
     if (st.schemes.length) idx.push({ t: `${st.state} startup schemes`, u: `state-schemes.html?state=${encodeURIComponent(st.state)}`, k: "state-scheme", d: st.policy || `${st.schemes.length} state schemes & incentives`, g: st.state });
     for (const sc of st.schemes) idx.push({ t: sc.name, m: st.state, u: `state-schemes.html?state=${encodeURIComponent(st.state)}&q=${encodeURIComponent(sc.name)}`, k: "state-scheme", d: `${st.state} · ${sc.type}${sc.benefit ? ` · ${sc.benefit}` : ""}`, g: `${st.state} ${sc.type}` });

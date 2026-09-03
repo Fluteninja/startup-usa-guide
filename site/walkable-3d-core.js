@@ -8,9 +8,9 @@ import { hashString } from "./walkable-core.js";
 export const KIND_ORDER = ["other", "mtn", "plateau", "desert", "wet", "plain"];
 
 /* Peak world-height for each relief kind, in world units (1 unit = 1 SVG map
-   unit ≈ 3 km of real India — the map is a stylised game world, not a DEM).
-   The avatar stands ~7 units tall, so a 30-unit Himalaya reads as a proper
-   wall on the horizon while a 1.5-unit plain stays walk-around-able. */
+   unit ≈ 3 km at this map's scale — the map is a stylised game world, not a
+   DEM). The avatar stands ~7 units tall, so a 30-unit mountain range reads as
+   a proper wall on the horizon while a 1.5-unit plain stays walk-around-able. */
 export const KIND_HEIGHT = {
   other: 1.4,
   mtn: 30,

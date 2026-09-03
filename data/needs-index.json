@@ -4,38 +4,72 @@
   {
    "need": "Grant",
    "needNote": "Funding with no repayment, no equity given up",
-   "startupSpecific": ["SBIR/STTR", "NSF I-Corps", "B2S"],
-   "startupRelevant": ["R&D Payroll Offset"]
+   "startupSpecific": [
+    "SBIR/STTR",
+    "NSF I-Corps",
+    "B2S"
+   ],
+   "startupRelevant": [
+    "R&D Payroll Offset",
+    "RBDG"
+   ]
   },
   {
    "need": "Loan or Credit",
    "needNote": "Repayable debt or a loan guarantee",
    "startupSpecific": [],
-   "startupRelevant": ["SBA 7(a)", "SBA 504", "SBA Microloans", "EXIM WCGP"]
+   "startupRelevant": [
+    "SBA 7(a)",
+    "SBA 504",
+    "SBA Microloans",
+    "EXIM WCGP",
+    "SBIC"
+   ]
   },
   {
    "need": "Lab Access / Incubation",
    "needNote": "Workspace, mentoring, technical facilities",
-   "startupSpecific": ["NSF I-Corps", "MBDA Centers"],
-   "startupRelevant": ["B2S", "APEX Accelerators"]
+   "startupSpecific": [
+    "NSF I-Corps",
+    "MBDA Centers"
+   ],
+   "startupRelevant": [
+    "B2S",
+    "APEX Accelerators",
+    "RBDG"
+   ]
   },
   {
    "need": "Buyers / Market Access",
    "needNote": "Pathways to sell, export, or win government contracts",
-   "startupSpecific": ["Set-Asides", "APEX Accelerators"],
-   "startupRelevant": ["EXIM WCGP"]
+   "startupSpecific": [
+    "Set-Asides",
+    "APEX Accelerators"
+   ],
+   "startupRelevant": [
+    "EXIM WCGP",
+    "DOE OSBP"
+   ]
   },
   {
    "need": "IP Protection",
    "needNote": "Patent, trademark, and related cost reduction",
-   "startupSpecific": ["USPTO Fee Reduction"],
+   "startupSpecific": [
+    "USPTO Fee Reduction"
+   ],
    "startupRelevant": []
   },
   {
    "need": "Tax Savings",
    "needNote": "Credits, exclusions, and deferrals rather than direct funding",
-   "startupSpecific": ["QSBS", "R&D Payroll Offset"],
-   "startupRelevant": ["Opportunity Zones", "USPTO Fee Reduction"]
+   "startupSpecific": [
+    "QSBS",
+    "R&D Payroll Offset"
+   ],
+   "startupRelevant": [
+    "Opportunity Zones",
+    "USPTO Fee Reduction"
+   ]
   }
  ]
 }

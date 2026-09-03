@@ -469,15 +469,15 @@
       mail: svg('<rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/>'),
       close: svg('<path d="M18 6 6 18M6 6l12 12"/>'),
     };
-    const TYPE_LABEL = { TBI: "Technology Business Incubator", AIC: "Atal Incubation Centre", Academic: "Academic", Government: "Government", Private: "Private", "Sector-specific": "Sector-specific" };
-    const TYPE_SHORT = { TBI: "TBI", AIC: "AIC", Academic: "Academic", Government: "Govt", Private: "Private", "Sector-specific": "Sector" };
+    const TYPE_LABEL = { SBDC: "Small Business Development Center", ICORPS: "NSF I-Corps Hub/Site", Academic: "Academic", Government: "Government", Private: "Private", "Sector-specific": "Sector-specific" };
+    const TYPE_SHORT = { SBDC: "SBDC", ICORPS: "I-Corps", Academic: "Academic", Government: "Govt", Private: "Private", "Sector-specific": "Sector" };
     const typeCls = (t) => t.toLowerCase().replace(/[^a-z]+/g, "-");
     const supportTag = (s) => {
-      if (/DST|NIDHI/i.test(s)) return "DST-NIDHI";
-      if (/\bAIM\b|Atal/i.test(s)) return "AIM";
-      if (/MeitY/i.test(s)) return "MeitY";
-      if (/BIRAC|DBT/i.test(s)) return "BIRAC / DBT";
+      if (/SBA|SBDC/i.test(s)) return "SBA / SBDC network";
+      if (/\bNSF\b/i.test(s)) return "NSF";
+      if (/DOD|Defense/i.test(s)) return "DOD";
       if (/State/i.test(s)) return "State government";
+      if (/Private/i.test(s)) return "Private";
       return "";
     };
     const telHref = (p) => p.replace(/[^+\d]/g, "");
@@ -573,7 +573,7 @@
         scopeLabel = `${panelItems[0] ? esc(panelItems[0].city) : "City"} · ${panelItems.length}`;
       } else {
         panelItems = found;
-        scopeLabel = `${state.state ? esc(state.state) : "All India"} · ${found.length}`;
+        scopeLabel = `${state.state ? esc(state.state) : "All US"} · ${found.length}`;
       }
       const legend = [["h1", "1–2"], ["h2", "3–5"], ["h3", "6–10"], ["h4", "11–20"], ["h5", "20+"]]
         .map(([c, l]) => `<span class="inc-leg"><span class="sw ${c}"></span>${l}</span>`).join("");
@@ -582,7 +582,7 @@
         <div class="inc-mapwrap">
           <div class="inc-map-col">
             <div class="inc-map-scroll">
-              <svg class="inc-map" viewBox="0 0 ${W} ${H}" role="group" aria-label="Map of India — incubators by state. Select a state to filter.">${paths}${markers}</svg>
+              <svg class="inc-map" viewBox="0 0 ${W} ${H}" role="group" aria-label="Map of the US — incubators by state. Select a state to filter.">${paths}${markers}</svg>
             </div>
             <div class="inc-legend"><span class="inc-leg-t">Incubators per state</span>${legend}<span class="inc-leg-m"><span class="dot"></span>city</span></div>
           </div>
@@ -748,14 +748,14 @@
         const tot = [...matchByState.values()].reduce((a, l) => a + l.length, 0);
         const rows = [...matchByState.entries()].sort((a, b) => b[1].length - a[1].length)
           .map(([name, list]) => `<button class="ss-pick" data-pick="${esc(name)}"><span>${esc(name)}</span><span class="count-pill">${list.length}</span></button>`).join("");
-        panel = `<div class="inc-panel-head"><span class="inc-scope">All India · ${tot}</span></div>
+        panel = `<div class="inc-panel-head"><span class="inc-scope">All US · ${tot}</span></div>
           <div class="inc-panel-list"><p class="muted small" style="padding:10px 12px 4px">Select a state on the map, or:</p>${rows}</div>`;
       }
 
       els.out.innerHTML = `
         <div class="inc-mapwrap">
           <div class="inc-map-col">
-            <div class="inc-map-scroll"><svg class="inc-map" viewBox="0 0 ${W} ${H}" role="group" aria-label="Map of India — state schemes by count. Select a state to filter.">${paths}</svg></div>
+            <div class="inc-map-scroll"><svg class="inc-map" viewBox="0 0 ${W} ${H}" role="group" aria-label="Map of the US — state schemes by count. Select a state to filter.">${paths}</svg></div>
             <div class="inc-legend"><span class="inc-leg-t">Schemes per state</span>${legend}</div>
           </div>
           <aside class="inc-panel" aria-label="State schemes">${panel}</aside>

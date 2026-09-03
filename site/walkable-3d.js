@@ -1,13 +1,16 @@
 /* ============================================================
-   walkable-3d.js — the 3D walkable map of India's startup
+   walkable-3d.js — the 3D walkable map of the US startup
    ecosystem. A three.js scene in the spirit of "Summer
-   Afternoon": a small explorer on painterly terrain, with the
-   guide's real state geometry, terrain, and all 224 incubators.
+   Afternoon": a small explorer over the real shape of the 48
+   contiguous states and DC — the Rockies, the Appalachians, the
+   Mississippi and 100+ other rivers, the Great Lakes and dozens
+   more — with all incubators plotted on it (see
+   data/usa-terrain.json).
 
    Everything interactive stays native DOM projected over the
    canvas — buttons and links keep their accessible names, the
    state drawer is the same one the 2D map used, and every
-   record remains reachable without walking (see WALKABLE_MAP.md).
+   record remains reachable without walking.
    ============================================================ */
 import * as THREE from "./vendor/three.module.min.js";
 import {
@@ -123,24 +126,24 @@ function main(root) {
   /* ---------------- shared labels/icons (as on the 2D map) ---------------- */
   const typeLabels = {
     Academic: "Academic incubator",
-    TBI: "Technology Business Incubator",
-    AIC: "Atal Incubation Centre",
+    SBDC: "Small Business Development Center",
+    ICORPS: "NSF I-Corps Hub/Site",
     Government: "Government incubator",
     "Sector-specific": "Sector-specific incubator",
     Private: "Private incubator",
   };
   const typeKeys = {
     Academic: "academic",
-    TBI: "tbi",
-    AIC: "aic",
+    SBDC: "sbdc",
+    ICORPS: "icorps",
     Government: "government",
     "Sector-specific": "sector",
     Private: "private",
   };
   const iconPaths = {
     academic: '<path d="m3 9 9-5 9 5-9 5-9-5Z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/>',
-    tbi: '<path d="M12 21v-9"/><path d="M12 14c-5 0-7-3-7-7 4 0 7 2 7 7Zm0-3c4 0 6-3 6-6-4 0-6 2-6 6Z"/>',
-    aic: '<path d="M14.5 4.5C17 2 20 2 20 2s0 3-2.5 5.5l-7 7-4-4 8-6Z"/><circle cx="15.5" cy="6.5" r="1.5"/><path d="M10.5 7H6L3 10l4 1.5M14 14l-1.5 4.5L9.5 21 9 15.5"/><path d="M7 17c-2 0-3 1-3 3 2 0 3-1 3-3Z"/>',
+    sbdc: '<path d="M12 21v-9"/><path d="M12 14c-5 0-7-3-7-7 4 0 7 2 7 7Zm0-3c4 0 6-3 6-6-4 0-6 2-6 6Z"/>',
+    icorps: '<path d="M14.5 4.5C17 2 20 2 20 2s0 3-2.5 5.5l-7 7-4-4 8-6Z"/><circle cx="15.5" cy="6.5" r="1.5"/><path d="M10.5 7H6L3 10l4 1.5M14 14l-1.5 4.5L9.5 21 9 15.5"/><path d="M7 17c-2 0-3 1-3 3 2 0 3-1 3-3Z"/>',
     government: '<path d="m3 9 9-5 9 5"/><path d="M5 10h14M6 10v8m4-8v8m4-8v8m4-8v8M3 20h18"/>',
     sector: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><path d="M12 3v4m0 10v4M3 12h4m10 0h4"/>',
     private: '<path d="M9 7V5h6v2"/><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M3 12h18m-11 0v2h4v-2"/>',
@@ -242,8 +245,8 @@ function main(root) {
       rock: cssColor("--walk3d-rock", "#b0a894"),
       orgTypes: {
         academic: cssColor("--org-academic", "#6d4fc4"),
-        tbi: cssColor("--org-tbi", "#1f7a4d"),
-        aic: cssColor("--org-aic", "#c05621"),
+        sbdc: cssColor("--org-sbdc", "#1f7a4d"),
+        icorps: cssColor("--org-icorps", "#c05621"),
         government: cssColor("--org-government", "#b7791f"),
         sector: cssColor("--org-sector", "#0f766e"),
         private: cssColor("--org-private", "#2b6cb0"),

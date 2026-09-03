@@ -23,14 +23,33 @@
    ],
    "howToApply": "Each of the 11 participating agencies posts its own SBIR/STTR solicitations on its own schedule. Search open topics and agency-specific solicitations at SBIR.gov, then apply directly through the awarding agency's portal.",
    "links": [
-    { "label": "SBIR.gov — Program overview", "url": "https://www.sbir.gov/about" },
-    { "label": "SBIR.gov — Open solicitations", "url": "https://www.sbir.gov/sbirsearch/topic/current" }
+    {
+     "label": "SBIR.gov — Program overview",
+     "url": "https://www.sbir.gov/about"
+    },
+    {
+     "label": "SBIR.gov — Open solicitations",
+     "url": "https://www.sbir.gov/sbirsearch/topic/current"
+    }
    ],
    "bestSuitedFor": "Ideation / Prototype",
-   "stages": ["ideation", "prototype", "early-stage"],
-   "supportTypes": ["grant"],
-   "sectors": ["sector-agnostic"],
-   "audience": ["aspiring-founders", "early-stage-startups", "small-businesses", "researchers"],
+   "stages": [
+    "ideation",
+    "prototype",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "grant"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "early-stage-startups",
+    "small-businesses",
+    "researchers"
+   ],
    "maxFunding": "Up to ~$2.15M (Phase II)",
    "category": "grant",
    "howMuch": "~$323K (Phase I); ~$2.15M (Phase II)",
@@ -58,13 +77,28 @@
    ],
    "howToApply": "Apply through NSF's I-Corps solicitation for the National Teams program, or find a regional I-Corps Site/Hub at your university or nearest participating institution as a lower-barrier entry point.",
    "links": [
-    { "label": "NSF I-Corps program page", "url": "https://www.nsf.gov/funding/initiatives/i-corps" }
+    {
+     "label": "NSF I-Corps program page",
+     "url": "https://www.nsf.gov/funding/initiatives/i-corps"
+    }
    ],
    "bestSuitedFor": "Ideation",
-   "stages": ["ideation", "prototype"],
-   "supportTypes": ["grant", "incubation"],
-   "sectors": ["sector-agnostic"],
-   "audience": ["students", "researchers", "aspiring-founders"],
+   "stages": [
+    "ideation",
+    "prototype"
+   ],
+   "supportTypes": [
+    "grant",
+    "incubation"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "students",
+    "researchers",
+    "aspiring-founders"
+   ],
    "maxFunding": "Up to $50,000",
    "category": "mixed",
    "howMuch": "Up to $50,000 (National Teams)",
@@ -90,13 +124,29 @@
    ],
    "howToApply": "Individual founders don't apply directly — instead, find whether a B2S-funded accelerator or venture program operates in your region via EDA's program page, and apply to that regional program.",
    "links": [
-    { "label": "EDA — Funding programs", "url": "https://www.eda.gov/funding/programs" }
+    {
+     "label": "EDA — Funding programs",
+     "url": "https://www.eda.gov/funding/programs"
+    }
    ],
    "bestSuitedFor": "Ideation / Early-Stage",
-   "stages": ["ideation", "prototype", "early-stage"],
-   "supportTypes": ["grant", "incubation"],
-   "sectors": ["sector-agnostic"],
-   "audience": ["aspiring-founders", "early-stage-startups", "incubators-institutions"],
+   "stages": [
+    "ideation",
+    "prototype",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "grant",
+    "incubation"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "early-stage-startups",
+    "incubators-institutions"
+   ],
    "maxFunding": "Varies by regional grantee",
    "category": "mixed",
    "howMuch": "Indirect — via a regional grantee program",
@@ -123,13 +173,27 @@
    ],
    "howToApply": "Calculate the R&D credit on Form 6765 and elect the payroll tax offset portion on that form; the credit is then claimed against payroll tax deposits via Form 8974 with the company's Form 941.",
    "links": [
-    { "label": "IRS — About Form 6765", "url": "https://www.irs.gov/forms-pubs/about-form-6765" }
+    {
+     "label": "IRS — About Form 6765",
+     "url": "https://www.irs.gov/forms-pubs/about-form-6765"
+    }
    ],
    "bestSuitedFor": "Prototype / Early-Stage",
-   "stages": ["prototype", "early-stage", "growth"],
-   "supportTypes": ["other"],
-   "sectors": ["sector-agnostic"],
-   "audience": ["early-stage-startups", "small-businesses"],
+   "stages": [
+    "prototype",
+    "early-stage",
+    "growth"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "early-stage-startups",
+    "small-businesses"
+   ],
    "maxFunding": "Up to $2.5M over 5 years",
    "category": "other",
    "howMuch": "Up to $500K/year, $2.5M over 5 years",
@@ -157,13 +221,26 @@
    ],
    "howToApply": "Apply through an SBA-participating lender, not SBA directly. Use SBA's Lender Match tool to find one, or work with your local SBA district office.",
    "links": [
-    { "label": "SBA — 7(a) loans", "url": "https://www.sba.gov/funding-programs/loans/7a-loans" }
+    {
+     "label": "SBA — 7(a) loans",
+     "url": "https://www.sba.gov/funding-programs/loans/7a-loans"
+    }
    ],
    "bestSuitedFor": "Early-Stage / Growth",
-   "stages": ["early-stage", "growth"],
-   "supportTypes": ["loan-credit"],
-   "sectors": ["sector-agnostic"],
-   "audience": ["small-businesses", "growth-startups"],
+   "stages": [
+    "early-stage",
+    "growth"
+   ],
+   "supportTypes": [
+    "loan-credit"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "growth-startups"
+   ],
    "maxFunding": "Up to $5 million",
    "category": "loan-credit",
    "howMuch": "Up to $5 million",
@@ -190,13 +267,26 @@
    ],
    "howToApply": "Apply through a Certified Development Company (CDC) working alongside a participating lender — find a local CDC via SBA's lender directory.",
    "links": [
-    { "label": "SBA — 504 loans", "url": "https://www.sba.gov/funding-programs/loans/504-loans" }
+    {
+     "label": "SBA — 504 loans",
+     "url": "https://www.sba.gov/funding-programs/loans/504-loans"
+    }
    ],
    "bestSuitedFor": "Growth",
-   "stages": ["growth"],
-   "supportTypes": ["loan-credit"],
-   "sectors": ["sector-agnostic", "manufacturing"],
-   "audience": ["small-businesses", "growth-startups"],
+   "stages": [
+    "growth"
+   ],
+   "supportTypes": [
+    "loan-credit"
+   ],
+   "sectors": [
+    "sector-agnostic",
+    "manufacturing"
+   ],
+   "audience": [
+    "small-businesses",
+    "growth-startups"
+   ],
    "maxFunding": "Up to $5.5 million",
    "category": "loan-credit",
    "howMuch": "Up to $5.5 million",
@@ -223,13 +313,29 @@
    ],
    "howToApply": "Contact an SBA-approved microloan intermediary lender in your area — they make all credit decisions and set their own terms within SBA guidelines.",
    "links": [
-    { "label": "SBA — Microloans", "url": "https://www.sba.gov/funding-programs/loans/microloans" }
+    {
+     "label": "SBA — Microloans",
+     "url": "https://www.sba.gov/funding-programs/loans/microloans"
+    }
    ],
    "bestSuitedFor": "Ideation / Prototype",
-   "stages": ["ideation", "prototype", "early-stage"],
-   "supportTypes": ["loan-credit"],
-   "sectors": ["sector-agnostic"],
-   "audience": ["aspiring-founders", "small-businesses", "women-owned-businesses", "minority-owned-businesses"],
+   "stages": [
+    "ideation",
+    "prototype",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "loan-credit"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "small-businesses",
+    "women-owned-businesses",
+    "minority-owned-businesses"
+   ],
    "maxFunding": "Up to $50,000",
    "category": "loan-credit",
    "howMuch": "Up to $50,000 (avg. ~$13,000)",
@@ -256,13 +362,27 @@
    ],
    "howToApply": "Apply through an EXIM-approved lender, or contact EXIM directly for guidance on qualifying and choosing a lender.",
    "links": [
-    { "label": "EXIM — Working Capital Guarantee", "url": "https://www.exim.gov/solutions/working-capital" }
+    {
+     "label": "EXIM — Working Capital Guarantee",
+     "url": "https://www.exim.gov/solutions/working-capital"
+    }
    ],
    "bestSuitedFor": "Growth / Market Access",
-   "stages": ["growth", "market-access"],
-   "supportTypes": ["loan-credit"],
-   "sectors": ["sector-agnostic", "trade"],
-   "audience": ["small-businesses", "growth-startups"],
+   "stages": [
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "loan-credit"
+   ],
+   "sectors": [
+    "sector-agnostic",
+    "trade"
+   ],
+   "audience": [
+    "small-businesses",
+    "growth-startups"
+   ],
    "maxFunding": "Up to 100% guarantee coverage",
    "category": "loan-credit",
    "howMuch": "90-100% loan guarantee",
@@ -288,13 +408,30 @@
    ],
    "howToApply": "Find and contact your nearest MBDA Business Center through MBDA's website.",
    "links": [
-    { "label": "MBDA — Official site", "url": "https://www.mbda.gov" }
+    {
+     "label": "MBDA — Official site",
+     "url": "https://www.mbda.gov"
+    }
    ],
    "bestSuitedFor": "Any stage",
-   "stages": ["ideation", "prototype", "early-stage", "growth", "market-access"],
-   "supportTypes": ["incubation", "market-access"],
-   "sectors": ["sector-agnostic"],
-   "audience": ["minority-owned-businesses", "small-businesses"],
+   "stages": [
+    "ideation",
+    "prototype",
+    "early-stage",
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "incubation",
+    "market-access"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "minority-owned-businesses",
+    "small-businesses"
+   ],
    "maxFunding": "Technical assistance (not direct funding)",
    "category": "incubation",
    "howMuch": "Free/low-cost consulting; no direct funding",
@@ -320,13 +457,28 @@
    ],
    "howToApply": "Claim small or micro entity status directly on your patent application filing (via USPTO's Patent Center) — no separate application is required, but entity-status requirements must be met and certified accurately.",
    "links": [
-    { "label": "USPTO — Micro entity status", "url": "https://www.uspto.gov/patents/laws/micro-entity-status" }
+    {
+     "label": "USPTO — Micro entity status",
+     "url": "https://www.uspto.gov/patents/laws/micro-entity-status"
+    }
    ],
    "bestSuitedFor": "Market Access & IP",
-   "stages": ["prototype", "early-stage", "market-access"],
-   "supportTypes": ["other"],
-   "sectors": ["sector-agnostic"],
-   "audience": ["aspiring-founders", "small-businesses", "researchers"],
+   "stages": [
+    "prototype",
+    "early-stage",
+    "market-access"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "small-businesses",
+    "researchers"
+   ],
    "maxFunding": "Up to 80% fee discount",
    "category": "other",
    "howMuch": "60-80% off USPTO fees",
@@ -353,13 +505,26 @@
    ],
    "howToApply": "Not something a startup \"applies\" for directly — check whether your business location is inside a designated zone, and structure investment through a Qualified Opportunity Fund with tax counsel.",
    "links": [
-    { "label": "IRS — Opportunity Zones", "url": "https://www.irs.gov/credits-deductions/businesses/opportunity-zones" }
+    {
+     "label": "IRS — Opportunity Zones",
+     "url": "https://www.irs.gov/credits-deductions/businesses/opportunity-zones"
+    }
    ],
    "bestSuitedFor": "Growth",
-   "stages": ["early-stage", "growth"],
-   "supportTypes": ["other"],
-   "sectors": ["sector-agnostic"],
-   "audience": ["growth-startups", "small-businesses"],
+   "stages": [
+    "early-stage",
+    "growth"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "growth-startups",
+    "small-businesses"
+   ],
    "maxFunding": "Tax deferral / exclusion (no cap)",
    "category": "other",
    "howMuch": "Capital gains tax deferral + 10-yr exclusion",
@@ -386,13 +551,29 @@
    ],
    "howToApply": "Not an application — confirm QSBS eligibility with tax counsel at formation and again before any sale, since eligibility depends on facts fixed at issuance (entity type, gross assets, business activity).",
    "links": [
-    { "label": "Legal Information Institute — 26 U.S.C. §1202", "url": "https://www.law.cornell.edu/uscode/text/26/1202" }
+    {
+     "label": "Legal Information Institute — 26 U.S.C. §1202",
+     "url": "https://www.law.cornell.edu/uscode/text/26/1202"
+    }
    ],
    "bestSuitedFor": "Any stage (matters most at exit)",
-   "stages": ["ideation", "prototype", "early-stage", "growth"],
-   "supportTypes": ["other"],
-   "sectors": ["sector-agnostic"],
-   "audience": ["aspiring-founders", "early-stage-startups", "growth-startups"],
+   "stages": [
+    "ideation",
+    "prototype",
+    "early-stage",
+    "growth"
+   ],
+   "supportTypes": [
+    "other"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "early-stage-startups",
+    "growth-startups"
+   ],
    "maxFunding": "Greater of $15M or 10x basis excluded",
    "category": "other",
    "howMuch": "Up to 100% capital-gains exclusion",
@@ -421,13 +602,29 @@
    ],
    "howToApply": "Register on SAM.gov first, then apply for the relevant certification(s) through SBA's certification portal — certification is free; be cautious of paid \"certification services.\"",
    "links": [
-    { "label": "SBA — Set-aside contracting", "url": "https://www.sba.gov/partners/contracting-officials/small-business-procurement/set-aside-procurement" }
+    {
+     "label": "SBA — Set-aside contracting",
+     "url": "https://www.sba.gov/partners/contracting-officials/small-business-procurement/set-aside-procurement"
+    }
    ],
    "bestSuitedFor": "Growth / Market Access",
-   "stages": ["growth", "market-access"],
-   "supportTypes": ["market-access"],
-   "sectors": ["sector-agnostic"],
-   "audience": ["small-businesses", "women-owned-businesses", "minority-owned-businesses", "veteran-owned-businesses", "sam-registered"],
+   "stages": [
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "market-access"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "women-owned-businesses",
+    "minority-owned-businesses",
+    "veteran-owned-businesses",
+    "sam-registered"
+   ],
    "maxFunding": "Sole-source contracts up to $7M",
    "category": "market-access",
    "howMuch": "Sole-source up to $4.5-7M; set-aside bids",
@@ -453,17 +650,180 @@
    ],
    "howToApply": "Find your local APEX Accelerator (there are 96+ nationwide, often hosted by universities or state economic-development agencies) and contact them directly — services are free.",
    "links": [
-    { "label": "APEX Accelerators network", "url": "https://www.apexaccelerators.us/" }
+    {
+     "label": "APEX Accelerators network",
+     "url": "https://www.apexaccelerators.us/"
+    }
    ],
    "bestSuitedFor": "Market Access",
-   "stages": ["growth", "market-access"],
-   "supportTypes": ["incubation", "market-access"],
-   "sectors": ["sector-agnostic"],
-   "audience": ["small-businesses", "growth-startups", "veteran-owned-businesses"],
+   "stages": [
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "incubation",
+    "market-access"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "small-businesses",
+    "growth-startups",
+    "veteran-owned-businesses"
+   ],
    "maxFunding": "Free technical assistance",
    "category": "incubation",
    "howMuch": "Free consulting; no direct funding",
    "stageFocus": "Market Access"
+  },
+  {
+   "slug": "sbic",
+   "name": "Small Business Investment Company Program",
+   "shortName": "SBIC",
+   "ministry": "Small Business Administration",
+   "part": "B",
+   "tagline": "SBA licenses and backs private investment funds that then invest equity or debt into startups and small businesses — a government-leveraged path into venture-style capital.",
+   "whatIsThis": "Created in 1958, the SBIC program doesn't fund startups directly. Instead, SBA licenses privately owned and managed investment funds (SBICs) and lets them borrow government-guaranteed debt on top of the private capital they raise, then deploy that combined capital as equity or debt into small businesses.",
+   "objectives": "Stimulate and supplement the flow of private equity and long-term loan capital that small businesses need for financing, growth, expansion, and modernization — reaching companies that wouldn't otherwise attract enough private venture capital alone.",
+   "eligibility": [
+    "A startup doesn't apply to SBA directly — it raises from a licensed SBIC fund the same way it would from any VC or private debt fund.",
+    "Must meet SBA small-business size standards to receive SBIC-sourced capital.",
+    "Find a licensed SBIC through SBA's public list of SBA-licensed fund managers."
+   ],
+   "benefits": [
+    "For every $1 an SBIC fund raises from private investors, SBA can commit up to $2 of guaranteed debt (leverage), subject to a per-fund cap.",
+    "In FY2025 the program reached $53 billion in combined private capital and SBA leverage nationally.",
+    "SBICs can invest as equity, debt, or a mix, depending on the fund's strategy."
+   ],
+   "howToApply": "Identify and pitch a licensed SBIC fund directly, the same way you would approach any venture or private-debt investor — SBA's site lists licensed SBICs by focus area.",
+   "links": [
+    {
+     "label": "SBA — Small Business Investment Companies",
+     "url": "https://www.sba.gov/for-partners/small-business-investment-companies/"
+    }
+   ],
+   "bestSuitedFor": "Growth",
+   "stages": [
+    "early-stage",
+    "growth"
+   ],
+   "supportTypes": [
+    "equity",
+    "loan-credit"
+   ],
+   "sectors": [
+    "sector-agnostic"
+   ],
+   "audience": [
+    "growth-startups",
+    "small-businesses"
+   ],
+   "maxFunding": "Fund-dependent (SBA leverage up to $175M per fund)",
+   "category": "mixed",
+   "howMuch": "Varies by SBIC fund",
+   "stageFocus": "Growth"
+  },
+  {
+   "slug": "doe-osbp",
+   "name": "DOE Office of Small Business Programs",
+   "shortName": "DOE OSBP",
+   "ministry": "US Department of Energy",
+   "part": "B",
+   "tagline": "DOE's dedicated office for helping small businesses win contracts and subcontracts across the Department's labs and programs.",
+   "whatIsThis": "The Office of Small Business Programs (formerly the Office of Small and Disadvantaged Business Utilization) works to maximize the share of DOE contracting dollars that go to small businesses, including those certified 8(a), HUBZone, WOSB, and SDVOSB.",
+   "objectives": "Make it easier for small businesses to do business with DOE, connect them productively with internal DOE stakeholders and national labs, and improve DOE's small-business and socio-economic contracting performance.",
+   "eligibility": [
+    "Any small business under SBA size standards interested in DOE contracting or subcontracting opportunities.",
+    "Relevant socio-economic certifications (8(a), HUBZone, WOSB, SDVOSB) strengthen set-aside eligibility but aren't required to engage with the office."
+   ],
+   "benefits": [
+    "Direct guidance navigating DOE and national-lab procurement.",
+    "Connections to DOE prime contractors seeking small-business subcontractors.",
+    "A path into DOE's broader small-business contracting goals across its labs and program offices."
+   ],
+   "limitations": [
+    "This is a contracting-assistance office, not a grant or loan program — it doesn't provide direct funding."
+   ],
+   "howToApply": "Contact DOE's Office of Small Business Programs directly and register in SAM.gov to be discoverable for DOE contracting opportunities.",
+   "links": [
+    {
+     "label": "DOE — Office of Small Business Programs",
+     "url": "https://www.energy.gov/osbp/about-office-small-business-programs"
+    }
+   ],
+   "bestSuitedFor": "Market Access",
+   "stages": [
+    "growth",
+    "market-access"
+   ],
+   "supportTypes": [
+    "market-access"
+   ],
+   "sectors": [
+    "sector-agnostic",
+    "energy-cleantech"
+   ],
+   "audience": [
+    "small-businesses",
+    "sam-registered"
+   ],
+   "maxFunding": "Contracting assistance (not direct funding)",
+   "category": "market-access",
+   "howMuch": "N/A — contracting assistance",
+   "stageFocus": "Market Access"
+  },
+  {
+   "slug": "usda-rbdg",
+   "name": "Rural Business Development Grants",
+   "shortName": "RBDG",
+   "ministry": "US Department of Agriculture, Rural Development",
+   "part": "B",
+   "tagline": "USDA grants that fund local and regional organizations supporting small, emerging rural businesses — reaching founders indirectly through those intermediaries.",
+   "whatIsThis": "Rural Business Development Grants fund technical assistance, training, and infrastructure that help small and emerging private businesses in rural areas grow — similar in structure to EDA's Build to Scale, the grant goes to a supporting organization, not straight to a startup.",
+   "objectives": "Promote economic development and job creation in rural areas by strengthening the organizations and infrastructure that support small rural businesses, split across Enterprise Grants (broader business support) and Opportunity Grants (economically distressed and underserved areas).",
+   "eligibility": [
+    "Grantees are public bodies, federally recognized tribes, or nonprofits serving rural areas — not individual for-profit businesses.",
+    "A rural startup benefits indirectly, through business counseling, training, or revolving-loan funds a grantee organization runs.",
+    "Target businesses for the underlying support are generally rural, for-profit, with fewer than 50 employees and under $1 million in gross annual revenue."
+   ],
+   "benefits": [
+    "Funds project planning, business counseling, and technical assistance for rural entrepreneurs.",
+    "Can capitalize revolving loan funds that rural startups later borrow from.",
+    "Can fund land, buildings, and infrastructure supporting rural business development."
+   ],
+   "limitations": [
+    "Not a direct-to-startup grant — a rural founder needs to find and work with a funded intermediary rather than applying to USDA directly."
+   ],
+   "howToApply": "Individual founders should contact their state USDA Rural Development office to find an active RBDG-funded organization offering support in their area.",
+   "links": [
+    {
+     "label": "USDA Rural Development — Rural Business Development Grants",
+     "url": "https://www.rd.usda.gov/programs-services/business-programs/rural-business-development-grants"
+    }
+   ],
+   "bestSuitedFor": "Ideation / Early-Stage",
+   "stages": [
+    "ideation",
+    "prototype",
+    "early-stage"
+   ],
+   "supportTypes": [
+    "grant",
+    "incubation"
+   ],
+   "sectors": [
+    "sector-agnostic",
+    "agriculture-food"
+   ],
+   "audience": [
+    "aspiring-founders",
+    "rural-businesses"
+   ],
+   "maxFunding": "Varies by grantee organization",
+   "category": "mixed",
+   "howMuch": "Indirect — via a funded rural intermediary",
+   "stageFocus": "Ideation / Early-Stage"
   }
  ]
 }

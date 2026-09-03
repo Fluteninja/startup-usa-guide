@@ -1,8 +1,8 @@
 {
-  "name": "startup-india-guide",
+  "name": "startup-usa-guide",
   "version": "1.0.0",
   "private": true,
-  "description": "A source-linked static guide to Indian startup schemes and ecosystem support.",
+  "description": "A source-linked static guide to US federal and state startup funding programs and immigration pathways.",
   "type": "module",
   "engines": { "node": ">=18" },
   "scripts": {

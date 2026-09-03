@@ -91,7 +91,7 @@ test("decor is deterministic, on land, spaced, and clear of interactive targets"
   assert.notDeepEqual(placeDecor({ ...options, seed: "other" }), first, "the seed actually varies the scatter");
 });
 
-test("a representative north-to-south India route is fast to traverse", () => {
+test("a representative north-to-south map route is fast to traverse", () => {
   const route = [
     { x: 241.4, y: 134 },
     { x: 311.8, y: 315.3 },

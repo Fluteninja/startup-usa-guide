@@ -1033,7 +1033,7 @@ hr.rule { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
 }
 .map-entry-note > svg { width: 18px; flex: none; margin-top: 3px; color: var(--link); }
 
-/* ---------- walkable India ---------- */
+/* ---------- walkable map ---------- */
 .immersive-body { overflow: hidden; }
 .immersive-body .topbar { position: relative; }
 .walkable-page {
@@ -1188,12 +1188,12 @@ hr.rule { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
 .walkable-org[data-type="academic"],
 .walkable-drawer-org[data-type="academic"],
 .walkable-drawer-stats [data-type="academic"] { --org-color: var(--org-academic); }
-.walkable-org[data-type="tbi"],
-.walkable-drawer-org[data-type="tbi"],
-.walkable-drawer-stats [data-type="tbi"] { --org-color: var(--org-tbi); }
-.walkable-org[data-type="aic"],
-.walkable-drawer-org[data-type="aic"],
-.walkable-drawer-stats [data-type="aic"] { --org-color: var(--org-aic); }
+.walkable-org[data-type="sbdc"],
+.walkable-drawer-org[data-type="sbdc"],
+.walkable-drawer-stats [data-type="sbdc"] { --org-color: var(--org-sbdc); }
+.walkable-org[data-type="icorps"],
+.walkable-drawer-org[data-type="icorps"],
+.walkable-drawer-stats [data-type="icorps"] { --org-color: var(--org-icorps); }
 .walkable-org[data-type="government"],
 .walkable-drawer-org[data-type="government"],
 .walkable-drawer-stats [data-type="government"] { --org-color: var(--org-government); }
@@ -1649,8 +1649,8 @@ hr.rule { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
   background: var(--cat-other-tint); color: var(--cat-other); white-space: nowrap;
 }
 .inc-badge::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
-.inc-badge.t-tbi { background: var(--cat-incubation-tint); color: var(--cat-incubation); }
-.inc-badge.t-aic { background: var(--cat-market-tint); color: var(--cat-market); }
+.inc-badge.t-sbdc { background: var(--cat-incubation-tint); color: var(--cat-incubation); }
+.inc-badge.t-icorps { background: var(--cat-market-tint); color: var(--cat-market); }
 .inc-badge.t-academic { background: var(--cat-equity-tint); color: var(--cat-equity); }
 .inc-badge.t-government { background: var(--cat-loan-tint); color: var(--cat-loan); }
 .inc-badge.t-private { background: var(--cat-grant-tint); color: var(--cat-grant); }
