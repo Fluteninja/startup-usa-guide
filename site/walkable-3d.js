@@ -54,7 +54,9 @@ const NEARBY_RADIUS = 620 / WORLD_SCALE;
 const GRID_W = 300;
 const GRID_H = Math.round(GRID_W * MAP_HEIGHT / MAP_WIDTH); // 334
 /** Overlay draw distances, in map units. */
-const RANGE = { org: 95, landmark: 340, wayfinder: 300, transfer: 560, label: 380 };
+/* Halved from the India edition's tuning per explicit feedback — the
+   original ranges showed too many popups on screen at once. */
+const RANGE = { org: 48, landmark: 170, wayfinder: 150, transfer: 280, label: 190 };
 
 const root = document.querySelector("#walkable-map");
 
@@ -649,6 +651,28 @@ function main(root) {
         position: new THREE.Vector3(item.x, ground - 0.1, item.y),
         scale: new THREE.Vector3(scaleOf(item, 1), scaleOf(item, 0.85), scaleOf(item, 1)),
       }));
+
+    // A small stone monument standing at every state's landmark anchor, so
+    // each state's info bubble reads as sitting on something in the world
+    // rather than floating unattached. Radially symmetric (round pedestal,
+    // round column, pyramidal cap) so the per-instance random spin from
+    // addInstanced never looks wrong.
+    const monuments = Object.keys(stateAnchors).map((name) => ({
+      x: stateAnchors[name].x, y: stateAnchors[name].y, scale: 1,
+    }));
+    const pedestal = new THREE.CylinderGeometry(0.9, 1.1, 0.9, 8);
+    pedestal.translate(0, 0.45, 0);
+    const column = new THREE.CylinderGeometry(0.3, 0.38, 3.2, 8);
+    column.translate(0, 0.9 + 1.6, 0);
+    const cap = new THREE.ConeGeometry(0.42, 0.9, 4);
+    cap.translate(0, 0.9 + 3.2 + 0.45, 0);
+    addInstanced(monuments, mergeGeometry([pedestal, column, cap]),
+      new THREE.MeshLambertMaterial({ flatShading: true }),
+      decorColor(palette.rock, "monument", 0.05),
+      (item, ground) => ({
+        position: new THREE.Vector3(item.x, ground - 0.1, item.y),
+        scale: new THREE.Vector3(1, 1, 1),
+      }));
   }
   function mergeGeometry(geometries) {
     // Minimal non-indexed merge — enough for two convex primitives.
@@ -801,7 +825,7 @@ function main(root) {
     button.setAttribute("aria-label", `Open ${state.state}`);
     button.addEventListener("click", () => openState(state.state, button));
     landmarkLayer.append(button);
-    track(button, anchor.x, anchor.y, { lift: 8, range: RANGE.landmark, scaleBias: 1.05 });
+    track(button, anchor.x, anchor.y, { lift: 5.3, range: RANGE.landmark, scaleBias: 1.05 });
   }
 
   for (const sign of signs) {
