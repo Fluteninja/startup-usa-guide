@@ -361,7 +361,7 @@ ${extraHead}
 <header class="topbar">
   <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span class="hb" aria-hidden="true"><span class="hb-t"></span><span class="hb-m"></span><span class="hb-b"></span></span></button>
   <a class="brand" href="${root}index.html">
-    <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64" width="18" height="18"><rect x="6" y="14" width="52" height="9" rx="4.5" fill="#8c1d2b"/><rect x="6" y="27.5" width="52" height="9" rx="4.5" fill="#ffffff"/><rect x="6" y="41" width="52" height="9" rx="4.5" fill="#359a4c"/></svg></span>
+    <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64" width="18" height="18"><rect x="6" y="14" width="52" height="9" rx="4.5" fill="#8c1d2b"/><rect x="6" y="27.5" width="52" height="9" rx="4.5" fill="#ffffff"/><rect x="6" y="41" width="52" height="9" rx="4.5" fill="#1f3864"/></svg></span>
     <span class="brand-name">${esc(brandMain)}${brandThin ? ` <span class="thin">${esc(brandThin)}</span>` : ""}</span>
   </a>
   <span class="topbar-spacer"></span>
@@ -1499,7 +1499,7 @@ writeFileSync(join(OUT, "assets", "favicon.svg"), `<svg xmlns="http://www.w3.org
 <rect width="64" height="64" rx="14" fill="#1f3864"/>
 <rect x="12" y="16" width="40" height="7" rx="3.5" fill="#8c1d2b"/>
 <rect x="12" y="28" width="40" height="7" rx="3.5" fill="#ffffff"/>
-<rect x="12" y="40" width="40" height="7" rx="3.5" fill="#359a4c"/>
+<rect x="12" y="40" width="40" height="7" rx="3.5" fill="#93b4e6"/>
 </svg>`);
 writeFileSync(join(OUT, ".nojekyll"), "");
 writeFileSync(join(OUT, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${SITE_BASE}sitemap.xml\n`);

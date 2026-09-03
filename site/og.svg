@@ -15,7 +15,7 @@
   <text x="80" y="266" font-family="Inter, Segoe UI, sans-serif" font-size="58" font-weight="800" fill="#ffffff">program for your US startup,</text>
   <text x="80" y="332" font-family="Inter, Segoe UI, sans-serif" font-size="58" font-weight="800" fill="#ffffff">in one place.</text>
 
-  <text x="80" y="410" font-family="Inter, Segoe UI, sans-serif" font-size="24" fill="#b9c6dd">17 federal programs &#183; 65 state incentives &#183; 54 incubators</text>
+  <text x="80" y="410" font-family="Inter, Segoe UI, sans-serif" font-size="24" fill="#b9c6dd">32 federal programs &#183; 65 state incentives &#183; 91 incubators</text>
   <text x="80" y="444" font-family="Inter, Segoe UI, sans-serif" font-size="24" fill="#b9c6dd">plus visas &amp; immigration pathways &#8212; searchable, comparable, explained.</text>
 
   <rect x="80" y="500" width="72" height="72" rx="14" fill="none" stroke="#4a6da8" stroke-width="1.5"/>
@@ -25,5 +25,5 @@
 
   <rect x="940" y="500" width="180" height="10" rx="5" fill="#8c1d2b"/>
   <rect x="940" y="518" width="180" height="10" rx="5" fill="#e9edf5"/>
-  <rect x="940" y="536" width="180" height="10" rx="5" fill="#359a4c"/>
+  <rect x="940" y="536" width="180" height="10" rx="5" fill="#5f85c4"/>
 </svg>
