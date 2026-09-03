@@ -67,6 +67,10 @@ scripts/build-usa-terrain.mjs  fetches Natural Earth 10m physical data, clips it
 
 Alaska and Hawaii are on the map as independently-projected insets (the same "Albers USA" composite convention used by the Census Bureau and most election maps) — each gets its own small self-contained projection rather than sharing the mainland's, since their true coordinates sit nowhere near it. Puerto Rico remains excluded from the map (a third inset wasn't judged worth the added clutter) but is still covered in `data/states.json` and `data/state-schemes.json`.
 
+## Deployment
+
+`.github/workflows/deploy-pages.yml` builds the site fresh (zero npm dependencies, so no install step) and pushes `docs/` to the `gh-pages` branch on every push to `master` that touches `data/`, `site/`, `scripts/`, or `build.mjs`. This repo is currently **private**, and GitHub Pages on a private repo requires a paid plan (Pro/Team/Enterprise) to actually serve — the workflow will run and publish to `gh-pages` regardless, but the Pages site itself won't be reachable until the repo goes public or Pages is enabled for it under a paid plan (Settings → Pages → Deploy from a branch → `gh-pages` → `/root`).
+
 ## Honest limitations
 
 - **A few state programs have sunset or paused for new applicants** (e.g. Maine's Pine Tree Development Zone, Rhode Island's Qualified Jobs Incentive Act, Montana's Big Sky Trust Fund) — each is flagged in its own entry in `data/state-schemes.json` rather than silently presented as active.

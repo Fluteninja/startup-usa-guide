@@ -1,12 +1,22 @@
-# Publishes docs/ to the gh-pages branch, which GitHub Pages serves.
-# (Pages was auto-enabled when the gh-pages branch was first created.
-#  Source: Settings → Pages → Deploy from a branch → gh-pages → / root.)
+# Builds the site fresh and publishes docs/ to the gh-pages branch, which
+# GitHub Pages serves. Unlike the India template this was adapted from,
+# docs/ is gitignored here (it's generated output, not committed to
+# master) — so this workflow builds it in CI instead of just copying a
+# committed folder. build.mjs has zero npm dependencies, so no install step
+# is needed, just Node itself.
+#
+# Note: GitHub Pages on a PRIVATE repo requires a paid plan (Pro/Team/
+# Enterprise) to actually serve — this workflow will run and publish to
+# gh-pages regardless, but the Pages site itself won't be reachable until
+# either the repo is public or the account has a paid plan with Pages
+# enabled for private repos (Settings → Pages → Deploy from a branch →
+# gh-pages → /root).
 name: Publish site to gh-pages
 
 on:
   push:
-    branches: [main]
-    paths: ["docs/**"]
+    branches: [master]
+    paths: ["data/**", "site/**", "scripts/**", "build.mjs"]
   workflow_dispatch:
 
 permissions:
@@ -21,10 +31,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Push docs/ as the gh-pages root
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build the site
+        run: node build.mjs
+      - name: Publish docs/ to gh-pages
+        working-directory: docs
         run: |
-          TREE=$(git rev-parse HEAD:docs)
-          COMMIT=$(git -c user.name="github-actions[bot]" \
-                       -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
-                       commit-tree "$TREE" -m "Deploy site (docs/ from $GITHUB_SHA)")
-          git push --force origin "$COMMIT":refs/heads/gh-pages
+          git init -q
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              add -A
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -q -m "Deploy site (built from ${GITHUB_SHA})"
+          git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:refs/heads/gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
