@@ -1,5 +1,5 @@
 {
- "intro": "Every state runs its own economic-development incentives on top of federal programs — tax credits, seed funds, deal-closing grants, training reimbursements and more. State incentives stack with federal ones. This is a starter set covering 12 states; the rest are listed with their official portal on the State Portals page and are being backfilled over time.",
+ "intro": "Every state runs its own economic-development incentives on top of federal programs — tax credits, seed funds, deal-closing grants, training reimbursements and more. State incentives stack with federal ones. All 50 states plus DC are covered here, each independently sourced from its official program page; a few flagged programs have sunset or paused for new applicants, and that status is noted where it applies.",
  "states": [
   {
    "state": "California",
@@ -71,7 +71,9 @@
    "portal": "https://www.mass-ventures.com/",
    "nodalAgency": "MassVentures (quasi-public venture agency)",
    "summary": "Non-dilutive funding for Massachusetts companies commercializing SBIR/STTR Phase II technology, plus direct seed-stage equity investment.",
-   "sectors": ["Deep tech"],
+   "sectors": [
+    "Deep tech"
+   ],
    "email": "",
    "phone": "",
    "schemes": [
@@ -282,6 +284,905 @@
      "description": "Invest Georgia invests as a limited partner in seed and early-stage VC funds, including funds targeting SEDI-owned businesses, which in turn invest in Georgia startups.",
      "eligibility": "Georgia-based businesses funded indirectly through participating venture-capital funds",
      "url": "https://dca.georgia.gov/financing-tools/small-business/state-small-business-credit-initiative-ssbci/georgia-venture-capital"
+    }
+   ]
+  },
+  {
+   "state": "Alabama",
+   "policy": "Alabama Jobs Act",
+   "period": "",
+   "portal": "https://www.revenue.alabama.gov/tax-incentives/",
+   "nodalAgency": "Alabama Department of Commerce",
+   "summary": "Discretionary jobs and investment tax credits for companies creating jobs and capital investment in Alabama.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Alabama Jobs Act — Jobs Credit",
+     "type": "Incentive",
+     "benefit": "Cash rebate up to 3% of gross payroll, up to 10 years",
+     "description": "Discretionary incentive granted by the Secretary of Commerce and approved by the Governor for eligible Alabama employees.",
+     "eligibility": "Qualifying projects approved under the Alabama Jobs Act",
+     "url": "https://www.revenue.alabama.gov/tax-incentives/income-tax-incentives/"
+    },
+    {
+     "name": "Alabama Jobs Act — Investment Credit",
+     "type": "Incentive",
+     "benefit": "Up to 1.5% annually on qualified capital investment, up to 10 years",
+     "description": "Tax credit against state tax liabilities, carried forward up to 5 years.",
+     "eligibility": "Qualifying capital investment projects",
+     "url": "https://www.revenue.alabama.gov/tax-incentives/income-tax-incentives/"
+    }
+   ]
+  },
+  {
+   "state": "Arizona",
+   "policy": "Qualified Facility Tax Credit",
+   "period": "",
+   "portal": "https://www.azcommerce.com/incentives/qualified-facility-tax-credit/",
+   "nodalAgency": "Arizona Commerce Authority",
+   "summary": "A refundable tax credit for manufacturing, R&D, or headquarters facilities that create net new jobs in Arizona.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Qualified Facility Tax Credit",
+     "type": "Incentive",
+     "benefit": "Lesser of 10% of investment or $20,000-$30,000 per net new job, up to $30M/year per taxpayer",
+     "description": "Refundable income tax credit claimed in 5 equal installments, authorized through December 2030 on a first-come, first-served basis.",
+     "eligibility": "Minimum capital investment, net new jobs at required wage thresholds, mostly out-of-state sales, employee health coverage",
+     "url": "https://www.azcommerce.com/incentives/qualified-facility-tax-credit/"
+    }
+   ]
+  },
+  {
+   "state": "Arkansas",
+   "policy": "Consolidated Incentive Act (ArkPlus / Create Rebate)",
+   "period": "",
+   "portal": "https://www.arkansasedc.com/why-arkansas/business-climate/incentives/",
+   "nodalAgency": "Arkansas Economic Development Commission (AEDC)",
+   "summary": "Discretionary income-tax credits and payroll rebates for new or expanding Arkansas businesses.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "ArkPlus",
+     "type": "Incentive",
+     "benefit": "Up to 10% of total project investment as an income tax credit",
+     "description": "Discretionary credit requiring minimum investment and new full-time payroll, tier-dependent.",
+     "eligibility": "Minimum investment and new full-time permanent payroll depending on county tier",
+     "url": "https://www.arkansasedc.com/why-arkansas/business-climate/incentives/pages/investment-incentives"
+    },
+    {
+     "name": "Create Rebate",
+     "type": "Reimbursement",
+     "benefit": "3.9%-5% annual cash payment on new payroll, up to 10 years",
+     "description": "Requires minimum $2M new payroll within 24 months of the incentive agreement.",
+     "eligibility": "Minimum new full-time permanent payroll, discretionary approval by AEDC director",
+     "url": "https://www.arkansasedc.com/why-arkansas/business-climate/incentives/pages/job-creation-incentives"
+    }
+   ]
+  },
+  {
+   "state": "Connecticut",
+   "policy": "JobsCT Tax Rebate Program",
+   "period": "",
+   "portal": "https://portal.ct.gov/decd/content/business-development/jobsct",
+   "nodalAgency": "CT Department of Economic and Community Development (DECD)",
+   "summary": "A refundable tax rebate for companies in targeted industries that grow their Connecticut workforce.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "JobsCT Tax Rebate",
+     "type": "Incentive",
+     "benefit": "25% rebate on new-employee withholding taxes (50% in Distressed Municipalities/Opportunity Zones)",
+     "description": "Requires a minimum of 25 new full-time jobs at $37,500+ wage; rebate starts 24 months after DECD approval.",
+     "eligibility": "Targeted industries; minimum 25 new FTEs meeting wage threshold",
+     "url": "https://portal.ct.gov/decd/content/business-development/jobsct/jobsct-tax-rebate-program"
+    }
+   ]
+  },
+  {
+   "state": "Delaware",
+   "policy": "Delaware Strategic Fund",
+   "period": "",
+   "portal": "https://www.choosedelaware.com/why-delaware/tax-incentives/",
+   "nodalAgency": "Delaware Division of Small Business",
+   "summary": "Delaware's primary discretionary fund for business expansion, retention, and relocation, plus STEM-focused EDGE grants.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Delaware Strategic Fund",
+     "type": "Grant",
+     "benefit": "Negotiated low-interest loans or grants",
+     "description": "Discretionary financial assistance for job creation, expansion, relocation, and brownfield redevelopment.",
+     "eligibility": "Businesses creating jobs at sustainable wages; negotiated case-by-case",
+     "url": "https://www.choosewilmingtonde.org/business/disadvantaged-business-enterprise-program/p/item/1543/delaware-strategic-fund"
+    },
+    {
+     "name": "EDGE Grants",
+     "type": "Grant",
+     "benefit": "Up to $100,000 (STEM) or $50,000 (non-STEM entrepreneur class)",
+     "description": "Grants for eligible expenses of early-stage Delaware companies.",
+     "eligibility": "Early-stage Delaware companies, STEM or entrepreneur class",
+     "url": "https://www.choosedelaware.com/startup-resources/funding/"
+    }
+   ]
+  },
+  {
+   "state": "Florida",
+   "policy": "Florida Job Growth Grant Fund",
+   "period": "",
+   "portal": "https://floridajobs.org/business-growth/florida-job-growth-grant-fund",
+   "nodalAgency": "FloridaCommerce",
+   "summary": "State grants for public infrastructure and workforce training that support targeted-industry economic development (Florida's former direct-refund QTI program was repealed in 2023).",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Florida Job Growth Grant Fund",
+     "type": "Grant",
+     "benefit": "Project-based; over $318M awarded since 2019",
+     "description": "Funds public infrastructure and workforce training proposals chosen by the Governor's office — an indirect benefit to area businesses rather than a direct-to-company grant.",
+     "eligibility": "Public entities and communities proposing infrastructure or workforce-training projects",
+     "url": "https://floridajobs.org/business-growth/florida-job-growth-grant-fund"
+    }
+   ]
+  },
+  {
+   "state": "Idaho",
+   "policy": "Tax Reimbursement Incentive (TRI)",
+   "period": "",
+   "portal": "https://commerce.idaho.gov/incentives-and-financing/incentives/idaho-tax-reimbursement-incentive/",
+   "nodalAgency": "Idaho Commerce",
+   "summary": "A performance-based tax credit on new state revenue generated by companies expanding in or relocating to Idaho.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Tax Reimbursement Incentive",
+     "type": "Incentive",
+     "benefit": "Up to 30% credit on income, payroll and sales taxes, up to 15 years",
+     "description": "Negotiated award based on job quality/quantity and economic impact; open to new and expanding Idaho businesses.",
+     "eligibility": "New full-time jobs at or above county average wage",
+     "url": "https://commerce.idaho.gov/incentives-and-financing/incentives/idaho-tax-reimbursement-incentive/"
+    }
+   ]
+  },
+  {
+   "state": "Illinois",
+   "policy": "EDGE Tax Credit Program",
+   "period": "",
+   "portal": "https://dceo.illinois.gov/businesshelp/incentivesandtaxcredits.html",
+   "nodalAgency": "Illinois Department of Commerce and Economic Opportunity (DCEO)",
+   "summary": "Illinois's foundational tax-credit program for job creation, retention, and capital investment, extended through June 2027.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Economic Development for a Growing Economy (EDGE)",
+     "type": "Incentive",
+     "benefit": "50-75% of new-job withholding as non-refundable income tax credit, up to 10 years",
+     "description": "Higher rate (75%) for jobs created in underserved areas.",
+     "eligibility": "Businesses creating/retaining full-time jobs and making capital investment in Illinois",
+     "url": "https://dceo.illinois.gov/businesshelp/incentivesandtaxcredits.html"
+    },
+    {
+     "name": "EDGE for Startups",
+     "type": "Incentive",
+     "benefit": "Tailored EDGE terms for early-stage companies",
+     "description": "A startup-specific track of the EDGE program.",
+     "eligibility": "Illinois-based early-stage companies",
+     "url": "https://dceo.illinois.gov/expandrelocate/incentives/edge-for-startups.html"
+    }
+   ]
+  },
+  {
+   "state": "Indiana",
+   "policy": "Economic Development for a Growing Economy (EDGE)",
+   "period": "",
+   "portal": "https://www.iedc.in.gov/indiana-advantages/investments/economic-development-for-a-growing-economy-tax-credit/overview",
+   "nodalAgency": "Indiana Economic Development Corporation (IEDC)",
+   "summary": "Indiana's primary discretionary job-creation tax credit, refundable and certified annually.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "EDGE Tax Credit",
+     "type": "Incentive",
+     "benefit": "Refundable credit up to 100% of incremental withholding, up to 20 years",
+     "description": "Performance-based; certified annually by IEDC pursuant to an EDGE Agreement.",
+     "eligibility": "Companies committing to net new jobs and capital investment in Indiana",
+     "url": "https://www.iedc.in.gov/indiana-advantages/investments/economic-development-for-a-growing-economy-tax-credit/overview"
+    }
+   ]
+  },
+  {
+   "state": "Iowa",
+   "policy": "High Quality Jobs Program (transitioning to Business Incentives for Growth)",
+   "period": "",
+   "portal": "https://iowaeda.com/",
+   "nodalAgency": "Iowa Economic Development Authority",
+   "summary": "Iowa's flagship business-assistance package of tax credits, exemptions and refunds — being replaced by the Business Incentives for Growth (BIG) Program; verify current status before applying.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "High Quality Jobs (HQJ) Program",
+     "type": "Incentive",
+     "benefit": "Investment tax credits, sales/use tax refunds, R&D activities credit",
+     "description": "Flexible award package for non-retail/non-service businesses meeting wage requirements; being succeeded by the BIG Program.",
+     "eligibility": "Non-retail/non-service business meeting wage thresholds",
+     "url": "https://revenue.iowa.gov/sites/default/files/2022-01/High%20Quality%20Jobs%20Program%20122021.pdf"
+    }
+   ]
+  },
+  {
+   "state": "Kansas",
+   "policy": "Promoting Employment Across Kansas (PEAK)",
+   "period": "",
+   "portal": "https://www.kansascommerce.gov/program/business-incentives-and-services/peak/",
+   "nodalAgency": "Kansas Department of Commerce",
+   "summary": "A payroll-withholding retention incentive for companies creating jobs in Kansas.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "PEAK",
+     "type": "Incentive",
+     "benefit": "Refund of up to 95% of new-employee payroll withholding, up to 7-10 years",
+     "description": "10 new metro jobs (5 non-metro) within 2 years for 7 years of benefit; 100 new jobs unlocks 10 years.",
+     "eligibility": "For-profit or qualifying nonprofit; county median wage and health-coverage requirements",
+     "url": "https://www.kansascommerce.gov/program/business-incentives-and-services/peak/"
+    }
+   ]
+  },
+  {
+   "state": "Kentucky",
+   "policy": "Kentucky Business Investment (KBI) Program",
+   "period": "",
+   "portal": "https://ced.ky.gov/Locating_Expanding/kybizince.aspx",
+   "nodalAgency": "Kentucky Economic Development Finance Authority",
+   "summary": "A tax-credit and wage-assessment incentive for manufacturing, technology, and headquarters projects.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Kentucky Business Investment Program",
+     "type": "Incentive",
+     "benefit": "Credit up to 100% of state income tax liability plus 5% wage assessment, up to 15 years",
+     "description": "Requires minimum 10 new full-time jobs and $100,000 in eligible costs.",
+     "eligibility": "Manufacturing, agribusiness, non-retail service/technology, or HQ operations",
+     "url": "https://ced.ky.gov/Locating_Expanding/kybizince.aspx"
+    }
+   ]
+  },
+  {
+   "state": "Louisiana",
+   "policy": "Quality Jobs Program",
+   "period": "",
+   "portal": "https://www.opportunitylouisiana.gov/incentive/quality-jobs",
+   "nodalAgency": "Louisiana Economic Development",
+   "summary": "A cash-rebate program for targeted-industry companies creating quality jobs in Louisiana.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Quality Jobs Rebate",
+     "type": "Reimbursement",
+     "benefit": "4-6% annual payroll rebate, up to 10 years, plus a sales/use or facility-expense rebate",
+     "description": "Targets bioscience, manufacturing, software, clean energy, food technology, and other named industries.",
+     "eligibility": "Minimum new direct jobs/payroll (scaled by company size) at a minimum wage threshold",
+     "url": "https://www.opportunitylouisiana.gov/incentive/quality-jobs"
+    }
+   ]
+  },
+  {
+   "state": "Maine",
+   "policy": "Pine Tree Development Zone (closed to new applicants Dec 31, 2024)",
+   "period": "",
+   "portal": "https://www.maine.gov/decd/business-development/financial-incentives-resources/incentives",
+   "nodalAgency": "Maine Department of Economic and Community Development",
+   "summary": "Maine's flagship tax-reduction zone program for qualified sectors — no longer accepting new applicants; listed for reference while Maine's replacement incentive framework is finalized.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Pine Tree Development Zone (legacy)",
+     "type": "Incentive",
+     "benefit": "Up to 100% corporate tax credit (years 1-5), 50% (years 6-10), plus sales/use tax exemptions",
+     "description": "Existing participants continue to receive benefits; the program closed to new applications December 31, 2024.",
+     "eligibility": "Historic — check Maine DECD for the current replacement incentive",
+     "url": "https://www.maine.gov/decd/business-development/financial-incentives-resources/pine-tree-development-zone"
+    }
+   ]
+  },
+  {
+   "state": "Minnesota",
+   "policy": "Minnesota Job Creation Fund",
+   "period": "",
+   "portal": "https://mn.gov/deed/",
+   "nodalAgency": "Minnesota Department of Employment and Economic Development (DEED)",
+   "summary": "A pay-for-performance award for companies meeting job-creation and capital-investment targets.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Job Creation Fund",
+     "type": "Incentive",
+     "benefit": "$1,000-$5,000 per job/year, up to $1M-$2M total, plus up to 7.5% real-property rebate",
+     "description": "Requires minimum investment ($500K, or $250K for Targeted Populations) and new FTEs within set timeframes.",
+     "eligibility": "Manufacturing, warehouse/distribution, IT, finance, insurance, or professional/technical services",
+     "url": "https://www.elevatehennepin.org/what-we-offer/resource-directory/mn-job-creation-fund"
+    }
+   ]
+  },
+  {
+   "state": "Mississippi",
+   "policy": "Advantage Jobs Incentive Program",
+   "period": "",
+   "portal": "https://mississippi.org/",
+   "nodalAgency": "Mississippi Development Authority (MDA)",
+   "summary": "A cash-rebate program for qualified employers creating quality jobs in Mississippi.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Advantage Jobs Incentive Program",
+     "type": "Reimbursement",
+     "benefit": "Rebate up to 90% of withheld state income taxes, up to 10 years",
+     "description": "Requires minimum new jobs (10-25 depending on county tier) at 125% of county/state average wage.",
+     "eligibility": "Non-retail, non-gaming businesses meeting wage and job-count thresholds",
+     "url": "https://sos.ms.gov/ACProposed/00012719B.pdf"
+    }
+   ]
+  },
+  {
+   "state": "Missouri",
+   "policy": "Missouri Works",
+   "period": "",
+   "portal": "https://ded.mo.gov/programs/business/missouri-works",
+   "nodalAgency": "Missouri Department of Economic Development",
+   "summary": "Missouri's flagship job-creation incentive with tiers scaled to company size, from small Zone Works projects to Mega Works.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Missouri Works",
+     "type": "Incentive",
+     "benefit": "100% state withholding retention and/or refundable tax credits; $10M annual program cap",
+     "description": "Tiers: Zone/Rural Works (2 jobs), Statewide Works (10 jobs), Mega Works (100 jobs); $5M of the cap reserved for minority/women/small businesses.",
+     "eligibility": "New jobs at required wage thresholds by tier",
+     "url": "https://ded.mo.gov/programs/business/missouri-works"
+    }
+   ]
+  },
+  {
+   "state": "Montana",
+   "policy": "Big Sky Economic Development Trust Fund (currently not accepting applications)",
+   "period": "",
+   "portal": "https://business.mt.gov/Business-Assistance/Big-Sky-Economic-Development-Trust-Fund-Program/",
+   "nodalAgency": "Montana Department of Commerce",
+   "summary": "State-funded grants for job-creation and planning projects, funded by coal severance tax revenue — currently paused for new applications.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Big Sky Economic Development Trust Fund",
+     "type": "Grant",
+     "benefit": "Project-based job-creation and planning grants",
+     "description": "75% of funding goes to job-creation projects, 25% to planning; check current application status before relying on this program.",
+     "eligibility": "Montana economic-development job-creation or planning projects",
+     "url": "https://business.mt.gov/Business-Assistance/Big-Sky-Economic-Development-Trust-Fund-Program/About"
+    }
+   ]
+  },
+  {
+   "state": "Nebraska",
+   "policy": "ImagiNE Nebraska Act",
+   "period": "",
+   "portal": "https://imagine.nebraska.gov/",
+   "nodalAgency": "Nebraska Department of Revenue",
+   "summary": "Nebraska's current-generation tax incentive package, replacing the Nebraska Advantage Act as of January 2021.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "ImagiNE Nebraska Act",
+     "type": "Incentive",
+     "benefit": "4-7% investment credits, 4-9% wage credits, plus sales/use tax refunds",
+     "description": "Based on job creation and investment levels; as of late 2024, 50 companies had pledged 2,481 jobs and $1.55B investment under the Act.",
+     "eligibility": "Businesses expanding or relocating to Nebraska meeting investment/job thresholds",
+     "url": "https://revenue.nebraska.gov/incentives/imagine-nebraska-act"
+    }
+   ]
+  },
+  {
+   "state": "Nevada",
+   "policy": "GOED Tax Abatements",
+   "period": "",
+   "portal": "https://goed.nv.gov/",
+   "nodalAgency": "Governor's Office of Economic Development (GOED)",
+   "summary": "Five discretionary tax-abatement programs administered by GOED to attract or grow Nevada businesses.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Standard & Data Center Tax Abatements",
+     "type": "Incentive",
+     "benefit": "Sales/use, payroll (Modified Business Tax), and personal property tax abatements — data centers as low as 2% for 10-20 years",
+     "description": "Applications go through a Regional Development Authority to GOED.",
+     "eligibility": "Businesses meeting GOED capital-investment and job thresholds",
+     "url": "https://goed.nv.gov/wp-content/uploads/2024/05/Tax-Abatement-Overview-May-2024-1.pdf"
+    }
+   ]
+  },
+  {
+   "state": "New Hampshire",
+   "policy": "Job Training Fund (WorkInvestNH)",
+   "period": "",
+   "portal": "https://www.nheconomy.com/office-of-workforce-opportunity/about-us/programs",
+   "nodalAgency": "NH Department of Business and Economic Affairs",
+   "summary": "A matching workforce-training grant for New Hampshire businesses.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Job Training Fund / WorkInvestNH",
+     "type": "Grant",
+     "benefit": "$750-$100,000 matching grant for skills training",
+     "description": "Employer must match the award; funds training costs only, not wages.",
+     "eligibility": "NH businesses paying into the NH Unemployment Trust Fund",
+     "url": "https://www.nheconomy.com/office-of-workforce-opportunity/about-us/programs"
+    }
+   ]
+  },
+  {
+   "state": "New Jersey",
+   "policy": "Emerge Program",
+   "period": "",
+   "portal": "https://www.njeda.gov/emerge/",
+   "nodalAgency": "New Jersey Economic Development Authority (NJEDA)",
+   "summary": "A per-job tax credit under the 2020 Economic Recovery Act for priority-sector projects and targeted communities.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Emerge Program",
+     "type": "Incentive",
+     "benefit": "$500-$8,000 per job tax credit, up to 7 years",
+     "description": "Requires 35+ new full-time jobs (lower for small business/targeted industries) and 80% NJ work-time/withholding.",
+     "eligibility": "Eligible incentive location; minimum capital investment; competitive out-of-state alternative shown",
+     "url": "https://www.njeda.gov/emerge/"
+    }
+   ]
+  },
+  {
+   "state": "New Mexico",
+   "policy": "Local Economic Development Act (LEDA)",
+   "period": "",
+   "portal": "https://edd.newmexico.gov/grants/local-economic-development-act/",
+   "nodalAgency": "New Mexico Economic Development Department",
+   "summary": "State grants to local governments to fund infrastructure supporting expanding or relocating businesses.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "LEDA",
+     "type": "Grant",
+     "benefit": "Reimbursement-basis grants for land, buildings, and infrastructure",
+     "description": "Grants flow to local governments (municipality/county), not directly to companies; extra weight given to rural/underserved projects.",
+     "eligibility": "Company must manufacture in NM or provide a non-retail service with 50%+ revenue from outside NM",
+     "url": "https://edd.newmexico.gov/grants/local-economic-development-act/"
+    }
+   ]
+  },
+  {
+   "state": "North Dakota",
+   "policy": "North Dakota Development Fund (Advance ND)",
+   "period": "",
+   "portal": "https://www.commerce.nd.gov/economic-development-finance/development-fund/advance-nd",
+   "nodalAgency": "North Dakota Department of Commerce",
+   "summary": "Flexible state financing including a deal-closing loan program and an angel-investment match.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Advance ND",
+     "type": "Loan/Credit",
+     "benefit": "Low-interest loans up to $20,000,000 at 2%",
+     "description": "Deal-closing loans for new industrial projects adding capital investment, resource value, and jobs.",
+     "eligibility": "New industrial projects in North Dakota",
+     "url": "https://www.commerce.nd.gov/economic-development-finance/development-fund/advance-nd"
+    },
+    {
+     "name": "Angel Match Program",
+     "type": "Seed funding",
+     "benefit": "State match of qualifying angel investments",
+     "description": "Increases available capital for North Dakota businesses.",
+     "eligibility": "North Dakota businesses receiving qualifying angel investment",
+     "url": "https://www.commerce.nd.gov/economic-development-finance/development-fund/advance-nd"
+    }
+   ]
+  },
+  {
+   "state": "Oklahoma",
+   "policy": "Quality Jobs Program",
+   "period": "",
+   "portal": "https://www.okcommerce.gov/doing-business/business-relocation-expansion/incentives/quality-jobs-incentive-program/",
+   "nodalAgency": "Oklahoma Department of Commerce",
+   "summary": "A quarterly payroll rebate for qualifying companies, with variants for small employers and knowledge-based industries.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Quality Jobs Program",
+     "type": "Reimbursement",
+     "benefit": "Up to 5% of new payroll quarterly, up to 10 years",
+     "description": "Requires $2.5M+ new payroll investment (lower for targeted industries) and wage/health-insurance requirements.",
+     "eligibility": "Manufacturers and other qualifying industries meeting payroll thresholds",
+     "url": "https://www.okcommerce.gov/doing-business/business-relocation-expansion/incentives/quality-jobs-incentive-program/"
+    },
+    {
+     "name": "21st Century Quality Jobs Program",
+     "type": "Reimbursement",
+     "benefit": "Up to 10% of new payroll, up to 10 years",
+     "description": "For knowledge-based, highly-skilled workforce industries; 10 jobs at high average wage thresholds.",
+     "eligibility": "Knowledge-based industries meeting wage requirements",
+     "url": "https://www.okcommerce.gov/doing-business/business-relocation-expansion/incentives/quality-jobs-incentive-program/"
+    }
+   ]
+  },
+  {
+   "state": "Oregon",
+   "policy": "Oregon Business Development Fund (OBDF)",
+   "period": "",
+   "portal": "https://www.oregon.gov/biz/programs/obdf/pages/default.aspx",
+   "nodalAgency": "Business Oregon",
+   "summary": "A revolving gap-financing loan fund for Oregon traded-sector businesses.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Oregon Business Development Fund",
+     "type": "Loan/Credit",
+     "benefit": "Fixed-rate gap loans up to $2,000,000, terms up to 20 years",
+     "description": "Used alongside a traditional lender; preference for rural/distressed areas and small businesses under 100 employees.",
+     "eligibility": "Traded-sector businesses (manufacturing, processing, distribution) creating/retaining jobs",
+     "url": "https://www.oregon.gov/biz/programs/obdf/pages/default.aspx"
+    }
+   ]
+  },
+  {
+   "state": "Rhode Island",
+   "policy": "Qualified Jobs Incentive Act (sunset Dec 31, 2024)",
+   "period": "",
+   "portal": "https://commerceri.com/",
+   "nodalAgency": "Rhode Island Commerce Corporation",
+   "summary": "Rhode Island's job-creation tax credit — its statutory sunset date has passed; check Commerce RI for its current successor program.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Qualified Jobs Incentive (legacy)",
+     "type": "Incentive",
+     "benefit": "$2,500-$7,500 per new full-time job per year, up to 10 years",
+     "description": "Credit roughly matched W-2 withholding, capped at 75% of that withholding for post-2019 approvals; unused credit carries forward 4 years.",
+     "eligibility": "Historic — verify current Commerce RI incentive offerings",
+     "url": "https://dor.ri.gov/media/5721/download?language=en"
+    }
+   ]
+  },
+  {
+   "state": "South Carolina",
+   "policy": "Job Tax Credit",
+   "period": "",
+   "portal": "https://www.sccommerce.com/why-sc/incentives/corporate-income-tax-incentives",
+   "nodalAgency": "South Carolina Department of Commerce",
+   "summary": "A statutory corporate income tax credit for new and expanding businesses creating jobs.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Job Tax Credit (JTC)",
+     "type": "Incentive",
+     "benefit": "$1,500-$9,000 per job/year, offsetting up to 50% of corporate income tax",
+     "description": "Requires average monthly increase of 10 new full-time jobs; higher credit in multi-county industrial parks or Brownfields sites; carries forward up to 15 years.",
+     "eligibility": "Corporations, sole proprietors, partnerships, S-corps, and LLCs creating qualifying jobs",
+     "url": "https://www.sccommerce.com/why-sc/incentives/corporate-income-tax-incentives"
+    }
+   ]
+  },
+  {
+   "state": "South Dakota",
+   "policy": "REDI Fund",
+   "period": "",
+   "portal": "https://sdgoed.com/partners/financing-incentives/redi-fund/",
+   "nodalAgency": "South Dakota Governor's Office of Economic Development (GOED)",
+   "summary": "South Dakota's flagship low-interest revolving loan fund for job-growth projects.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Revolving Economic Development & Initiative (REDI) Fund",
+     "type": "Loan/Credit",
+     "benefit": "Low-interest loans (currently 3%) up to 45% of project cost",
+     "description": "Requires 10% minimum equity contribution and a shared first-lien position on financed assets; open to start-ups and expanding/relocating businesses.",
+     "eligibility": "Start-up, expanding, or relocating South Dakota businesses and local development corporations",
+     "url": "https://sdgoed.com/partners/financing-incentives/redi-fund/"
+    }
+   ]
+  },
+  {
+   "state": "Tennessee",
+   "policy": "FastTrack Program",
+   "period": "",
+   "portal": "https://tnecd.com/why-tennessee/incentives-grants/",
+   "nodalAgency": "Tennessee Department of Economic and Community Development (ECD)",
+   "summary": "A three-part discretionary grant program supporting job training, infrastructure, and exceptional economic-development projects.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "FastTrack Job Training Assistance",
+     "type": "Grant",
+     "benefit": "Negotiated grants for training net new full-time employees",
+     "description": "Provided directly to new or expanding companies for employee training costs.",
+     "eligibility": "New or expanding Tennessee companies, negotiated case-by-case",
+     "url": "https://tnecd.com/why-tennessee/incentives-grants/"
+    },
+    {
+     "name": "FastTrack Infrastructure Development",
+     "type": "Grant",
+     "benefit": "Grants to communities reimbursing eligible company expenditures",
+     "description": "Covers real property acquisition, new construction, and building retrofit for expanding/relocating companies.",
+     "eligibility": "Local communities supporting a qualifying company project",
+     "url": "https://tnecd.com/why-tennessee/incentives-grants/"
+    }
+   ]
+  },
+  {
+   "state": "Utah",
+   "policy": "Economic Development Tax Increment Financing (EDTIF)",
+   "period": "",
+   "portal": "https://business.utah.gov/recruitment/",
+   "nodalAgency": "Governor's Office of Economic Opportunity (GOEO)",
+   "summary": "A post-performance refundable tax credit for high-wage job creation, with a rural variant (REDTIF).",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "EDTIF",
+     "type": "Incentive",
+     "benefit": "Up to 30% of new state revenues (sales, corporate, withholding) over 5-10 years",
+     "description": "Post-performance credit after the company meets capital-investment and job-creation obligations; wages must be 110% of average county wage.",
+     "eligibility": "Advanced manufacturing, aerospace/defense, financial services, life sciences, healthcare, software, IT",
+     "url": "https://business.utah.gov/recruitment/"
+    }
+   ]
+  },
+  {
+   "state": "Vermont",
+   "policy": "Vermont Employment Growth Incentive (VEGI)",
+   "period": "",
+   "portal": "https://accd.vermont.gov/economic-development/vepc/vegi",
+   "nodalAgency": "Vermont Economic Progress Council (VEPC)",
+   "summary": "A performance-based cash incentive tied to the incremental state tax revenue a project generates.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "VEGI",
+     "type": "Incentive",
+     "benefit": "Cash incentive proportional to incremental state tax revenue generated",
+     "description": "Paid only after annual performance requirements (jobs, payroll, capital investment) are met and maintained — no upfront payment.",
+     "eligibility": "Growth beyond a business's organic trajectory, approved by VEPC",
+     "url": "https://accd.vermont.gov/economic-development/vepc/vegi"
+    }
+   ]
+  },
+  {
+   "state": "Washington",
+   "policy": "State B&O Tax Incentive Programs",
+   "period": "",
+   "portal": "https://dor.wa.gov/taxes-rates/tax-incentives/tax-incentive-programs",
+   "nodalAgency": "Washington State Department of Revenue",
+   "summary": "A set of Business & Occupation (B&O) tax credits, deferrals, and exemptions rather than a single flagship program.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "High Technology B&O Tax Credit",
+     "type": "Incentive",
+     "benefit": "Credit against B&O tax for qualifying R&D spending",
+     "description": "One of several targeted B&O credits (alongside Rural County, Small Business, and veteran-hiring credits).",
+     "eligibility": "Washington businesses conducting qualifying R&D or other targeted activity",
+     "url": "https://dor.wa.gov/taxes-rates/tax-incentives/credits"
+    },
+    {
+     "name": "Sales/Use Tax Exemption — Manufacturing & R&D Equipment",
+     "type": "Incentive",
+     "benefit": "Exemption on qualifying machinery and equipment",
+     "description": "For equipment used directly in manufacturing or R&D operations.",
+     "eligibility": "Washington manufacturing or R&D operations",
+     "url": "https://dor.wa.gov/taxes-rates/tax-incentives/tax-incentive-programs"
+    }
+   ]
+  },
+  {
+   "state": "West Virginia",
+   "policy": "Economic Opportunity Tax Credit",
+   "period": "",
+   "portal": "https://westvirginia.gov/wv-incentives/",
+   "nodalAgency": "West Virginia Department of Economic Development",
+   "summary": "A family of tax credits for job creation, manufacturing investment, and headquarters relocation.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Economic Opportunity Tax Credit",
+     "type": "Incentive",
+     "benefit": "Offsets up to 80% of specified business taxes, up to 13 years",
+     "description": "Requires at least 20 new jobs (10 for qualified small business) within specified time limits.",
+     "eligibility": "Qualified companies creating new jobs via business expansion",
+     "url": "https://westvirginia.gov/wv-incentives/"
+    },
+    {
+     "name": "High Wage Growth Tax Credit",
+     "type": "Incentive",
+     "benefit": "Payroll incentive for new high-wage jobs",
+     "description": "For businesses creating 10 or more new high-paying jobs.",
+     "eligibility": "West Virginia businesses adding qualifying high-wage positions",
+     "url": "https://westvirginia.gov/high-wage-growth-tax-credit/"
+    }
+   ]
+  },
+  {
+   "state": "Wisconsin",
+   "policy": "Business Development Tax Credit (BTC)",
+   "period": "",
+   "portal": "https://wedc.org/",
+   "nodalAgency": "Wisconsin Economic Development Corporation (WEDC)",
+   "summary": "Refundable tax credits for job creation, capital investment, training, and headquarters retention.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Business Development Tax Credit",
+     "type": "Incentive",
+     "benefit": "Refundable credits; WEDC may allocate up to $22M/year",
+     "description": "Minimum $250,000 capital investment as of 2024; can include workforce-housing and child-care incentives.",
+     "eligibility": "Businesses in or relocating to Wisconsin maintaining or growing net employment",
+     "url": "https://wedc.org/wp-content/uploads/2024/07/2024-07-Business-Development-Tax-Credit.pdf"
+    }
+   ]
+  },
+  {
+   "state": "Wyoming",
+   "policy": "Building Resilient Communities (formerly Business Ready Community)",
+   "period": "",
+   "portal": "https://wyomingbusiness.org/communities/financing/business-ready-community/",
+   "nodalAgency": "Wyoming Business Council",
+   "summary": "State grants and loans to communities for public infrastructure supporting business location or expansion.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Building Resilient Communities Grant & Loan",
+     "type": "Grant",
+     "benefit": "Typical maximum award $3M; data-center track up to $2.25M",
+     "description": "Funds go to cities/towns/counties for infrastructure tied to a committed business project, not directly to companies.",
+     "eligibility": "Wyoming communities with a business commitment to locate or expand",
+     "url": "https://wyomingbusiness.org/communities/financing/business-ready-community/"
+    }
+   ]
+  },
+  {
+   "state": "Alaska",
+   "policy": "Economic Development Incentive Programs",
+   "period": "",
+   "portal": "https://www.commerce.alaska.gov/web/inv/DEV/Incentives.aspx",
+   "nodalAgency": "Alaska Dept. of Commerce, Community & Economic Development (Division of Economic Development)",
+   "summary": "State direct-lending and R&D tax credit programs supporting new and expanding Alaska businesses.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "New Business Incentive Program",
+     "type": "Grant",
+     "benefit": "Economic development grant for new manufacturing/value-added businesses",
+     "description": "Targets substantial businesses creating high-value, year-round jobs in Alaska.",
+     "eligibility": "New or expanding manufacturing/value-added businesses in Alaska",
+     "url": "https://www.commerce.alaska.gov/web/inv/DEV/Incentives.aspx"
+    },
+    {
+     "name": "Alaska R&D Tax Credit",
+     "type": "Incentive",
+     "benefit": "Dollar-for-dollar offset against corporate net income tax",
+     "description": "Designed to encourage innovation spending by Alaska businesses.",
+     "eligibility": "Alaska businesses with qualifying R&D expenditures",
+     "url": "http://www.employmentincentives.com/state_incentives/Alaska/ak_tax_incentives.htm"
+    }
+   ]
+  },
+  {
+   "state": "Hawaii",
+   "policy": "Tax Credit for Research Activities (TCRA)",
+   "period": "",
+   "portal": "https://www.htdc.org/programs/hawai%CA%BBi-tax-credit-for-research-activities/",
+   "nodalAgency": "Hawaii Technology Development Corporation (HTDC)",
+   "summary": "Hawaii's current R&D tax credit for qualified high-tech research, replacing the earlier (repealed) Act 221 high-tech investment credit.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Tax Credit for Research Activities",
+     "type": "Incentive",
+     "benefit": "Refundable credit against qualified research expenses; $5M annual statewide cap",
+     "description": "The cap has been reached almost immediately in each recent year — apply as soon as the window opens.",
+     "eligibility": "Hawaii businesses conducting 50%+ of activity in qualified research",
+     "url": "https://www.htdc.org/programs/hawai%CA%BBi-tax-credit-for-research-activities/"
+    }
+   ]
+  },
+  {
+   "state": "District of Columbia",
+   "policy": "Qualified High Technology Company (QHTC) Program",
+   "period": "",
+   "portal": "https://dmped.dc.gov/page/qualified-high-tech-companies-qhtc",
+   "nodalAgency": "DC Office of Tax and Revenue / Dept. of Housing and Enterprise Development",
+   "summary": "DC's flagship tax-incentive package for technology companies operating in the District.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "QHTC Tax Benefits",
+     "type": "Incentive",
+     "benefit": "3% reduced capital gains rate; up to $15,000/employee wage-tax credit; 5-year property tax freeze on office improvements",
+     "description": "Requires 51%+ DC-sourced revenue from qualifying high-tech activity and 10+ qualified DC employees.",
+     "eligibility": "For-profit DC-based high-tech company outside the Ballpark TIF Area",
+     "url": "https://dmped.dc.gov/page/qualified-high-tech-companies-qhtc"
     }
    ]
   }

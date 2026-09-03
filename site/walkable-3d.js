@@ -1310,7 +1310,7 @@ function main(root) {
     drawerTitle.textContent = stateName;
     drawerBody.innerHTML = `
       ${state?.policy ? `<p class="walkable-drawer-policy">${escapeHTML(state.policy)}${state.period ? ` · ${escapeHTML(state.period)}` : ""}</p>` : ""}
-      <p class="walkable-drawer-description">${escapeHTML(state?.summary || "Explore this state or union territory’s incubators and startup support.")}</p>
+      <p class="walkable-drawer-description">${escapeHTML(state?.summary || "Explore this state’s incubators and startup support.")}</p>
       <div class="walkable-drawer-stats">
         <span>${local.length} incubator${local.length === 1 ? "" : "s"}</span>
         <span>${state?.schemes?.length || 0} state scheme${state?.schemes?.length === 1 ? "" : "s"}</span>

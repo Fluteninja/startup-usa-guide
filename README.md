@@ -2,7 +2,7 @@
 
 **Federal and state funding programs for US startups — one searchable, source-linked reference, plus the visa and immigration pathways founders actually need.**
 
-An independent guide to US startup funding: 17 federal programs, federal-agency innovation programs (AFWERX, DIU, NSIN, In-Q-Tel), a growing state-by-state incentive index, an incubator/accelerator directory covering all 49 mapped states, every state's economic-development portal, and — the one thing the source template didn't have — a Visas & Immigration Pathways section for founders who aren't US citizens or permanent residents.
+An independent guide to US startup funding: 17 federal programs, federal-agency innovation programs (AFWERX, DIU, NSIN, In-Q-Tel), 65 state-level incentive programs across all 50 states + DC, an incubator/accelerator directory covering all 49 mapped states, every state's economic-development portal, and — the one thing the source template didn't have — a Visas & Immigration Pathways section for founders who aren't US citizens or permanent residents.
 
 This repo is an adaptation of [`startup-india-guide`](https://github.com/fritzhand/startup-india-guide), which documents India's central government startup schemes from a single official playbook PDF. The **engine** (`build.mjs`, `site/*.js`, `site/*.css`) is reused essentially unchanged — it was built to be content-agnostic. Everything in `data/*.json`, the palette in `site/tokens.css`, and the two map datasets were replaced for the US.
 
@@ -16,7 +16,7 @@ This repo is an adaptation of [`startup-india-guide`](https://github.com/fritzha
 | Lifecycle Map | Ideation → prototype → seed → growth → market access |
 | What do you need? | From a need (grant/loan/lab/buyers/IP/tax savings/**immigration status**) to what provides it |
 | Explore the USA map | Real state-shaped choropleth + a 3D walkable map (48 contiguous states + DC) |
-| State schemes | State-level incentive programs — currently a verified 12-state starter set, more being added |
+| State schemes | 65 state-level incentive programs across all 50 states + DC, each independently sourced |
 | Incubators directory | 54 real, individually-verified incubators/accelerators — at least one per mapped state |
 | Federal innovation programs | AFWERX, DIU, NSIN, In-Q-Tel, NASA, DOE national labs |
 | State portals | Every state's official economic-development directory entry |
@@ -69,8 +69,8 @@ Alaska, Hawaii, and Puerto Rico are excluded from the map itself (a naive equire
 
 ## Honest limitations
 
-- **State program coverage is partial.** 12 of 49 states have specific incentive-program data; the rest link to their official portal only. This is being backfilled — see `data/state-schemes.json`.
-- **Alaska, Hawaii, and Puerto Rico aren't on the map** (walkable or choropleth) — a projection covering their true position would shrink the mainland to a sliver. They're still fully covered in `data/states.json` and `data/state-schemes.json`.
+- **A few state programs have sunset or paused for new applicants** (e.g. Maine's Pine Tree Development Zone, Rhode Island's Qualified Jobs Incentive Act, Montana's Big Sky Trust Fund) — each is flagged in its own entry in `data/state-schemes.json` rather than silently presented as active.
+- **Alaska, Hawaii, and Puerto Rico aren't on the map** (walkable or choropleth) — a projection covering their true position would shrink the mainland to a sliver. Alaska and Hawaii are still fully covered in `data/states.json` and `data/state-schemes.json`; Puerto Rico is covered in neither yet.
 - **This is an independent reference, not a government website, and not legal, tax, or immigration advice** — especially true for the Visas & Immigration section.
 - **Program details drift.** Every page links to its official source and carries a "verify before applying" notice for exactly that reason.
 

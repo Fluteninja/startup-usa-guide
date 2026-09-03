@@ -951,7 +951,7 @@ ${sorted.map((st) => st.url ? `
     <div class="walkable-overlay">
       <div class="walkable-terrain-labels" aria-hidden="true"></div>
       <div class="walkable-wayfinders" aria-label="State and regional wayfinders"></div>
-      <div class="walkable-landmarks" aria-label="State and union territory landmarks"></div>
+      <div class="walkable-landmarks" aria-label="State landmarks"></div>
       <div class="walkable-orgs" aria-label="Incubators"></div>
     </div>
     <div class="walkable-stick" aria-hidden="true"><span class="walkable-stick-knob"></span></div>
@@ -1009,7 +1009,7 @@ ${sorted.map((st) => st.url ? `
     <button class="walkable-drawer-backdrop" type="button" aria-label="Close state"></button>
     <section class="walkable-drawer-panel" role="dialog" aria-modal="true" aria-labelledby="state-drawer-title">
       <header class="walkable-drawer-head">
-        <div><span>State / union territory</span><h2 id="state-drawer-title"></h2></div>
+        <div><span>State</span><h2 id="state-drawer-title"></h2></div>
         <button class="icon-btn" id="state-drawer-close" type="button" aria-label="Close state">${ICONS.close}</button>
       </header>
       <div class="walkable-drawer-body"></div>
