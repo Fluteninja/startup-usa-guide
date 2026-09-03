@@ -133,10 +133,10 @@ export function buildHeightField({
       raw[index] = (LAND_BASE + shaped) * falloff[index];
     }
   }
-  /* Guaranteed ground. Islands far below the raster resolution — Lakshadweep
-     above all — would otherwise blur and taper straight into the sea. Each
+  /* Guaranteed ground. Small islands or slivers far below the raster
+     resolution would otherwise blur and taper straight into the sea. Each
      bump raises a small cosine dome to at least `height`, so every landmark
-     and ferry pier stands on dry land no matter how small its geometry. */
+     stands on dry land no matter how small its geometry. */
   for (const bump of bumps) {
     const radius = Math.max(1, bump.radius);
     const minX = Math.max(0, Math.floor(bump.x - radius));

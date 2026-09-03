@@ -69,20 +69,6 @@ function main(root) {
   const stateRecords = readJSON("walkable-states") || [];
   const stateMeta = Object.fromEntries(stateRecords.map((state) => [state.state, state]));
   const mapStates = map?.states || {};
-  if (!mapStates.Lakshadweep?.d) {
-    mapStates.Lakshadweep = {
-      cx: 163.3,
-      cy: 964.4,
-      d: [
-        "M148,952a2,2 0 1,0 0,4a2,2 0 1,0 0,-4",
-        "M156,961.5a1.75,1.75 0 1,0 0,3.5a1.75,1.75 0 1,0 0,-3.5",
-        "M163,962a2.25,2.25 0 1,0 0,4.5a2.25,2.25 0 1,0 0,-4.5",
-        "M169,975.5a1.75,1.75 0 1,0 0,3.5a1.75,1.75 0 1,0 0,-3.5",
-        "M174,988a2,2 0 1,0 0,4a2,2 0 1,0 0,-4",
-        "M178,1031.5a2.5,2.5 0 1,0 0,5a2.5,2.5 0 1,0 0,-5",
-      ].join(""),
-    };
-  }
 
   /* ---------------- DOM ---------------- */
   const viewport = root.querySelector(".walkable-viewport");
@@ -293,13 +279,12 @@ function main(root) {
     x: point.x / MAP_WIDTH * (GRID_W - 1),
     y: point.y / MAP_HEIGHT * (GRID_H - 1),
   });
-  /* Every landmark gets guaranteed dry ground under it; islands smaller than
-     a raster cell (Lakshadweep's atolls) get their islets stamped directly. */
-  const lakshadweepIslets = [
-    { x: 150, y: 954 }, { x: 157.75, y: 963.25 }, { x: 165.25, y: 964.25 },
-    { x: 170.75, y: 977.25 }, { x: 176, y: 990 }, { x: 180.5, y: 1034 },
-  ];
-  const bumps = [...Object.values(stateAnchors), ...lakshadweepIslets].map((anchor) => {
+  /* Every landmark gets guaranteed dry ground under it. The India edition
+     also stamped Lakshadweep's atolls here (islands smaller than a raster
+     cell); the USA map's build (scripts/build-usa-map.mjs) reported zero
+     rings dropped below the area floor, so no equivalent stamp is needed —
+     revisit if a future map regen starts warning about a dropped island. */
+  const bumps = Object.values(stateAnchors).map((anchor) => {
     const grid = toGrid(anchor);
     return { x: grid.x, y: grid.y, radius: 2.6, height: 1.7 };
   });
@@ -545,21 +530,25 @@ function main(root) {
   });
 
   const signs = [
-    { x: 277, y: 205, targets: ["Jammu and Kashmir", "Himachal Pradesh", "Punjab"] },
-    { x: 319, y: 323, targets: ["Delhi", "Haryana", "Uttarakhand", "Uttar Pradesh"] },
-    { x: 188, y: 493, targets: ["Rajasthan", "Gujarat", "Maharashtra"] },
-    { x: 388, y: 505, targets: ["Madhya Pradesh", "Chhattisgarh", "Odisha"] },
-    { x: 570, y: 506, targets: ["Bihar", "Jharkhand", "West Bengal", "Odisha"] },
-    { x: 747, y: 409, targets: ["Sikkim", "Assam", "Meghalaya", "Arunachal Pradesh"] },
-    { x: 872, y: 443, targets: ["Nagaland", "Manipur", "Mizoram", "Tripura"] },
-    { x: 363, y: 694, targets: ["Maharashtra", "Telangana", "Andhra Pradesh", "Karnataka"] },
-    { x: 335, y: 844, targets: ["Karnataka", "Tamil Nadu", "Kerala", "Puducherry"] },
+    { x: 110, y: 95, targets: ["Washington", "Oregon", "Idaho"] },
+    { x: 350, y: 100, targets: ["Montana", "Wyoming", "North Dakota", "South Dakota"] },
+    { x: 590, y: 115, targets: ["Minnesota", "Wisconsin", "Iowa", "Michigan"] },
+    { x: 900, y: 150, targets: ["New York", "Vermont", "New Hampshire", "Maine", "Massachusetts"] },
+    { x: 810, y: 225, targets: ["Pennsylvania", "New Jersey", "Delaware", "Maryland", "District of Columbia", "Virginia", "West Virginia"] },
+    { x: 470, y: 250, targets: ["Nebraska", "Kansas", "Missouri", "Oklahoma"] },
+    { x: 220, y: 280, targets: ["California", "Nevada", "Utah", "Colorado", "Arizona"] },
+    { x: 490, y: 390, targets: ["Texas", "Arkansas", "Louisiana", "New Mexico"] },
+    { x: 665, y: 230, targets: ["Ohio", "Indiana", "Illinois", "Kentucky"] },
+    { x: 700, y: 375, targets: ["Tennessee", "North Carolina", "South Carolina", "Georgia", "Alabama", "Mississippi", "Florida"] },
   ];
+  // Alaska and Hawaii sit in their own map insets (see scripts/build-usa-map.mjs),
+  // physically disconnected from the mainland on the canvas — these replace the
+  // India edition's inter-island ferry links with mainland <-> inset flights.
   const transfers = [
-    { x: 286, y: 974, label: "Ferry to Lakshadweep", destination: "Lakshadweep" },
-    { x: 163.3, y: 982, label: "Return to Kerala", destination: "Kerala" },
-    { x: 410, y: 895, label: "Sail to Andaman & Nicobar", destination: "Andaman and Nicobar Islands" },
-    { x: 840, y: 950, label: "Return to Tamil Nadu", destination: "Tamil Nadu" },
+    { x: 55, y: 35, label: "Fly to Alaska", destination: "Alaska" },
+    { x: 200, y: 705, label: "Return to the mainland", destination: "Washington" },
+    { x: 65, y: 310, label: "Fly to Hawaii", destination: "Hawaii" },
+    { x: 320, y: 660, label: "Return to the mainland", destination: "California" },
   ];
 
   const decor = placeDecor({
@@ -833,7 +822,7 @@ function main(root) {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "walkable-transfer";
-    button.innerHTML = `<span aria-hidden="true">⛴</span><strong>${escapeHTML(transfer.label)}</strong>`;
+    button.innerHTML = `<span aria-hidden="true">✈</span><strong>${escapeHTML(transfer.label)}</strong>`;
     button.setAttribute("aria-label", `${transfer.label}. Move avatar to ${transfer.destination}.`);
     button.addEventListener("click", () => travelTo(transfer.destination));
     wayfinderLayer.append(button);
@@ -869,7 +858,9 @@ function main(root) {
   });
 
   /* ---------------- state: position, camera, zoom ---------------- */
-  let position = { ...stateAnchors["Madhya Pradesh"] };
+  // Kansas sits near the geographic center of the contiguous 48 states — a
+  // sensible, recognizable spawn point (was India's Madhya Pradesh).
+  let position = { ...stateAnchors["Kansas"] };
   let heading = 0; // avatar facing, radians about +y
   let zoom = DEFAULT_ZOOM;
   let azimuth = 0; // camera yaw offset — 0 looks north
