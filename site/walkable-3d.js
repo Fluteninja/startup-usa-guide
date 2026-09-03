@@ -1058,6 +1058,13 @@ function main(root) {
     cameraPosition.lerp(desired, follow);
     camera.position.copy(cameraPosition);
     camera.lookAt(cameraTarget);
+    // Three.js only recomputes matrixWorld/matrixWorldInverse during
+    // render() by default — projectOverlay() below needs them NOW, or every
+    // overlay is projected against last frame's camera angle. Without this,
+    // rotating the camera (Q/E or drag) makes every popup visibly lag one
+    // frame behind the 3D scene, reading as detached/swimming rather than
+    // anchored to a fixed world position.
+    camera.updateMatrixWorld();
 
     sun.position.set(position.x - 160, 260, position.y + 120);
     sun.target.position.set(position.x, 0, position.y);
