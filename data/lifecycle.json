@@ -1,0 +1,40 @@
+{
+ "intro": "Find programs aligned to where you are in your startup journey.",
+ "stages": [
+  {
+   "id": "ideation",
+   "title": "Ideation",
+   "description": "You have an idea but no prototype or product yet",
+   "specific": ["NSF I-Corps", "SBIR/STTR"],
+   "relevant": ["SBA Microloans", "QSBS"]
+  },
+  {
+   "id": "prototype",
+   "title": "Prototype / PoC",
+   "description": "Idea validated; building or testing a prototype",
+   "specific": ["SBIR/STTR", "NSF I-Corps", "B2S"],
+   "relevant": ["SBA Microloans", "R&D Payroll Offset", "QSBS", "USPTO Fee Reduction"]
+  },
+  {
+   "id": "early-stage",
+   "title": "Seed / Early-Stage",
+   "description": "Prototype done; entering market or scaling pilot",
+   "specific": ["SBIR/STTR", "B2S"],
+   "relevant": ["SBA 7(a)", "SBA Microloans", "R&D Payroll Offset", "QSBS", "USPTO Fee Reduction"]
+  },
+  {
+   "id": "growth",
+   "title": "Growth / Scaling",
+   "description": "Product in market; scaling operations and team",
+   "specific": [],
+   "relevant": ["SBA 7(a)", "SBA 504", "EXIM WCGP", "Opportunity Zones", "QSBS", "Set-Asides", "APEX Accelerators"]
+  },
+  {
+   "id": "market-access",
+   "title": "Market Access & IP",
+   "description": "Ready to sell, export, or protect your innovation",
+   "specific": ["Set-Asides", "APEX Accelerators"],
+   "relevant": ["EXIM WCGP", "USPTO Fee Reduction"]
+  }
+ ]
+}

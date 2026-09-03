@@ -1,0 +1,41 @@
+{
+ "intro": "Beyond SBIR/STTR, several federal agencies and defense innovation units run their own startup-facing programs — non-dilutive funding, accelerators, and fast-track paths into government contracts. These sit outside the standard federal grant/loan process and behave more like a corporate venture arm than a typical government program.",
+ "programs": [
+  {
+   "organization": "US Air Force / Space Force",
+   "program": "AFWERX",
+   "description": "The Air Force's innovation arm, spanning AFVentures (direct investment in emerging tech via SBIR/STTR), Spark (training and networking), and Prime (accelerating technology development). Since 2020, AFWERX has awarded more than 9,000 SBIR/STTR contracts totaling over $7B to startups and small businesses.",
+   "url": "https://afwerx.com/get-funded/"
+  },
+  {
+   "organization": "US Department of Defense",
+   "program": "Defense Innovation Unit (DIU)",
+   "description": "Facilitates prototyping and scaling of commercial technology (including space, AI, and cyber) across the DoD, often moving faster than the traditional acquisition process and funding via Other Transaction Authority agreements.",
+   "url": "https://www.diu.mil"
+  },
+  {
+   "organization": "US Department of Defense",
+   "program": "National Security Innovation Network (NSIN)",
+   "description": "Runs 10-16 week structured programs pairing interdisciplinary teams with real DoD problem sponsors, plus follow-on commercialization support and startup grants (e.g. $50,000 for early commercialization).",
+   "url": "https://www.nsin.mil"
+  },
+  {
+   "organization": "US Intelligence Community",
+   "program": "In-Q-Tel",
+   "description": "An independent not-for-profit venture firm that invests in technology useful to the Intelligence Community, generally targeting companies that can deliver working technology within about 36 months.",
+   "url": "https://www.iqt.org"
+  },
+  {
+   "organization": "NASA",
+   "program": "NASA SBIR/STTR & Technology Transfer",
+   "description": "NASA participates in the standard federal SBIR/STTR program with its own agency-specific technology topics, and separately licenses NASA-developed technology to startups through its Technology Transfer Program.",
+   "url": "https://www.nasa.gov/technology/technology-transfer-and-spinoffs/"
+  },
+  {
+   "organization": "US Department of Energy",
+   "program": "DOE National Lab Commercialization Programs",
+   "description": "DOE's national laboratories run technology-commercialization and small-business voucher programs that give startups access to lab expertise, equipment, and licensable technology outside the standard grant process.",
+   "url": "https://www.energy.gov/technologytransitions"
+  }
+ ]
+}

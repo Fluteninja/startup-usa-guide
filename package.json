@@ -1,0 +1,13 @@
+{
+  "name": "startup-india-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A source-linked static guide to Indian startup schemes and ecosystem support.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs && python3 -m http.server -d docs 8000",
+    "test": "node --test tests/*.test.mjs"
+  }
+}

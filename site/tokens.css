@@ -1,0 +1,243 @@
+/* ============================================================
+   tokens.css — the brand skin for the Startup Schemes Playbook site
+   Sampled from the June 2026 playbook PDF: navy title banners,
+   saffron/green decision-tree branches, blue hyperlink accents.
+   The engine (site.css) consumes ONLY these custom properties —
+   zero colour/font/radius literals live outside this file.
+   ============================================================ */
+
+:root {
+  /* ---- brand anchors (from the PDF) ---- */
+  --brand-navy: #1f3864;        /* section banners, one-pager title bars */
+  --brand-navy-deep: #14263f;   /* banner gradient floor */
+  --brand-saffron: #e2621b;     /* decision-tree "yes" branches */
+  --brand-green: #359a4c;       /* decision-tree "no" branches, success */
+  --brand-blue: #2456a6;        /* hyperlink blue */
+
+  /* ---- typography ---- */
+  --font-display: "Bricolage Grotesque", "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* ---- shape ---- */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+
+  /* ---- elevation ---- */
+  --shadow-1: 0 1px 2px rgb(16 24 40 / 0.06), 0 1px 3px rgb(16 24 40 / 0.10);
+  --shadow-2: 0 4px 8px -2px rgb(16 24 40 / 0.10), 0 2px 4px -2px rgb(16 24 40 / 0.06);
+  --shadow-3: 0 12px 24px -6px rgb(16 24 40 / 0.16), 0 4px 10px -4px rgb(16 24 40 / 0.08);
+
+  /* ---- motion ---- */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --speed: 180ms;
+}
+
+/* ============ LIGHT (default) ============ */
+:root,
+:root[data-theme="light"] {
+  color-scheme: light;
+
+  --bg: #fdfdfc;
+  --surface: #ffffff;
+  --surface-alt: #f5f6f8;
+  --surface-sunken: #eef0f3;
+  --border: #e4e7ec;
+  --border-strong: #cfd4dd;
+
+  --text: #182234;
+  --text-muted: #4a566b;
+  --text-faint: #626e85;        /* AA: 4.5:1+ on every light surface */
+
+  --primary: #1f3864;           /* navy — nav, headings, hero */
+  --primary-contrast: #ffffff;
+  --accent: #bf4c0e;            /* saffron — AA with white text and on bg */
+  --accent-strong: #b04a0f;
+  --accent-contrast: #ffffff;
+  --accent-tint: #fdeee3;
+  --link: #2456a6;
+  --link-hover: #1a4488;
+  --success: #27753a;           /* AA as small bold text on white */
+  --success-tint: #e7f4ea;
+  --warning: #8f5e12;
+  --warning-tint: #fdf3e1;
+  --danger: #c0392b;
+
+  --hero-bg: linear-gradient(135deg, #1f3864 0%, #14263f 60%, #0f1d31 100%);
+  --hero-text: #f4f7fc;
+  --hero-muted: #b9c6dd;
+
+  --sidebar-bg: #f8f9fb;
+  --topbar-bg: rgb(253 253 252 / 0.92);
+  --code-bg: #f2f4f7;
+  --kbd-bg: #ffffff;
+  --scrim: rgb(15 23 42 / 0.55);
+
+  /* walkable India */
+  --walk-water: #dbeef4;
+  --walk-water-grid: rgb(31 56 100 / 0.08);
+  --walk-land: #e6efd2;
+  --walk-land-alt: #d4e4b8;
+  --walk-land-border: #718b5b;
+  --walk-path: rgb(255 255 255 / 0.34);
+  --walk-overlay: rgb(255 255 255 / 0.9);
+  --walk-overlay-strong: #ffffff;
+  --walk-shadow: rgb(31 56 100 / 0.25);
+  --walk-avatar: #e2621b;
+  --walk-avatar-detail: #ffffff;
+  --walk-sign: #fff4d3;
+  --walk-sign-border: #9b6717;
+  /* walkable terrain — hypsometric tints laid over --walk-land, so each is a
+     small step away from it rather than a colour in its own right. */
+  --walk-relief-mtn: #c3cfa4;
+  --walk-relief-plateau: #dfe3bd;
+  --walk-relief-desert: #f0e6c4;
+  --walk-relief-wet: #c2d9c4;
+  --walk-relief-plain: #e8f0d2;
+  --walk-river: #8fbccf;
+  --walk-lake: #9fcbdc;
+  --walk-terrain-label: #6b7f57;
+  /* 3D walkable scene — a warm Summer-Afternoon daylight. The map texture
+     reuses the --walk-* tones above; these colour the world around it. */
+  --walk3d-sky-top: #6fb2e4;
+  --walk3d-sky-horizon: #f3ecd7;
+  --walk3d-sea: #8ec7db;
+  --walk3d-sea-deep: #5da3c2;
+  --walk3d-fog: #e9eedd;
+  --walk3d-sun: #fff3da;
+  --walk3d-cloud: #fffaf0;
+  --walk3d-trunk: #8a6642;
+  --walk3d-canopy-a: #7fae62;
+  --walk3d-canopy-b: #96a45c;
+  --walk3d-pine: #5d8b58;
+  --walk3d-shrub: #a4b36a;
+  --walk3d-rock: #b0a894;
+  --org-academic: #6d4fc4;
+  --org-tbi: #0e7490;
+  --org-aic: #c44318;
+  --org-government: #2456a6;
+  --org-sector: #27753a;
+  --org-private: #8f5e12;
+
+  /* support-category hues (badges, dots, cards) — all AA on their tints */
+  --cat-grant: #1f7237;         --cat-grant-tint: #e7f4ea;
+  --cat-equity: #6d4fc4;        --cat-equity-tint: #f0ecfb;
+  --cat-loan: #8f5e12;          --cat-loan-tint: #fdf3e1;
+  --cat-incubation: #0e7490;    --cat-incubation-tint: #e4f4f8;
+  --cat-market: #2456a6;        --cat-market-tint: #e9f0fa;
+  --cat-mixed: #b04a0f;         --cat-mixed-tint: #fdeee3;
+  --cat-other: #5b6474;         --cat-other-tint: #eef0f3;
+
+  /* lifecycle stage hues */
+  --stage-ideation: #b7791f;
+  --stage-prototype: #0e7490;
+  --stage-early: #d95a14;
+  --stage-growth: #1f3864;
+  --stage-market: #2e8b44;
+}
+
+/* ============ DARK ============ */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg: #0d1420;
+  --surface: #131c2b;
+  --surface-alt: #182338;
+  --surface-sunken: #0a101a;
+  --border: #24324a;
+  --border-strong: #33445f;
+
+  --text: #e6ecf5;
+  --text-muted: #a7b4c9;
+  --text-faint: #8291ab;        /* AA on raised dark surfaces */
+
+  --primary: #93b4e6;
+  --primary-contrast: #0d1420;
+  --accent: #f07a2a;
+  --accent-strong: #ff8c3f;
+  --accent-contrast: #180d04;
+  --accent-tint: #34210f;
+  --link: #7fa9e8;
+  --link-hover: #a3c2f2;
+  --success: #4cc26b;
+  --success-tint: #12301b;
+  --warning: #d9a13f;
+  --warning-tint: #33270e;
+  --danger: #e26d5f;
+
+  --hero-bg: linear-gradient(135deg, #16233c 0%, #0f1a2e 60%, #0a1322 100%);
+  --hero-text: #f4f7fc;
+  --hero-muted: #a7b8d4;
+
+  --sidebar-bg: #0f1725;
+  --topbar-bg: rgb(13 20 32 / 0.92);
+  --code-bg: #182338;
+  --kbd-bg: #182338;
+  --scrim: rgb(2 6 14 / 0.72);
+
+  /* walkable India */
+  --walk-water: #091d2c;
+  --walk-water-grid: rgb(147 180 230 / 0.08);
+  --walk-land: #183a31;
+  --walk-land-alt: #214b3c;
+  --walk-land-border: #5b8a69;
+  --walk-path: rgb(255 255 255 / 0.07);
+  --walk-overlay: rgb(19 28 43 / 0.91);
+  --walk-overlay-strong: #131c2b;
+  --walk-shadow: rgb(0 0 0 / 0.56);
+  --walk-avatar: #f07a2a;
+  --walk-avatar-detail: #ffffff;
+  --walk-sign: #35280d;
+  --walk-sign-border: #d9a13f;
+  /* Dark relief is tuned against --walk-land #183a31 directly — the light
+     tints inverted would read as fog, not terrain. Desert warms, wetland
+     cools, mountain lifts. */
+  --walk-relief-mtn: #2c4a3a;
+  --walk-relief-plateau: #1f4335;
+  --walk-relief-desert: #3a4331;
+  --walk-relief-wet: #1b453c;
+  --walk-relief-plain: #1c3f34;
+  --walk-river: #3f7f9c;
+  --walk-lake: #35708c;
+  --walk-terrain-label: #8fb08a;
+  /* 3D walkable scene at dusk — moonlit blues instead of inverted daylight. */
+  --walk3d-sky-top: #101e33;
+  --walk3d-sky-horizon: #3c4a68;
+  --walk3d-sea: #234057;
+  --walk3d-sea-deep: #17293c;
+  --walk3d-fog: #2b3a52;
+  --walk3d-sun: #bcd0ef;
+  --walk3d-cloud: #4a5c7e;
+  --walk3d-trunk: #4b3b2c;
+  --walk3d-canopy-a: #3d6647;
+  --walk3d-canopy-b: #4a6340;
+  --walk3d-pine: #35573f;
+  --walk3d-shrub: #566844;
+  --walk3d-rock: #5d6068;
+  --org-academic: #a68cf0;
+  --org-tbi: #4cc0dd;
+  --org-aic: #ff8750;
+  --org-government: #7fa9e8;
+  --org-sector: #4cc26b;
+  --org-private: #d9a13f;
+
+  --cat-grant: #4cc26b;         --cat-grant-tint: #12301b;
+  --cat-equity: #a68cf0;        --cat-equity-tint: #251d40;
+  --cat-loan: #d9a13f;          --cat-loan-tint: #33270e;
+  --cat-incubation: #4cc0dd;    --cat-incubation-tint: #0d2c36;
+  --cat-market: #7fa9e8;        --cat-market-tint: #16263f;
+  --cat-mixed: #f07a2a;         --cat-mixed-tint: #34210f;
+  --cat-other: #97a4ba;         --cat-other-tint: #1d2839;
+
+  --stage-ideation: #d9a13f;
+  --stage-prototype: #4cc0dd;
+  --stage-early: #f07a2a;
+  --stage-growth: #93b4e6;
+  --stage-market: #4cc26b;
+
+  --shadow-1: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-2: 0 4px 8px -2px rgb(0 0 0 / 0.5);
+  --shadow-3: 0 12px 24px -6px rgb(0 0 0 / 0.6);
+}

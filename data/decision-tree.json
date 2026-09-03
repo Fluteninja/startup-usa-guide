@@ -1,0 +1,47 @@
+{
+ "intro": "Answer the questions below in order. Each branch points you to the most relevant programs. You can appear in more than one branch.",
+ "questions": [
+  {
+   "id": 1,
+   "question": "Are you a student, researcher, or aspiring founder without a registered company yet?",
+   "branches": [
+    { "label": "Yes", "note": "", "schemes": ["NSF I-Corps"] },
+    { "label": "No", "note": "You have (or are forming) a registered company. Continue below.", "schemes": [] }
+   ]
+  },
+  {
+   "id": 2,
+   "question": "What is your current stage?",
+   "branches": [
+    { "label": "Idea / PoC stage: grants to start", "note": "", "schemes": ["SBIR/STTR", "NSF I-Corps", "B2S"] },
+    { "label": "Prototype and beyond: ready to build or sell", "note": "", "schemes": ["SBIR/STTR", "SBA Microloans", "SBA 7(a)"] }
+   ]
+  },
+  {
+   "id": 3,
+   "question": "What kind of support do you need most right now?",
+   "branches": [
+    { "label": "Non-dilutive R&D funding", "note": "", "schemes": ["SBIR/STTR", "B2S", "R&D Payroll Offset"] },
+    { "label": "Working capital or equipment financing", "note": "", "schemes": ["SBA 7(a)", "SBA 504", "SBA Microloans", "EXIM WCGP"] },
+    { "label": "Help winning government contracts", "note": "", "schemes": ["Set-Asides", "APEX Accelerators"] },
+    { "label": "Tax savings for you or your investors", "note": "", "schemes": ["QSBS", "Opportunity Zones", "USPTO Fee Reduction"] }
+   ]
+  },
+  {
+   "id": 4,
+   "question": "Are you doing genuine technical R&D — a new or meaningfully improved product, process, or software?",
+   "branches": [
+    { "label": "Yes", "note": "", "schemes": ["SBIR/STTR", "R&D Payroll Offset"] },
+    { "label": "No", "note": "Most R&D-specific programs won't apply, but general small-business financing and tax provisions still might.", "schemes": [] }
+   ]
+  },
+  {
+   "id": 5,
+   "question": "Do you or your business fall into one of these categories: woman-owned, minority-owned, veteran-owned, or located in a HUBZone?",
+   "branches": [
+    { "label": "Yes", "note": "", "schemes": ["Set-Asides", "MBDA Centers", "SBA Microloans"] },
+    { "label": "No", "note": "", "schemes": [] }
+   ]
+  }
+ ]
+}

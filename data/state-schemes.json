@@ -1,0 +1,289 @@
+{
+ "intro": "Every state runs its own economic-development incentives on top of federal programs — tax credits, seed funds, deal-closing grants, training reimbursements and more. State incentives stack with federal ones. This is a starter set covering 12 states; the rest are listed with their official portal on the State Portals page and are being backfilled over time.",
+ "states": [
+  {
+   "state": "California",
+   "policy": "California Competes Tax Credit (CCTC)",
+   "period": "Ongoing, three application periods per year",
+   "portal": "https://business.ca.gov/california-competes-tax-credit/",
+   "nodalAgency": "Governor's Office of Business and Economic Development (GO-Biz)",
+   "summary": "An income tax credit for businesses that want to locate or grow in California, awarded competitively based on jobs created, investment, and strategic importance. FY2025-26 allocation is $215 million statewide.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "California Competes Tax Credit",
+     "type": "Incentive",
+     "benefit": "Negotiated multi-year income tax credit; $215M allocated statewide for FY2025-26",
+     "description": "Competitive tax credit based on a 5-year agreement tied to job-creation, salary, and investment milestones.",
+     "eligibility": "Businesses of any size or industry planning to locate, stay, or grow in California",
+     "url": "https://business.ca.gov/california-competes-tax-credit/"
+    }
+   ]
+  },
+  {
+   "state": "New York",
+   "policy": "Excelsior Jobs Program",
+   "period": "Ongoing",
+   "portal": "https://esd.ny.gov/",
+   "nodalAgency": "Empire State Development",
+   "summary": "Refundable tax credits for firms in targeted industries (finance, tech, manufacturing, agriculture and more) that create jobs or make significant capital investment in New York.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Excelsior Jobs Program",
+     "type": "Incentive",
+     "benefit": "Up to 5 refundable tax credits over up to 10 years (jobs, investment, R&D, real property, child care)",
+     "description": "Jobs Tax Credit up to 6.85% of wages per net new job; Investment Tax Credit at 2% of qualified investment; R&D credit up to 50% of the federal R&D credit claimed in NY.",
+     "eligibility": "Firms in targeted industries creating/maintaining new jobs or making significant investment",
+     "url": "https://esd.ny.gov/"
+    }
+   ]
+  },
+  {
+   "state": "Texas",
+   "policy": "Texas Enterprise Fund (TEF)",
+   "period": "Ongoing",
+   "portal": "https://gov.texas.gov/business/page/texas-enterprise-fund",
+   "nodalAgency": "Office of the Governor, Economic Development & Tourism",
+   "summary": "The largest state 'deal-closing' fund in the nation, awarding performance-based grants to companies choosing a Texas site over an out-of-state competitor.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Texas Enterprise Fund",
+     "type": "Grant",
+     "benefit": "Negotiated deal-closing grant, sized by an analytical model based on jobs, timeline and wages",
+     "description": "Performance-based grant requiring unanimous approval from the Governor, Lieutenant Governor and Speaker of the House, with clawback provisions if job/wage commitments aren't met.",
+     "eligibility": "Well-established, financially sound businesses in advanced industries with a competing out-of-state site",
+     "url": "https://gov.texas.gov/business/page/texas-enterprise-fund"
+    }
+   ]
+  },
+  {
+   "state": "Massachusetts",
+   "policy": "MassVentures START Program & Early Stage Fund",
+   "period": "Ongoing",
+   "portal": "https://www.mass-ventures.com/",
+   "nodalAgency": "MassVentures (quasi-public venture agency)",
+   "summary": "Non-dilutive funding for Massachusetts companies commercializing SBIR/STTR Phase II technology, plus direct seed-stage equity investment.",
+   "sectors": ["Deep tech"],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "START Program",
+     "type": "Grant",
+     "benefit": "$100,000-$500,000 non-dilutive funding",
+     "description": "For companies that have received a federal SBIR/STTR Phase II award; covers commercialization activities not funded by the federal grant. $41.7M awarded to 141 companies since 2012.",
+     "eligibility": "Massachusetts-based companies with a Phase II SBIR/STTR award",
+     "url": "https://www.mass-ventures.com/start-program-info"
+    },
+    {
+     "name": "Early Stage Fund",
+     "type": "Seed funding",
+     "benefit": "$250,000-$500,000 initial Series A investment",
+     "description": "Direct equity investment in Massachusetts seed-stage deep-tech companies, with potential for follow-on funding.",
+     "eligibility": "Massachusetts-based seed-stage technology companies",
+     "url": "https://www.mass-ventures.com/"
+    }
+   ]
+  },
+  {
+   "state": "Pennsylvania",
+   "policy": "Ben Franklin Technology Partners",
+   "period": "Ongoing",
+   "portal": "https://benfranklin.org/",
+   "nodalAgency": "PA Department of Community & Economic Development (via the Ben Franklin Technology Development Authority)",
+   "summary": "Pennsylvania's statewide innovation network providing early-stage funding and hands-on support through four regional partner organizations.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Ben Franklin Technology Partners funding",
+     "type": "Seed funding",
+     "benefit": "Up to $500,000 for tech startups (series of investments); up to $250,000 for existing manufacturers",
+     "description": "Early-stage investment plus expert guidance and strategic partnerships, delivered through regional Ben Franklin offices covering the whole state.",
+     "eligibility": "Pennsylvania-based startups and manufacturers",
+     "url": "https://benfranklin.org/about/"
+    }
+   ]
+  },
+  {
+   "state": "North Carolina",
+   "policy": "NC IDEA SEED Grants",
+   "period": "Spring and fall cycles",
+   "portal": "https://ncidea.org/",
+   "nodalAgency": "NC IDEA (private nonprofit foundation)",
+   "summary": "Non-dilutive seed grants for early-stage North Carolina startups with a proven concept, running since 2006.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "NC IDEA SEED Grant",
+     "type": "Grant",
+     "benefit": "$50,000 non-dilutive grant",
+     "description": "Milestone-based grant over 6-12 months for startups with a demonstrated proof of concept and MVP; over $10.3M awarded to 225+ companies since 2006.",
+     "eligibility": "At least one full-time founder living in North Carolina; proven concept, not yet profitable",
+     "url": "https://ncidea.org/nc-idea-seed/"
+    }
+   ]
+  },
+  {
+   "state": "Maryland",
+   "policy": "TEDCO Seed Investment Fund",
+   "period": "Rolling",
+   "portal": "https://www.tedcomd.com/",
+   "nodalAgency": "Maryland Technology Development Corporation (TEDCO)",
+   "summary": "Maryland's leading source of funding for early-stage, technology-based businesses, with a portfolio of 400+ seed investments since 1998.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "TEDCO Seed Investment Fund",
+     "type": "Seed funding",
+     "benefit": "Seed-stage investment; amount varies by deal",
+     "description": "Targets Maryland companies with fewer than 20 employees, generally under 5 years old, developing and commercializing new technology-based products.",
+     "eligibility": "Maryland principal place of business; at least one full-time employee",
+     "url": "https://www.tedcomd.com/"
+    }
+   ]
+  },
+  {
+   "state": "Michigan",
+   "policy": "Michigan Business Development Program (MBDP)",
+   "period": "Ongoing",
+   "portal": "https://www.michiganbusiness.org/services/mbdp/",
+   "nodalAgency": "Michigan Strategic Fund / Michigan Economic Development Corporation (MEDC)",
+   "summary": "Performance-based grants (with some loan/other-support options) for businesses creating jobs or making qualified investment in Michigan.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Michigan Business Development Program",
+     "type": "Grant",
+     "benefit": "Negotiated performance-based grant with flexible terms; may include repayment provisions",
+     "description": "Preference given to businesses choosing to locate or expand in Michigan over an out-of-state alternative.",
+     "eligibility": "Businesses creating qualified new jobs and/or making qualified new investment in Michigan",
+     "url": "https://www.michiganbusiness.org/services/mbdp/"
+    }
+   ]
+  },
+  {
+   "state": "Ohio",
+   "policy": "TechCred",
+   "period": "Monthly/periodic application windows (e.g. Oct 1-30, 2026)",
+   "portal": "https://techcred.ohio.gov/",
+   "nodalAgency": "Governor's Office of Workforce Transformation / Ohio Department of Development",
+   "summary": "Reimburses Ohio employers for the cost of short-term, technology-focused credentials for current and future employees.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "TechCred",
+     "type": "Reimbursement",
+     "benefit": "Up to $1,000 per employee per credential, max $30,000 per application period",
+     "description": "Reimburses training costs for short-term, industry-recognized, tech-focused credentials (IT, cybersecurity, robotics/automation, and more) completed within a year.",
+     "eligibility": "Ohio employers, using a training provider from the state's eligible-provider list",
+     "url": "https://techcred.ohio.gov/"
+    }
+   ]
+  },
+  {
+   "state": "Colorado",
+   "policy": "Advanced Industries Accelerator Programs",
+   "period": "Annual application cycles (e.g. Proof of Concept due Aug 27, 2026)",
+   "portal": "https://oedit.colorado.gov/advanced-industries-accelerator-programs",
+   "nodalAgency": "Colorado Office of Economic Development & International Trade (OEDIT)",
+   "summary": "State grants supporting Colorado's advanced-industry startups and research institutions across four grant tracks.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Advanced Industries Proof of Concept Grant",
+     "type": "Grant",
+     "benefit": "Up to $150,000",
+     "description": "Helps Colorado research institutions speed up applied research and commercialize it with private-sector partners.",
+     "eligibility": "Colorado research institutions and their commercialization partners",
+     "url": "https://oedit.colorado.gov/advanced-industries-proof-of-concept-grant"
+    },
+    {
+     "name": "Advanced Industries Early-Stage Capital and Retention Grant",
+     "type": "Grant",
+     "benefit": "Up to $250,000",
+     "description": "Helps Colorado-based advanced-industries companies develop and commercialize technologies created or manufactured in-state.",
+     "eligibility": "Colorado-based advanced-industries technology businesses",
+     "url": "https://oedit.colorado.gov/advanced-industries-early-stage-capital-retention-grant"
+    }
+   ]
+  },
+  {
+   "state": "Virginia",
+   "policy": "Virginia Innovation Partnership Corporation (VIPC) funding programs",
+   "period": "Rolling",
+   "portal": "https://vipc.org/funding/",
+   "nodalAgency": "Virginia Innovation Partnership Corporation (nonprofit arm of VIPA)",
+   "summary": "Virginia's commercialization and seed-stage economic-development driver, running multiple grant and direct-investment programs for early-stage companies.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Launch Program",
+     "type": "Grant",
+     "benefit": "Non-dilutive grants and dilutive convertible notes",
+     "description": "For high-potential, pre-MVP Virginia startups that have raised minimal equity and generated limited revenue.",
+     "eligibility": "Pre-MVP Virginia startups with strong potential economic impact",
+     "url": "https://vipc.org/funding/startups/"
+    },
+    {
+     "name": "Lab-to-Launch Initiative",
+     "type": "Grant",
+     "benefit": "Up to $50,000",
+     "description": "For early-stage Virginia startups using a Fast-Track License Agreement with one of Virginia's six R1-designated universities.",
+     "eligibility": "Virginia-based startups licensing university technology",
+     "url": "https://vipc.org/funding/"
+    },
+    {
+     "name": "Virginia Venture Partners (VVP)",
+     "type": "Seed funding",
+     "benefit": "$250,000 pre-seed; up to $1M seed-stage",
+     "description": "VIPC's direct venture-capital investment platform for high-potential Virginia-based startups.",
+     "eligibility": "Virginia-based startups with high growth potential",
+     "url": "https://vipc.org/funding/"
+    }
+   ]
+  },
+  {
+   "state": "Georgia",
+   "policy": "Invest Georgia / Georgia Venture Capital Program",
+   "period": "Ongoing",
+   "portal": "https://dca.georgia.gov/financing-tools/small-business/state-small-business-credit-initiative-ssbci/georgia-venture-capital",
+   "nodalAgency": "Invest Georgia (state instrumentality) / Georgia Department of Community Affairs",
+   "summary": "A state-backed fund-of-funds that invests as a limited partner in seed, venture-capital, and growth-equity funds targeting Georgia-based businesses.",
+   "sectors": [],
+   "email": "",
+   "phone": "",
+   "schemes": [
+    {
+     "name": "Georgia Venture Capital Program",
+     "type": "Seed funding",
+     "benefit": "$30M SSBCI allocation deployed via participating VC funds",
+     "description": "Invest Georgia invests as a limited partner in seed and early-stage VC funds, including funds targeting SEDI-owned businesses, which in turn invest in Georgia startups.",
+     "eligibility": "Georgia-based businesses funded indirectly through participating venture-capital funds",
+     "url": "https://dca.georgia.gov/financing-tools/small-business/state-small-business-credit-initiative-ssbci/georgia-venture-capital"
+    }
+   ]
+  }
+ ]
+}

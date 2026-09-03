@@ -1,0 +1,469 @@
+{
+ "schemes": [
+  {
+   "slug": "sbir-sttr",
+   "name": "Small Business Innovation Research / Small Business Technology Transfer",
+   "shortName": "SBIR/STTR",
+   "ministry": "Small Business Administration (coordinating 11 participating federal agencies)",
+   "part": "A",
+   "tagline": "Non-dilutive federal R&D funding — up to roughly $323,000 in Phase I and $2.15M in Phase II — with no equity given up.",
+   "whatIsThis": "SBIR and STTR are federal programs that award competitive, non-dilutive funding to small businesses developing and commercializing new technology. Eleven federal agencies (including DoD, NASA, NIH, NSF, DOE, and USDA) run their own SBIR/STTR solicitations, each targeting technology areas relevant to that agency's mission.",
+   "objectives": "The programs aim to stimulate technological innovation, use small businesses to meet federal R&D needs, and increase private-sector commercialization of federally funded research. Awards are structured in phases: Phase I funds feasibility and proof of concept; Phase II funds full R&D and prototype development; Phase III is commercialization, typically without further SBIR/STTR funding but sometimes through a follow-on federal contract.",
+   "eligibility": [
+    "For-profit, US-owned and operated small business with 500 or fewer employees.",
+    "STTR additionally requires a formal collaboration with a US research institution (university, federally funded R&D center, or nonprofit research organization) performing at least 30% of the work.",
+    "Majority-owned by US citizens or permanent residents (with limited venture-capital-ownership exceptions under some agencies).",
+    "Principal investigator's primary employment must generally be with the small business at the time of award and during the project."
+   ],
+   "benefits": [
+    "Phase I: awards up to roughly $323,090 (including modifications), typically 6-12 months.",
+    "Phase II: awards up to roughly $2,153,927 (including modifications), typically up to 24 months.",
+    "No equity or repayment required — funding is a federal award, not an investment or loan.",
+    "Awards above these caps are possible with SBA-approved waivers in select topic areas."
+   ],
+   "howToApply": "Each of the 11 participating agencies posts its own SBIR/STTR solicitations on its own schedule. Search open topics and agency-specific solicitations at SBIR.gov, then apply directly through the awarding agency's portal.",
+   "links": [
+    { "label": "SBIR.gov — Program overview", "url": "https://www.sbir.gov/about" },
+    { "label": "SBIR.gov — Open solicitations", "url": "https://www.sbir.gov/sbirsearch/topic/current" }
+   ],
+   "bestSuitedFor": "Ideation / Prototype",
+   "stages": ["ideation", "prototype", "early-stage"],
+   "supportTypes": ["grant"],
+   "sectors": ["sector-agnostic"],
+   "audience": ["aspiring-founders", "early-stage-startups", "small-businesses", "researchers"],
+   "maxFunding": "Up to ~$2.15M (Phase II)",
+   "category": "grant",
+   "howMuch": "~$323K (Phase I); ~$2.15M (Phase II)",
+   "stageFocus": "Ideation / Prototype"
+  },
+  {
+   "slug": "nsf-icorps",
+   "name": "NSF Innovation Corps",
+   "shortName": "NSF I-Corps",
+   "ministry": "National Science Foundation",
+   "part": "A",
+   "tagline": "A hands-on customer-discovery training program for research teams, with up to $50,000 to test commercial viability before you build.",
+   "whatIsThis": "NSF I-Corps trains researchers and early-stage teams to evaluate the commercial potential of technology coming out of academic or federally funded research, using a structured customer-discovery curriculum (100+ customer interviews) rather than a traditional business plan.",
+   "objectives": "Reduce the time between promising lab research and a viable startup or licensed product by forcing teams to validate market need directly with potential customers before committing to a product direction. I-Corps also feeds later-stage federal programs like SBIR/STTR.",
+   "eligibility": [
+    "National Teams: typically a PI, an entrepreneurial lead, and an experienced mentor.",
+    "Underlying research or technology usually has some federal-funding or university-research connection, though sites/programs vary in how strictly this is enforced.",
+    "Regional I-Corps Sites and Hubs (university-hosted, lower-dollar, often faster to access) are a common entry point before applying to the national program."
+   ],
+   "benefits": [
+    "National Teams: up to $50,000 and a ~7-week cohort-based training curriculum.",
+    "I-Corps Sites: local, lower-dollar training (up to $100,000/year per site, distributed to individual teams in smaller amounts) with less red tape.",
+    "I-Corps Hubs: regional hub programming and access to a larger cohort/network.",
+    "Nearly 1,400 teams that completed I-Corps have gone on to raise a combined $3.16B in subsequent funding, per NSF."
+   ],
+   "howToApply": "Apply through NSF's I-Corps solicitation for the National Teams program, or find a regional I-Corps Site/Hub at your university or nearest participating institution as a lower-barrier entry point.",
+   "links": [
+    { "label": "NSF I-Corps program page", "url": "https://www.nsf.gov/funding/initiatives/i-corps" }
+   ],
+   "bestSuitedFor": "Ideation",
+   "stages": ["ideation", "prototype"],
+   "supportTypes": ["grant", "incubation"],
+   "sectors": ["sector-agnostic"],
+   "audience": ["students", "researchers", "aspiring-founders"],
+   "maxFunding": "Up to $50,000",
+   "category": "mixed",
+   "howMuch": "Up to $50,000 (National Teams)",
+   "stageFocus": "Ideation"
+  },
+  {
+   "slug": "eda-build-to-scale",
+   "name": "Build to Scale Program",
+   "shortName": "B2S",
+   "ministry": "Economic Development Administration (US Dept. of Commerce)",
+   "part": "A",
+   "tagline": "Federal grants — historically tens of millions per year nationally — that fund regional organizations building the ecosystem around tech startups, not individual companies directly.",
+   "whatIsThis": "Build to Scale (formerly the Regional Innovation Strategies i6 Challenge) funds regional economic-development organizations, universities, and nonprofits to run programs that grow high-growth, technology-based entrepreneurship in their region.",
+   "objectives": "Authorized under the Stevenson-Wydler Technology Innovation Act, B2S runs national grant competitions across tiers — Venture Challenge (Ignite / Build / Scale, for entrepreneurship-support programs) and historically a Capital Challenge (early-stage capital access) — to build regional capacity rather than fund single companies.",
+   "eligibility": [
+    "Applicants are typically economic development organizations, higher-education institutions, or nonprofits — not individual startups applying directly.",
+    "A founder benefits indirectly, by participating in an accelerator, venture program, or capital-access initiative run by a B2S grantee in their region.",
+    "Funding opportunities are announced annually and vary year to year — check the current Notice of Funding Opportunity on eda.gov."
+   ],
+   "benefits": [
+    "Past cycles have awarded roughly $45-50M annually across dozens of grantee organizations nationally.",
+    "Grantee programs typically pass benefits to founders as accelerator cohorts, mentorship, or direct capital-access support rather than a direct company grant."
+   ],
+   "howToApply": "Individual founders don't apply directly — instead, find whether a B2S-funded accelerator or venture program operates in your region via EDA's program page, and apply to that regional program.",
+   "links": [
+    { "label": "EDA — Funding programs", "url": "https://www.eda.gov/funding/programs" }
+   ],
+   "bestSuitedFor": "Ideation / Early-Stage",
+   "stages": ["ideation", "prototype", "early-stage"],
+   "supportTypes": ["grant", "incubation"],
+   "sectors": ["sector-agnostic"],
+   "audience": ["aspiring-founders", "early-stage-startups", "incubators-institutions"],
+   "maxFunding": "Varies by regional grantee",
+   "category": "mixed",
+   "howMuch": "Indirect — via a regional grantee program",
+   "stageFocus": "Ideation / Early-Stage"
+  },
+  {
+   "slug": "rd-payroll-tax-credit",
+   "name": "R&D Tax Credit — Payroll Tax Offset for Qualified Small Businesses",
+   "shortName": "R&D Payroll Offset",
+   "ministry": "Internal Revenue Service (IRC §41(h))",
+   "part": "A",
+   "tagline": "Pre-revenue and early-revenue startups can apply their federal R&D tax credit against payroll taxes — up to $500,000 a year, $2.5M over five years — instead of waiting for taxable income.",
+   "whatIsThis": "The federal R&D tax credit (IRC Section 41) normally offsets income tax, which is useless to a company with no profit yet. Section 41(h) lets a \"qualified small business\" apply the credit against the employer share of payroll taxes instead, turning it into real, near-term cash.",
+   "objectives": "Make the R&D credit usable by pre-profit startups doing genuine technical R&D (new or improved products, processes, software, formulas, or techniques), rather than only benefiting established profitable companies.",
+   "eligibility": [
+    "Gross receipts under $5 million in the credit year.",
+    "No gross receipts for any of the 5 tax years before the credit year (in practice, a company generally younger than 5 years with revenue under $5M).",
+    "Must have qualified research expenses under the standard R&D credit rules (wages, supplies, and contract research tied to a process of experimentation)."
+   ],
+   "benefits": [
+    "Up to $500,000 per year of R&D credit applied against employer payroll taxes.",
+    "Up to $2.5 million total across 5 separate taxable years.",
+    "Remaining credit beyond the payroll offset can still be carried forward against future income tax."
+   ],
+   "howToApply": "Calculate the R&D credit on Form 6765 and elect the payroll tax offset portion on that form; the credit is then claimed against payroll tax deposits via Form 8974 with the company's Form 941.",
+   "links": [
+    { "label": "IRS — About Form 6765", "url": "https://www.irs.gov/forms-pubs/about-form-6765" }
+   ],
+   "bestSuitedFor": "Prototype / Early-Stage",
+   "stages": ["prototype", "early-stage", "growth"],
+   "supportTypes": ["other"],
+   "sectors": ["sector-agnostic"],
+   "audience": ["early-stage-startups", "small-businesses"],
+   "maxFunding": "Up to $2.5M over 5 years",
+   "category": "other",
+   "howMuch": "Up to $500K/year, $2.5M over 5 years",
+   "stageFocus": "Prototype / Early-Stage"
+  },
+  {
+   "slug": "sba-7a",
+   "name": "SBA 7(a) Loan Program",
+   "shortName": "SBA 7(a)",
+   "ministry": "Small Business Administration",
+   "part": "B",
+   "tagline": "The SBA's flagship general-purpose loan guarantee — up to $5 million for working capital, equipment, real estate, or acquiring a business.",
+   "whatIsThis": "The 7(a) program is SBA's primary vehicle for general small-business financing. SBA doesn't lend directly — it guarantees a portion of a loan made by a participating lender, which makes lenders willing to extend credit a startup likely couldn't get on comparable terms otherwise.",
+   "objectives": "Improve small businesses' access to debt financing where private credit on reasonable terms isn't otherwise available, covering a broad range of business purposes.",
+   "eligibility": [
+    "For-profit US business meeting SBA small-business size standards for its industry (NAICS code).",
+    "Demonstrated creditworthiness and reasonable ability to repay.",
+    "Cannot readily obtain comparable financing from non-federal, non-guaranteed private sources.",
+    "Actively operating (not a passive real-estate or investment vehicle) and outside SBA's excluded-industry list."
+   ],
+   "benefits": [
+    "Loans up to $5 million.",
+    "Usable for working capital, equipment, real estate purchase/improvement, refinancing qualifying debt, or ownership changes.",
+    "SBA guarantee reduces lender risk, often improving approval odds and terms versus an unguaranteed loan."
+   ],
+   "howToApply": "Apply through an SBA-participating lender, not SBA directly. Use SBA's Lender Match tool to find one, or work with your local SBA district office.",
+   "links": [
+    { "label": "SBA — 7(a) loans", "url": "https://www.sba.gov/funding-programs/loans/7a-loans" }
+   ],
+   "bestSuitedFor": "Early-Stage / Growth",
+   "stages": ["early-stage", "growth"],
+   "supportTypes": ["loan-credit"],
+   "sectors": ["sector-agnostic"],
+   "audience": ["small-businesses", "growth-startups"],
+   "maxFunding": "Up to $5 million",
+   "category": "loan-credit",
+   "howMuch": "Up to $5 million",
+   "stageFocus": "Early-Stage / Growth"
+  },
+  {
+   "slug": "sba-504",
+   "name": "SBA 504 Loan Program",
+   "shortName": "SBA 504",
+   "ministry": "Small Business Administration",
+   "part": "B",
+   "tagline": "Long-term, fixed-rate financing (up to $5.5M) for buying real estate or major equipment — not working capital.",
+   "whatIsThis": "The 504 program provides long-term, fixed-rate financing for major fixed assets through a three-party structure: a Certified Development Company (CDC), a senior lender, and the borrower, splitting the financing between them.",
+   "objectives": "Help small businesses buy or build the fixed assets — buildings, land, or long-lived equipment (10+ year useful life) — that support business growth and job creation, on terms unavailable through conventional commercial financing alone.",
+   "eligibility": [
+    "For-profit US business meeting SBA size standards.",
+    "Qualified management and a feasible business plan with demonstrated ability to repay.",
+    "Not eligible: working capital, inventory, real estate speculation, or passive investment."
+   ],
+   "benefits": [
+    "Standard maximum $5 million; program ceiling $5.5 million for certain manufacturers and energy-efficiency projects.",
+    "10, 20, or 25-year fixed-rate terms, priced off 10-year Treasury rates plus roughly 3 percentage points.",
+    "Also covers qualified debt refinancing tied to fixed assets."
+   ],
+   "howToApply": "Apply through a Certified Development Company (CDC) working alongside a participating lender — find a local CDC via SBA's lender directory.",
+   "links": [
+    { "label": "SBA — 504 loans", "url": "https://www.sba.gov/funding-programs/loans/504-loans" }
+   ],
+   "bestSuitedFor": "Growth",
+   "stages": ["growth"],
+   "supportTypes": ["loan-credit"],
+   "sectors": ["sector-agnostic", "manufacturing"],
+   "audience": ["small-businesses", "growth-startups"],
+   "maxFunding": "Up to $5.5 million",
+   "category": "loan-credit",
+   "howMuch": "Up to $5.5 million",
+   "stageFocus": "Growth"
+  },
+  {
+   "slug": "sba-microloans",
+   "name": "SBA Microloan Program",
+   "shortName": "SBA Microloans",
+   "ministry": "Small Business Administration",
+   "part": "B",
+   "tagline": "Small loans (up to $50,000, averaging about $13,000) through nonprofit lenders for founders who don't need — or can't yet qualify for — a bank-scale loan.",
+   "whatIsThis": "SBA channels funds to nonprofit, community-based intermediary lenders who then make small loans directly to startups and small businesses, with more flexible underwriting than a typical bank.",
+   "objectives": "Reach very early-stage and underserved founders — including many who wouldn't qualify for conventional 7(a) financing — with smaller amounts of working capital and equipment financing.",
+   "eligibility": [
+    "For-profit US business meeting SBA size standards.",
+    "Active operations and reasonable repayment ability, assessed by the intermediary lender (not SBA directly).",
+    "Cannot be used to pay existing debts or purchase real estate."
+   ],
+   "benefits": [
+    "Loans up to $50,000; the average microloan is about $13,000.",
+    "Usable for working capital, inventory, supplies, furniture, fixtures, machinery, and equipment.",
+    "Repayment terms up to 7 years; rates typically 8-13% depending on the intermediary."
+   ],
+   "howToApply": "Contact an SBA-approved microloan intermediary lender in your area — they make all credit decisions and set their own terms within SBA guidelines.",
+   "links": [
+    { "label": "SBA — Microloans", "url": "https://www.sba.gov/funding-programs/loans/microloans" }
+   ],
+   "bestSuitedFor": "Ideation / Prototype",
+   "stages": ["ideation", "prototype", "early-stage"],
+   "supportTypes": ["loan-credit"],
+   "sectors": ["sector-agnostic"],
+   "audience": ["aspiring-founders", "small-businesses", "women-owned-businesses", "minority-owned-businesses"],
+   "maxFunding": "Up to $50,000",
+   "category": "loan-credit",
+   "howMuch": "Up to $50,000 (avg. ~$13,000)",
+   "stageFocus": "Ideation / Prototype"
+  },
+  {
+   "slug": "exim-working-capital",
+   "name": "EXIM Working Capital Guarantee Program",
+   "shortName": "EXIM WCGP",
+   "ministry": "Export-Import Bank of the United States",
+   "part": "B",
+   "tagline": "A 90% (up to 100% for underserved exporters) federal loan guarantee that helps exporters borrow more working capital against export orders.",
+   "whatIsThis": "EXIM guarantees repayment on a working-capital loan a commercial lender makes to a US exporter, lowering the lender's risk and expanding how much the exporter can borrow against the same collateral.",
+   "objectives": "Support US exporters — including small and early-revenue companies — who need financing to fulfill confirmed export orders but face limits on conventional working-capital credit.",
+   "eligibility": [
+    "US-based business that exports (or plans to export) goods or services with at least some US content.",
+    "Underserved Markets Program (100% coverage): new to EXIM, total annual sales under $10 million, fewer than 100 employees, and otherwise qualifying as a small business under SBA size standards.",
+    "Standard program: 90% guarantee coverage for a broader range of exporters."
+   ],
+   "benefits": [
+    "Funds materials, equipment, supplies, and labor needed to fulfill export orders.",
+    "Can back standby letters of credit used as bid, performance, or payment bonds.",
+    "Expands the borrowing base available against export-related collateral."
+   ],
+   "howToApply": "Apply through an EXIM-approved lender, or contact EXIM directly for guidance on qualifying and choosing a lender.",
+   "links": [
+    { "label": "EXIM — Working Capital Guarantee", "url": "https://www.exim.gov/solutions/working-capital" }
+   ],
+   "bestSuitedFor": "Growth / Market Access",
+   "stages": ["growth", "market-access"],
+   "supportTypes": ["loan-credit"],
+   "sectors": ["sector-agnostic", "trade"],
+   "audience": ["small-businesses", "growth-startups"],
+   "maxFunding": "Up to 100% guarantee coverage",
+   "category": "loan-credit",
+   "howMuch": "90-100% loan guarantee",
+   "stageFocus": "Growth / Market Access"
+  },
+  {
+   "slug": "mbda-business-centers",
+   "name": "MBDA Business Center Program",
+   "shortName": "MBDA Centers",
+   "ministry": "Minority Business Development Agency (US Dept. of Commerce)",
+   "part": "B",
+   "tagline": "Free technical assistance connecting minority-owned businesses to capital, contracts, and markets — MBDA doesn't lend or grant directly.",
+   "whatIsThis": "MBDA is the only federal agency dedicated exclusively to the growth of minority business enterprises. Its Business Center Program funds a network of centers that provide business consulting, help preparing for financing, and help pursuing contracts.",
+   "objectives": "Expand minority business enterprises' access to capital, markets, and contracts through direct technical assistance plus coordination with other public and private programs.",
+   "eligibility": [
+    "Minority business enterprises (MBEs) generally — specific center services and eligibility criteria vary by location.",
+    "No revenue or size floor to get started; centers work with businesses at a range of stages."
+   ],
+   "benefits": [
+    "Business consulting and technical assistance, generally at low or no cost through the Business Center network.",
+    "Help identifying and applying for capital, and pursuing federal, state, and private-sector contracts.",
+    "Note: MBDA does not provide grants or loans directly — it helps businesses access financing from other sources."
+   ],
+   "howToApply": "Find and contact your nearest MBDA Business Center through MBDA's website.",
+   "links": [
+    { "label": "MBDA — Official site", "url": "https://www.mbda.gov" }
+   ],
+   "bestSuitedFor": "Any stage",
+   "stages": ["ideation", "prototype", "early-stage", "growth", "market-access"],
+   "supportTypes": ["incubation", "market-access"],
+   "sectors": ["sector-agnostic"],
+   "audience": ["minority-owned-businesses", "small-businesses"],
+   "maxFunding": "Technical assistance (not direct funding)",
+   "category": "incubation",
+   "howMuch": "Free/low-cost consulting; no direct funding",
+   "stageFocus": "Any stage"
+  },
+  {
+   "slug": "uspto-fee-reduction",
+   "name": "USPTO Small & Micro Entity Fee Reductions",
+   "shortName": "USPTO Fee Reduction",
+   "ministry": "US Patent and Trademark Office",
+   "part": "B",
+   "tagline": "60% off patent fees for small entities, 80% off for micro entities — a basic utility application drops from $1,600 to as little as $320.",
+   "whatIsThis": "USPTO charges lower patent fees to small businesses (small entity status) and to individual inventors/very small companies with limited prior filings and income (micro entity status), reducing the cost of protecting a startup's IP.",
+   "objectives": "Improve access to the patent system for solo inventors, startups, and underrepresented innovators, following the Unleashing American Innovators Act of 2022, which raised the small-entity discount from 50% to 60% and the micro-entity discount from 75% to 80%.",
+   "eligibility": [
+    "Small entity: generally fewer than 500 employees (including affiliates), and patent rights not assigned to a non-small entity.",
+    "Micro entity (37 CFR 1.29): must also meet income limits and have filed on a limited number of prior applications — check current USPTO thresholds before relying on this status."
+   ],
+   "benefits": [
+    "Small entity: 60% off standard patent fees (e.g., $640 vs. $1,600 for a basic utility filing fee).",
+    "Micro entity: 80% off standard fees (e.g., $320 for the same filing).",
+    "Savings compound across filing, issuance, and maintenance fees over a patent's life."
+   ],
+   "howToApply": "Claim small or micro entity status directly on your patent application filing (via USPTO's Patent Center) — no separate application is required, but entity-status requirements must be met and certified accurately.",
+   "links": [
+    { "label": "USPTO — Micro entity status", "url": "https://www.uspto.gov/patents/laws/micro-entity-status" }
+   ],
+   "bestSuitedFor": "Market Access & IP",
+   "stages": ["prototype", "early-stage", "market-access"],
+   "supportTypes": ["other"],
+   "sectors": ["sector-agnostic"],
+   "audience": ["aspiring-founders", "small-businesses", "researchers"],
+   "maxFunding": "Up to 80% fee discount",
+   "category": "other",
+   "howMuch": "60-80% off USPTO fees",
+   "stageFocus": "Market Access & IP"
+  },
+  {
+   "slug": "opportunity-zones",
+   "name": "Opportunity Zones",
+   "shortName": "Opportunity Zones",
+   "ministry": "US Treasury / Internal Revenue Service",
+   "part": "B",
+   "tagline": "A tax-deferral and tax-free-growth incentive for investors who put capital gains into a startup or project located in a designated low-income census tract.",
+   "whatIsThis": "Opportunity Zones let investors defer tax on capital gains by reinvesting them into a Qualified Opportunity Fund (QOF), which then invests in qualifying businesses, real estate, or infrastructure inside a federally designated Opportunity Zone. Originally created by the 2017 Tax Cuts and Jobs Act, the program was made permanent by the One Big Beautiful Bill Act.",
+   "objectives": "Direct private investment capital into economically distressed communities by making that investment more tax-advantaged than an equivalent investment elsewhere.",
+   "eligibility": [
+    "A startup benefits by being physically located and substantially operating within a designated Opportunity Zone census tract.",
+    "Investors must reinvest realized capital gains into a Qualified Opportunity Fund within 180 days of the gain-generating sale.",
+    "The QOF must meet ongoing asset and operating tests to remain a qualifying investment vehicle."
+   ],
+   "benefits": [
+    "Investors defer tax on the original reinvested capital gain.",
+    "If the QOF investment is held at least 10 years, appreciation on that investment becomes entirely tax-free.",
+    "Can make a startup materially more attractive to investors already sitting on unrealized gains, purely because of where the company is located."
+   ],
+   "howToApply": "Not something a startup \"applies\" for directly — check whether your business location is inside a designated zone, and structure investment through a Qualified Opportunity Fund with tax counsel.",
+   "links": [
+    { "label": "IRS — Opportunity Zones", "url": "https://www.irs.gov/credits-deductions/businesses/opportunity-zones" }
+   ],
+   "bestSuitedFor": "Growth",
+   "stages": ["early-stage", "growth"],
+   "supportTypes": ["other"],
+   "sectors": ["sector-agnostic"],
+   "audience": ["growth-startups", "small-businesses"],
+   "maxFunding": "Tax deferral / exclusion (no cap)",
+   "category": "other",
+   "howMuch": "Capital gains tax deferral + 10-yr exclusion",
+   "stageFocus": "Growth"
+  },
+  {
+   "slug": "qsbs-1202",
+   "name": "Qualified Small Business Stock Exclusion (Section 1202)",
+   "shortName": "QSBS",
+   "ministry": "Internal Revenue Service",
+   "part": "B",
+   "tagline": "Founders and early investors in a qualifying C-corp can exclude up to the greater of $15M or 10x their basis from capital gains tax — with 100% exclusion after a 5-year hold on stock issued after July 4, 2025.",
+   "whatIsThis": "Section 1202 of the tax code lets noncorporate taxpayers exclude some or all capital gain from selling Qualified Small Business Stock, provided the issuing company and the stock meet specific requirements. The One Big Beautiful Bill Act (signed July 4, 2025) expanded these benefits significantly for stock issued after that date.",
+   "objectives": "Encourage investment in small, active US C-corporations by substantially reducing or eliminating the tax cost of a successful exit for founders and early shareholders.",
+   "eligibility": [
+    "Stock must be issued directly by a domestic C-corporation with gross assets under a statutory cap ($75M under OBBBA for post-7/4/2025 stock, up from $50M previously) at issuance.",
+    "Company must be an active qualified trade or business — excluded categories include businesses whose principal asset is an employee's reputation/skill (many professional services), plus banking, insurance, financing, leasing, investing, farming, and hospitality.",
+    "Stock must be acquired at original issuance (not purchased secondhand) and held by the taxpayer."
+   ],
+   "benefits": [
+    "For stock issued after July 4, 2025: a tiered schedule — 50% exclusion at a 3-year hold, 75% at 4 years, 100% at 5 years.",
+    "Gain cap: the greater of $15 million (indexed for inflation) or 10x the shareholder's basis, for post-7/4/2025 stock.",
+    "Stock issued on or before July 4, 2025 keeps the prior rule: a strict 5-year hold for any exclusion, capped at $10 million or 10x basis, with no partial exclusion before 5 years."
+   ],
+   "howToApply": "Not an application — confirm QSBS eligibility with tax counsel at formation and again before any sale, since eligibility depends on facts fixed at issuance (entity type, gross assets, business activity).",
+   "links": [
+    { "label": "Legal Information Institute — 26 U.S.C. §1202", "url": "https://www.law.cornell.edu/uscode/text/26/1202" }
+   ],
+   "bestSuitedFor": "Any stage (matters most at exit)",
+   "stages": ["ideation", "prototype", "early-stage", "growth"],
+   "supportTypes": ["other"],
+   "sectors": ["sector-agnostic"],
+   "audience": ["aspiring-founders", "early-stage-startups", "growth-startups"],
+   "maxFunding": "Greater of $15M or 10x basis excluded",
+   "category": "other",
+   "howMuch": "Up to 100% capital-gains exclusion",
+   "stageFocus": "Any stage"
+  },
+  {
+   "slug": "federal-set-asides",
+   "name": "Federal Small Business Contracting Set-Asides",
+   "shortName": "Set-Asides",
+   "ministry": "Small Business Administration",
+   "part": "B",
+   "tagline": "8(a), HUBZone, WOSB/EDWOSB and SDVOSB certifications restrict a slice of federal contracting dollars to qualifying small businesses — including sole-source awards up to $4.5-7M.",
+   "whatIsThis": "A federal set-aside restricts a contract, or part of one, to a specific category of certified small business rather than opening it to full and open competition. The federal government targets 23% of prime contract dollars to small businesses overall, with sub-goals for each certification category.",
+   "objectives": "Give small, disadvantaged, minority-, women-, veteran-, and HUBZone-located businesses a realistic path into a federal contracting market that would otherwise be dominated by large, established contractors.",
+   "eligibility": [
+    "8(a) Business Development: small business owned by a socially and economically disadvantaged individual; a 9-year program with defined revenue/net-worth caps.",
+    "HUBZone: principal office and a required share of employees located in a Historically Underutilized Business Zone.",
+    "WOSB/EDWOSB: at least 51% owned and controlled by women (economically disadvantaged for EDWOSB).",
+    "SDVOSB: at least 51% owned and controlled by a service-disabled veteran.",
+    "All require an active SAM.gov registration with a Unique Entity Identifier; multiple certifications can be held simultaneously (e.g., 8(a) + SDVOSB)."
+   ],
+   "benefits": [
+    "8(a): sole-source contracts up to $7M (manufacturing) or $4.5M (services), plus competitive 8(a) set-asides and Mentor-Protégé program access.",
+    "HUBZone: a 10% price-evaluation preference in full-and-open competitions, plus sole-source contracts up to $4.5M.",
+    "WOSB/SDVOSB: dedicated set-aside competitions restricted to certified firms in relevant industries."
+   ],
+   "howToApply": "Register on SAM.gov first, then apply for the relevant certification(s) through SBA's certification portal — certification is free; be cautious of paid \"certification services.\"",
+   "links": [
+    { "label": "SBA — Set-aside contracting", "url": "https://www.sba.gov/partners/contracting-officials/small-business-procurement/set-aside-procurement" }
+   ],
+   "bestSuitedFor": "Growth / Market Access",
+   "stages": ["growth", "market-access"],
+   "supportTypes": ["market-access"],
+   "sectors": ["sector-agnostic"],
+   "audience": ["small-businesses", "women-owned-businesses", "minority-owned-businesses", "veteran-owned-businesses", "sam-registered"],
+   "maxFunding": "Sole-source contracts up to $7M",
+   "category": "market-access",
+   "howMuch": "Sole-source up to $4.5-7M; set-aside bids",
+   "stageFocus": "Growth / Market Access"
+  },
+  {
+   "slug": "apex-accelerators",
+   "name": "APEX Accelerators (formerly PTAC)",
+   "shortName": "APEX Accelerators",
+   "ministry": "Department of Defense, Office of Small Business Programs",
+   "part": "B",
+   "tagline": "Free, one-on-one help winning government contracts — bid reviews, certifications, and required registrations — from a network of 96+ centers nationwide.",
+   "whatIsThis": "APEX Accelerators (renamed from Procurement Technical Assistance Centers in FY2023) provide free technical assistance to businesses pursuing federal, state, and local government contracts, and subcontracts with government prime contractors.",
+   "objectives": "Build resilient US supply chains by helping a broad range of businesses — not just defense contractors — successfully compete for and perform on government contracts, congressionally authorized since 1986.",
+   "eligibility": [
+    "Any US business interested in government contracting, at any stage of readiness.",
+    "No revenue or certification prerequisites to get started — many clients use an APEX Accelerator to prepare for SAM.gov registration and set-aside certifications in the first place."
+   ],
+   "benefits": [
+    "Bid and proposal reviews, marketing assistance, and contract-performance support.",
+    "Help navigating small-business certifications (8(a), HUBZone, WOSB, SDVOSB) and required registrations.",
+    "Procurement training classes and seminars, generally at no cost."
+   ],
+   "howToApply": "Find your local APEX Accelerator (there are 96+ nationwide, often hosted by universities or state economic-development agencies) and contact them directly — services are free.",
+   "links": [
+    { "label": "APEX Accelerators network", "url": "https://www.apexaccelerators.us/" }
+   ],
+   "bestSuitedFor": "Market Access",
+   "stages": ["growth", "market-access"],
+   "supportTypes": ["incubation", "market-access"],
+   "sectors": ["sector-agnostic"],
+   "audience": ["small-businesses", "growth-startups", "veteran-owned-businesses"],
+   "maxFunding": "Free technical assistance",
+   "category": "incubation",
+   "howMuch": "Free consulting; no direct funding",
+   "stageFocus": "Market Access"
+  }
+ ]
+}

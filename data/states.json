@@ -1,0 +1,209 @@
+{
+ "intro": "Every state runs its own economic-development office. This directory links each state to its official entry in the US Economic Development Administration (EDA) Economic Development Directory — a single federal index covering all 50 states.",
+ "states": [
+  {
+   "name": "Alabama",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/al"
+  },
+  {
+   "name": "Alaska",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/ak"
+  },
+  {
+   "name": "Arizona",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/az"
+  },
+  {
+   "name": "Arkansas",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/ar"
+  },
+  {
+   "name": "California",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/ca"
+  },
+  {
+   "name": "Colorado",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/co"
+  },
+  {
+   "name": "Connecticut",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/ct"
+  },
+  {
+   "name": "Delaware",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/de"
+  },
+  {
+   "name": "District of Columbia",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/dc"
+  },
+  {
+   "name": "Florida",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/fl"
+  },
+  {
+   "name": "Georgia",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/ga"
+  },
+  {
+   "name": "Hawaii",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/hi"
+  },
+  {
+   "name": "Idaho",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/id"
+  },
+  {
+   "name": "Illinois",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/il"
+  },
+  {
+   "name": "Indiana",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/in"
+  },
+  {
+   "name": "Iowa",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/ia"
+  },
+  {
+   "name": "Kansas",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/ks"
+  },
+  {
+   "name": "Kentucky",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/ky"
+  },
+  {
+   "name": "Louisiana",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/la"
+  },
+  {
+   "name": "Maine",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/me"
+  },
+  {
+   "name": "Maryland",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/md"
+  },
+  {
+   "name": "Massachusetts",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/ma"
+  },
+  {
+   "name": "Michigan",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/mi"
+  },
+  {
+   "name": "Minnesota",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/mn"
+  },
+  {
+   "name": "Mississippi",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/ms"
+  },
+  {
+   "name": "Missouri",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/mo"
+  },
+  {
+   "name": "Montana",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/mt"
+  },
+  {
+   "name": "Nebraska",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/ne"
+  },
+  {
+   "name": "Nevada",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/nv"
+  },
+  {
+   "name": "New Hampshire",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/nh"
+  },
+  {
+   "name": "New Jersey",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/nj"
+  },
+  {
+   "name": "New Mexico",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/nm"
+  },
+  {
+   "name": "New York",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/ny"
+  },
+  {
+   "name": "North Carolina",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/nc"
+  },
+  {
+   "name": "North Dakota",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/nd"
+  },
+  {
+   "name": "Ohio",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/oh"
+  },
+  {
+   "name": "Oklahoma",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/ok"
+  },
+  {
+   "name": "Oregon",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/or"
+  },
+  {
+   "name": "Pennsylvania",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/pa"
+  },
+  {
+   "name": "Rhode Island",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/ri"
+  },
+  {
+   "name": "South Carolina",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/sc"
+  },
+  {
+   "name": "South Dakota",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/sd"
+  },
+  {
+   "name": "Tennessee",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/tn"
+  },
+  {
+   "name": "Texas",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/tx"
+  },
+  {
+   "name": "Utah",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/ut"
+  },
+  {
+   "name": "Vermont",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/vt"
+  },
+  {
+   "name": "Virginia",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/va"
+  },
+  {
+   "name": "Washington",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/wa"
+  },
+  {
+   "name": "West Virginia",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/wv"
+  },
+  {
+   "name": "Wisconsin",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/wi"
+  },
+  {
+   "name": "Wyoming",
+   "url": "https://www.eda.gov/grant-resources/economic-development-directory/wy"
+  }
+ ]
+}

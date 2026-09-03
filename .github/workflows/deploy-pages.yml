@@ -1,0 +1,30 @@
+# Publishes docs/ to the gh-pages branch, which GitHub Pages serves.
+# (Pages was auto-enabled when the gh-pages branch was first created.
+#  Source: Settings → Pages → Deploy from a branch → gh-pages → / root.)
+name: Publish site to gh-pages
+
+on:
+  push:
+    branches: [main]
+    paths: ["docs/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Push docs/ as the gh-pages root
+        run: |
+          TREE=$(git rev-parse HEAD:docs)
+          COMMIT=$(git -c user.name="github-actions[bot]" \
+                       -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+                       commit-tree "$TREE" -m "Deploy site (docs/ from $GITHUB_SHA)")
+          git push --force origin "$COMMIT":refs/heads/gh-pages

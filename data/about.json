@@ -1,0 +1,43 @@
+{
+ "title": "STARTUP USA GUIDE",
+ "edition": "2026 edition",
+ "tagline": "An independent, source-linked guide to federal and state funding for US startups.",
+ "disclaimer": "This site is an independent reference compiled to help founders find US federal and state programs relevant to startups. Unlike a single official government publication, it is compiled from many separate official sources — SBA.gov, SBIR.gov, Grants.gov, individual federal agency program pages, the IRS, USPTO, and each state's own economic-development portal.\n\nProgram details — funding amounts, eligibility criteria, deadlines, and application windows — change frequently and are not controlled by this site. Every entry links to its specific official source page and is re-checked against that source before publishing, but drift after that point is expected and not something this site can catch automatically.\n\nThis is a reference tool, not legal, tax, or financial advice, and not a government website. Before applying for, relying on, or structuring around any program described here — especially tax-driven ones like QSBS or Opportunity Zones — verify current details on the official government source linked from that program's page, and consult a qualified professional where the stakes warrant it.\n\nThis project began as an adaptation of startup-india-guide (github.com/fritzhand/startup-india-guide), which documents India's central government startup schemes from a single official playbook PDF. That single-source model doesn't exist for the US, so this edition uses a different, multi-source verification approach described above.",
+ "objective": "This guide consolidates US federal startup programs — and a growing set of state-level incentives — into a single, searchable reference. It is designed to help founders find the right program for their stage, sector, and situation.",
+ "whoItIsFor": [
+  "Founders & Entrepreneurs",
+  "Students & Researchers",
+  "Immigrant founders navigating US visa pathways",
+  "Investors & Incubator staff"
+ ],
+ "howToUse": "1. Start with the Scheme Finder. Answer 5 quick questions to find programs suited to you. 2. Check the \"What Do You Need?\" Index for a need-based view (grant, loan, lab access, buyers, IP). 3. Use the Lifecycle Map to find programs matching your stage of growth. 4. Explore the full Directory for a structured overview of all programs with key details. 5. Deep dive into Program One-Pagers for full details including how to apply. Startup Focus Legend: Part A / Startup-Specific — startups are the primary or sole intended beneficiary; Part B / Startup-Relevant — broader eligibility (small businesses generally) but startups regularly benefit and apply.",
+ "stats": {
+  "schemesCovered": "14",
+  "ministries": "9",
+  "supportCategories": 6,
+  "lifecycleStages": [
+   "Ideation",
+   "Prototype / PoC",
+   "Seed / Early-Stage",
+   "Growth / Scaling",
+   "Market Access & IP"
+  ],
+  "sectorsHighlighted": [
+   "Defense & Aerospace",
+   "Biotech",
+   "Semiconductors & Electronics",
+   "Space",
+   "Agriculture & Food",
+   "Quantum Technology"
+  ]
+ },
+ "supportCategories": [
+  { "name": "GRANT", "description": "Fund given with no repayment needed, no equity given up." },
+  { "name": "LOAN / CREDIT", "description": "Repayable loan or credit guarantee to help access debt." },
+  { "name": "INCUBATION", "description": "Access to lab, workspace, mentoring and ecosystem support." },
+  { "name": "MARKET ACCESS", "description": "Pathways to sell, export, or access government procurement." },
+  { "name": "OTHER", "description": "Tax credits, exclusions, and fee reductions rather than direct funding." },
+  { "name": "MIXED", "description": "Combination of the above types of support." }
+ ],
+ "structure": "The guide opens with an overview of federal programs (14 documented in full), a Scheme Finder wizard, a need-based index, and a Lifecycle Map. Beyond the federal layer, it links to federal-agency innovation programs (AFWERX, DIU, NSIN, In-Q-Tel and more), a growing state-by-state schemes index, an incubator/resource-partner directory (SBA Small Business Development Centers, NSF I-Corps hubs, and accelerators), and every state's official economic-development portal. A dedicated section covers startup-visa and immigration pathways for founders who are not US citizens or permanent residents — a topic outside the scope of the India edition this project was adapted from."
+}
