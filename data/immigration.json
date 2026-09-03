@@ -1,0 +1,170 @@
+{
+ "intro": "A large share of US startup founders are immigrants, and immigration status is a real constraint on building a company here — one the India edition of this guide never had to cover. There is no dedicated \"startup visa\" in US law. Instead, founders piece together eligibility from a handful of existing visa and green-card categories, several of which were never designed with startups specifically in mind. This section explains the main pathways in plain English, with eligibility, tradeoffs, and the specific official government page each one comes from.",
+ "disclaimer": "Immigration law changes frequently and eligibility is highly fact-specific. This is a starting-point reference, not legal advice — talk to a qualified immigration attorney before choosing or relying on any pathway here.",
+ "pathways": [
+  {
+   "slug": "o-1a",
+   "name": "O-1A Visa — Extraordinary Ability",
+   "shortName": "O-1A",
+   "category": "Temporary work visa",
+   "tagline": "A temporary work visa for founders with a documented track record of extraordinary ability in business, science, or a related field — often the fastest realistic option, with 15-day Premium Processing available.",
+   "whatIsThis": "The O-1A is for individuals who can show sustained national or international acclaim in their field. It doesn't require a green-card-level showing, but it does require real documented achievement — this isn't a visa for first-time founders with no track record.",
+   "eligibility": [
+    "Evidence meeting at least 3 of 8 USCIS regulatory criteria (e.g., significant awards, published material about you, judging others' work, original contributions of major significance, high salary relative to the field, critical role at a distinguished organization) — OR a single major internationally recognized award.",
+    "Needs a US petitioner — commonly the founder's own company, filed through an agent, which is a well-established pattern for founders.",
+    "Must be coming to continue work in the area of extraordinary ability."
+   ],
+   "benefits": [
+    "Premium Processing available — a decision in as little as 15 calendar days.",
+    "Initial validity up to 3 years, renewable in increments as long as the underlying work continues.",
+    "Spouse and children can accompany on O-3 status (spouse cannot work on O-3)."
+   ],
+   "limitations": [
+    "Does not itself lead to a green card — it's a temporary, employer/petitioner-tied status.",
+    "Evidentiary bar is real; a founder with little public track record, press, or prior recognition will struggle to qualify."
+   ],
+   "howToApply": "File Form I-129 with a US petitioner (often the founder's own startup, using an immigration attorney as agent), including the evidentiary package. Premium Processing (Form I-907) can be added for a faster decision.",
+   "links": [
+    { "label": "USCIS — O-1 Visa: Extraordinary Ability", "url": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/o-1-visa-individuals-with-extraordinary-ability-or-achievement" }
+   ],
+   "bestFor": "Founders with a real public track record — prior funding, press, patents, awards, or a notable prior role — who need to be in the US soon."
+  },
+  {
+   "slug": "eb-1a",
+   "name": "EB-1A — Extraordinary Ability Green Card",
+   "shortName": "EB-1A",
+   "category": "Permanent residency (green card)",
+   "tagline": "A self-petitioned green card for individuals of extraordinary ability — no employer sponsorship or labor certification required.",
+   "whatIsThis": "EB-1A is the highest-tier employment-based green card category. Founders who already hold O-1A status often use much of the same evidence to self-petition for EB-1A once their track record is stronger.",
+   "eligibility": [
+    "Same general 3-of-8 criteria framework as O-1A, evaluated under a stricter two-step \"final merits\" review used for green cards.",
+    "No job offer or PERM labor certification required — this can be self-petitioned.",
+    "Must show intent to continue working in the area of extraordinary ability in the US."
+   ],
+   "benefits": [
+    "Leads directly to a green card (permanent residency), not just temporary status.",
+    "No employer sponsorship required — founders retain full independence.",
+    "No PERM labor-market test, which is one of the slowest steps in most other green-card categories."
+   ],
+   "limitations": [
+    "Higher evidentiary bar than O-1A in practice, since USCIS applies a final holistic merits determination.",
+    "Green-card processing timelines (including visa-number availability by country of birth) can still take significant time even after approval of the underlying petition."
+   ],
+   "howToApply": "File Form I-140 (Immigrant Petition for Alien Worker) directly — no labor certification step. Adjustment of status or consular processing follows once a visa number is available.",
+   "links": [
+    { "label": "USCIS — EB-1 Immigrant Visa Preference", "url": "https://www.uscis.gov/working-in-the-united-states/permanent-workers/employment-based-immigration-first-preference-eb-1" }
+   ],
+   "bestFor": "Founders who already have (or can quickly build) a strong, documented record of achievement and want a direct path to permanent residency rather than a renewable temporary status."
+  },
+  {
+   "slug": "eb-2-niw",
+   "name": "EB-2 National Interest Waiver",
+   "shortName": "EB-2 NIW",
+   "category": "Permanent residency (green card)",
+   "tagline": "A self-petitioned green card that waives the usual job-offer and labor-certification requirement when your work is judged to be in the US national interest.",
+   "whatIsThis": "EB-2 is normally an employer-sponsored green card category requiring an advanced degree or exceptional ability plus a labor certification. The National Interest Waiver lets a self-petitioner skip the job offer and labor certification when USCIS finds it's in the national interest to do so.",
+   "eligibility": [
+    "Advanced degree (master's or higher, or a bachelor's plus 5 years of progressive experience) or documented exceptional ability in the sciences, arts, or business.",
+    "USCIS applies the Dhanasar three-prong test: (1) the endeavor has substantial merit and national importance, (2) the petitioner is well positioned to advance it, and (3) on balance it would benefit the US to waive the job offer/labor certification requirement.",
+    "No employer sponsor or labor certification required."
+   ],
+   "benefits": [
+    "Fully self-petitioned — no employer needed.",
+    "Skips the PERM labor certification process entirely, which is often the slowest part of employment-based immigration.",
+    "A well-suited category for founders whose startup itself is the qualifying \"endeavor.\""
+   ],
+   "limitations": [
+    "The three-prong test is subjective and requires a well-built evidentiary case, typically with expert letters and a detailed business/technical plan.",
+    "Visa-number backlogs for EB-2 can be significant depending on country of birth."
+   ],
+   "howToApply": "File Form I-140 with the National Interest Waiver request, including a detailed statement addressing all three Dhanasar prongs and supporting evidence.",
+   "links": [
+    { "label": "USCIS — EB-2 Immigrant Visa Preference", "url": "https://www.uscis.gov/working-in-the-united-states/permanent-workers/employment-based-immigration-second-preference-eb-2" }
+   ],
+   "bestFor": "Founders with an advanced degree or strong domain expertise whose startup addresses a problem they can credibly argue matters to the national interest (e.g. health, energy, critical technology)."
+  },
+  {
+   "slug": "international-entrepreneur-parole",
+   "name": "International Entrepreneur Rule (Parole)",
+   "shortName": "IER Parole",
+   "category": "Discretionary parole (not a visa)",
+   "tagline": "Temporary permission to live in the US to build your own startup, based on outside investment or government grant funding rather than personal acclaim.",
+   "whatIsThis": "The International Entrepreneur Rule lets USCIS grant discretionary parole — not a visa — to entrepreneurs of a recently formed US startup that shows substantial and demonstrated potential for rapid growth and job creation, backed by qualifying investment or government funding.",
+   "eligibility": [
+    "Founded a US startup entity within the last 5 years with substantial ownership (at least 10%) and an active, central role in its operations.",
+    "The startup has received at least $124,429 in qualifying US government grants/awards, OR at least $311,071 from qualified US investors with an established investment record (amounts indexed and adjusted periodically).",
+    "Can show substantial potential for rapid growth and job creation."
+   ],
+   "benefits": [
+    "Doesn't require personal extraordinary-ability evidence — funding and business potential carry the case instead.",
+    "Initial parole period up to 2.5 years, with one renewal of up to 2.5 more years (5 years total) if growth/funding/job-creation benchmarks are met.",
+    "Spouse can apply for work authorization; up to 3 entrepreneurs per startup can qualify."
+   ],
+   "limitations": [
+    "Parole is not a visa or immigration status — it doesn't itself lead to a green card and can be terminated if conditions aren't maintained.",
+    "The investment/grant thresholds are a real fundraising bar for a very early-stage company.",
+    "Fully discretionary — meeting the criteria makes you eligible to be considered, not automatically approved."
+   ],
+   "howToApply": "File Form I-941, Application for Entrepreneur Parole, with evidence of the qualifying investment or government funding and the company's growth potential.",
+   "links": [
+    { "label": "USCIS — International Entrepreneur Parole", "url": "https://www.uscis.gov/humanitarian/international-entrepreneur-parole" }
+   ],
+   "bestFor": "Founders who don't yet have a personal extraordinary-ability record but have raised meaningful institutional funding (or won qualifying government grants like SBIR) for a US-formed startup."
+  },
+  {
+   "slug": "e-2-treaty-investor",
+   "name": "E-2 Treaty Investor Visa",
+   "shortName": "E-2",
+   "category": "Temporary work visa",
+   "tagline": "A renewable-indefinitely work visa for founders who make a substantial investment in a US business they will personally direct — available only to nationals of countries with a qualifying US treaty.",
+   "whatIsThis": "The E-2 lets a national of a treaty country come to the US to develop and direct a business they've invested substantial capital in. It's popular with founder-investors from treaty countries because renewals are effectively indefinite as long as the business and treaty relationship continue.",
+   "eligibility": [
+    "Must be a national of a country with a qualifying E-2 treaty with the US — notably, this excludes nationals of several major source countries including India and China, which have no qualifying treaty.",
+    "Substantial investment in a real, operating US business — no fixed statutory minimum, but the amount must be substantial relative to the type of business and sufficient to ensure its success.",
+    "Investor must develop and direct the business, typically through majority ownership or operational control."
+   ],
+   "benefits": [
+    "No cap on renewals — E-2 status can continue indefinitely as long as the business and treaty relationship remain valid.",
+    "Spouse can apply for work authorization; children can attend school.",
+    "No labor certification or extraordinary-ability evidence required — the case rests on the investment and business."
+   ],
+   "limitations": [
+    "Nationality-gated — not available to founders from non-treaty countries regardless of investment size.",
+    "Does not itself carry dual intent or a direct path to a green card; a separate strategy is needed for permanent residency.",
+    "\"Substantial\" investment is judged case by case, which creates real uncertainty for very lean startups."
+   ],
+   "howToApply": "Apply directly at a US embassy or consulate abroad (E-2 is generally not filed via USCIS petition the way most other work visas are), or via Form I-129 for a change of status if already lawfully in the US.",
+   "links": [
+    { "label": "US Department of State — Treaty Trader/Investor (E) Visas", "url": "https://travel.state.gov/content/travel/en/us-visas/employment/treaty-trader-investor-e.html" }
+   ],
+   "bestFor": "Founders who are nationals of an E-2 treaty country and are personally funding and running their US company, rather than relying on outside investors."
+  },
+  {
+   "slug": "l-1a",
+   "name": "L-1A Intracompany Transferee (New Office)",
+   "shortName": "L-1A",
+   "category": "Temporary work visa",
+   "tagline": "For founders who already run a company abroad and want to open and lead a related new US office.",
+   "whatIsThis": "L-1A lets an executive or manager transfer from a foreign company to run a qualifying US affiliate, subsidiary, or new office of that company — a common path for founders who first built a business outside the US and now want to establish a US entity.",
+   "eligibility": [
+    "At least 1 continuous year of qualifying employment abroad, in an executive or managerial capacity, within the 3 years before filing.",
+    "A qualifying relationship between the foreign company and the new US entity (parent, subsidiary, affiliate, or branch office).",
+    "For a \"new office\" petition, evidence of sufficient physical premises and a credible plan to support an executive/managerial role within one year."
+   ],
+   "benefits": [
+    "Doesn't require extraordinary-ability evidence or outside investment — the foreign company's existence and the founder's role there carry the case.",
+    "Can lead to the EB-1C green card category (multinational executive/manager) later, which also skips labor certification.",
+    "Spouse can apply for work authorization on L-2 status."
+   ],
+   "limitations": [
+    "New-office L-1A petitions are approved for only 1 year initially, then must show the new office is actually operating at executive/managerial scale to extend.",
+    "Requires an existing, operating foreign company — not available to founders starting from scratch in the US."
+   ],
+   "howToApply": "The foreign company (as petitioner) files Form I-129 with the L supplement, including evidence of the qualifying corporate relationship and the transferring executive's role abroad.",
+   "links": [
+    { "label": "USCIS — L-1A Intracompany Transferee Executive or Manager", "url": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/l-1a-intracompany-transferee-executive-or-manager" }
+   ],
+   "bestFor": "Founders who already operate a business outside the US and want to establish and personally run a US office of that same company."
+  }
+ ]
+}

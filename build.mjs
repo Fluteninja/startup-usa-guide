@@ -49,6 +49,7 @@ const lifecycle = readJSON("lifecycle.json");
 const about = readJSON("about.json");
 const psu = readJSON("psu.json");
 const states = readJSON("states.json");
+const immigration = readJSON("immigration.json");
 const glossary = readJSON("glossary.json");
 const incubators = readJSON("incubators.json");
 const indiaMap = readJSON("usa-map.json");
@@ -274,6 +275,7 @@ const NAV_PAGES = [
     { href: "incubators.html", title: "Incubators directory", icon: "pin" },
     { href: "psu.html", title: "Federal innovation programs", icon: "building" },
     { href: "states.html", title: "State portals", icon: "map" },
+    { href: "immigration.html", title: "Visas & Immigration", icon: "globe" },
   ]},
   { group: "Reference", items: [
     { href: "glossary.html", title: "Glossary", icon: "book" },
@@ -568,6 +570,7 @@ ${tickerHTML}
   <a class="card" href="incubators.html"><h3><span class="card-icon tone-teal">${ICONS.pin}</span>Incubators directory</h3><p>${incubators.incubators.length} Small Business Development Centers, NSF I-Corps hubs and accelerators across the US — on an interactive map, searchable and state-wise.</p><span class="go">${ICONS.arrow}</span></a>
   <a class="card" href="psu.html"><h3><span class="card-icon tone-blue">${ICONS.building}</span>Federal innovation programs</h3><p>${psu.programs.length} startup initiatives run by federal agencies and defense innovation units — AFWERX, DIU, NSIN, In-Q-Tel and more.</p><span class="go">${ICONS.arrow}</span></a>
   <a class="card" href="states.html"><h3><span class="card-icon tone-green">${ICONS.map}</span>State startup portals</h3><p>Every state runs its own economic-development programs — find your state's portal and incentives.</p><span class="go">${ICONS.arrow}</span></a>
+  <a class="card" href="immigration.html"><h3><span class="card-icon tone-amber">${ICONS.globe}</span>Visas &amp; Immigration</h3><p>${immigration.pathways.length} US visa and green-card pathways for founders who aren't citizens or permanent residents — O-1A, EB-2 NIW, E-2 and more.</p><span class="go">${ICONS.arrow}</span></a>
 </div>
 
 <div class="callout tone-info" style="margin-top:44px">
@@ -787,6 +790,107 @@ ${psu.programs.map((p) => p.url ? `
     description: "Startup-facing innovation programs run by federal agencies and defense innovation units — accelerators, challenges and procurement pathways.",
     body,
   }));
+}
+
+/* ================= IMMIGRATION ================= */
+const IMM_CAT_TONE = {
+  "Temporary work visa": "tone-blue",
+  "Permanent residency (green card)": "tone-green",
+  "Discretionary parole (not a visa)": "tone-amber",
+};
+{
+  const body = `
+${crumbs("", [["Home", "index.html"], ["Visas & Immigration", null]])}
+<div class="page-head">
+  <div class="kicker">Beyond federal schemes</div>
+  <h1>Startup visas &amp; immigration pathways</h1>
+  <p class="lede">${esc(immigration.intro)}</p>
+</div>
+<div class="callout tone-warn" style="margin-bottom:24px"><span class="ic">${ICONS.info}</span><div>${esc(immigration.disclaimer)}</div></div>
+<div class="grid grid-3">
+${immigration.pathways.map((p) => `
+  <a class="card" href="immigration/${p.slug}.html">
+    <h3><span class="card-icon ${IMM_CAT_TONE[p.category] || ""}">${ICONS.globe}</span>${esc(p.shortName)}</h3>
+    <p>${esc(p.tagline)}</p>
+    <span class="go">${ICONS.arrow}</span>
+  </a>`).join("")}
+</div>`;
+
+  write("immigration.html", shell({
+    root: "", active: "immigration.html", title: "Startup Visas & Immigration Pathways",
+    description: "The main US visa and green-card pathways relevant to startup founders who are not US citizens or permanent residents — O-1A, EB-1A, EB-2 NIW, International Entrepreneur Parole, E-2, and L-1A.",
+    body,
+  }));
+
+  immigration.pathways.forEach((p, idx) => {
+    const root = "../";
+    const prev = immigration.pathways[idx - 1];
+    const next = immigration.pathways[idx + 1];
+    const related = immigration.pathways.filter((o) => o.slug !== p.slug && o.category === p.category);
+    const officialUrl = (p.links || [])[0]?.url;
+    const pbody = `
+${crumbs(root, [["Home", "index.html"], ["Visas & Immigration", "immigration.html"], [p.shortName, null]])}
+<article>
+<header class="page-head">
+  <div class="kicker">${esc(p.category)}</div>
+  <h1>${esc(p.name)}</h1>
+  <p class="lede">${esc(p.tagline)}</p>
+</header>
+
+<section class="section" id="overview" style="margin-top:8px">
+  <div class="body prose"><p class="lead">${esc(p.whatIsThis)}</p></div>
+</section>
+
+<div class="facts">
+  <div class="fact"><div class="k">Category</div><div class="v"><span class="badge ${IMM_CAT_TONE[p.category] || ""}">${esc(p.category)}</span></div></div>
+  <div class="fact"><div class="k">Best for</div><div class="v">${esc(p.bestFor)}</div></div>
+  <div class="fact"><div class="k">Source</div><div class="v">${officialUrl ? `<a href="${attr(officialUrl)}" target="_blank" rel="noopener">${esc(p.links[0].label || "Official page")} ↗</a>` : "—"}</div></div>
+</div>
+
+<section class="section" id="eligibility">
+  <h2><span class="sec-icon">${ICONS.clipboard}</span>Eligibility</h2>
+  <ul class="checklist">${(p.eligibility || []).map((e) => `<li><span class="tick">${ICONS.check}</span><span>${esc(e)}</span></li>`).join("\n")}</ul>
+</section>
+
+<section class="section" id="benefits">
+  <h2><span class="sec-icon">${ICONS.gift}</span>Benefits</h2>
+  <ul class="benefits">${(p.benefits || []).map((b) => `<li><span class="gift">${ICONS.gift}</span><span>${esc(b)}</span></li>`).join("\n")}</ul>
+</section>
+
+${(p.limitations || []).length ? `
+<section class="section" id="limitations">
+  <h2><span class="sec-icon">${ICONS.info}</span>Tradeoffs to know</h2>
+  <ul class="benefits">${p.limitations.map((l) => `<li><span class="gift">${ICONS.info}</span><span>${esc(l)}</span></li>`).join("\n")}</ul>
+</section>` : ""}
+
+<section class="section" id="apply">
+  <h2><span class="sec-icon">${ICONS.send}</span>How to apply</h2>
+  <div class="body prose">${paras(p.howToApply)}</div>
+  ${officialUrl ? `<p style="margin-top:16px"><a class="btn btn-primary" href="${attr(officialUrl)}" target="_blank" rel="noopener">Go to official source ${ICONS.external}</a></p>` : ""}
+</section>
+
+<div class="callout tone-warn"><span class="ic">${ICONS.info}</span><div>${esc(immigration.disclaimer)}</div></div>
+
+${related.length ? `
+<section class="section" id="related">
+  <h2><span class="sec-icon">${ICONS.layers}</span>Related pathways</h2>
+  <div class="related">${related.map((r) => `
+    <a href="${root}immigration/${r.slug}.html"><span class="rn">${esc(r.shortName)}</span><span class="rm">${esc(r.category)}</span></a>`).join("")}</div>
+</section>` : ""}
+
+<nav class="pagenav" aria-label="Adjacent pathways">
+  ${prev ? `<a class="prev" href="${root}immigration/${prev.slug}.html"><span class="dir">← Previous</span><span class="t">${esc(prev.shortName)}</span></a>` : "<span></span>"}
+  ${next ? `<a class="next" href="${root}immigration/${next.slug}.html"><span class="dir">Next →</span><span class="t">${esc(next.shortName)}</span></a>` : "<span></span>"}
+</nav>
+</article>`;
+
+    write(`immigration/${p.slug}.html`, shell({
+      root, active: `immigration/${p.slug}.html`,
+      title: `${p.shortName} — ${p.name}`,
+      description: p.tagline,
+      body: pbody,
+    }));
+  });
 }
 
 /* ================= STATES ================= */
@@ -1300,7 +1404,7 @@ ${rel.length ? `
     "@context": "https://schema.org", "@type": "GovernmentService",
     name: s.name, alternateName: s.shortName || undefined,
     description: s.tagline, provider: { "@type": "GovernmentOrganization", name: s.ministry },
-    areaServed: "IN", url: applyUrl,
+    areaServed: "US", url: applyUrl,
   };
 
   write(`schemes/${s.slug}.html`, shell({
