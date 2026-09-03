@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fluteninja.github.io/startup-usa-guide/sitemap.xml
