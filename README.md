@@ -62,7 +62,7 @@ scripts/build-usa-terrain.mjs  fetches Natural Earth 10m physical data, clips it
 
 | Dataset | Source | Terms |
 |---|---|---|
-| `data/usa-map.json` — state outlines (48 contiguous + DC) | [PublicaMundi/MappingAPI](https://github.com/PublicaMundi/MappingAPI) | MIT |
+| `data/usa-map.json` — state outlines (all 50 states + DC; AK/HI as insets) | [PublicaMundi/MappingAPI](https://github.com/PublicaMundi/MappingAPI) | MIT |
 | `data/usa-terrain.json` — relief, rivers, lakes, peaks | [Natural Earth](https://www.naturalearthdata.com/) 10m physical, via [martynafford/natural-earth-geojson](https://github.com/martynafford/natural-earth-geojson) | Public domain |
 
 Alaska and Hawaii are on the map as independently-projected insets (the same "Albers USA" composite convention used by the Census Bureau and most election maps) — each gets its own small self-contained projection rather than sharing the mainland's, since their true coordinates sit nowhere near it. Puerto Rico remains excluded from the map (a third inset wasn't judged worth the added clutter) but is still covered in `data/states.json` and `data/state-schemes.json`.

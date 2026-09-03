@@ -974,7 +974,7 @@ ${sorted.map((st) => st.url ? `
     <button class="walkable-intro-close" id="walkable-intro-close" type="button" aria-label="Dismiss instructions">${ICONS.close}</button>
     <div class="walkable-kicker">Walk the USA</div>
     <h1>Explore the incubator ecosystem on foot</h1>
-    <p>Walk the real shape of the 48 contiguous states and DC in 3D — over the Rockies, across the Great Plains, along the Mississippi. Follow state wayfinders and open a state when you arrive. Incubator pins show state membership—not street addresses. If you get lost, choose Recenter to swing the camera back behind you.</p>
+    <p>Walk the real shape of all 50 states and DC in 3D — over the Rockies, across the Great Plains, along the Mississippi, with Alaska and Hawaii mapped as their own insets. Follow state wayfinders and open a state when you arrive. Incubator pins show state membership—not street addresses. If you get lost, choose Recenter to swing the camera back behind you.</p>
     <div class="walkable-keyhint"><span><kbd>WASD</kbd>, arrows, or touch-drag to walk</span><span><kbd>Enter</kbd> to open your current state</span><span>Mouse-drag, <kbd>Q</kbd>/<kbd>E</kbd> to look · pinch to zoom</span></div>
   </section>
 
@@ -1029,7 +1029,7 @@ ${sorted.map((st) => st.url ? `
     root: "",
     active: "walkable-map.html",
     title: "Walkable 3D USA ecosystem map",
-    description: "Walk across a 3D map of the 48 contiguous states and DC — mountains, rivers and lakes — following state wayfinders and discovering incubators and state support.",
+    description: "Walk across a 3D map of all 50 states and DC — mountains, rivers, lakes, and Alaska/Hawaii as their own insets — following state wayfinders and discovering incubators and state support.",
     body: walkableBody,
     pageClass: "walkable-page",
     immersive: true,
@@ -1053,7 +1053,7 @@ ${crumbs("", [["Home", "index.html"], ["Explore the USA map", null]])}
     <div class="map-entry-icon">${ICONS.compass}</div>
     <div class="map-entry-label">Immersive 3D experience</div>
     <h2>Walk the USA ecosystem in 3D</h2>
-    <p>Walk a small explorer across the real shape of the 48 contiguous states and DC — mountain ranges, rivers and lakes — follow state wayfinders, and open policy-rich state drawers as you arrive.</p>
+    <p>Walk a small explorer across the real shape of all 50 states and DC — mountain ranges, rivers and lakes on the mainland, with Alaska and Hawaii mapped as their own insets — follow state wayfinders, and open policy-rich state drawers as you arrive.</p>
     <ul>
       <li>Keyboard, touch D-pad, drag-to-look, and pinch controls</li>
       <li>State landmarks and directional signposts</li>
