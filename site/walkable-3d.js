@@ -968,23 +968,28 @@ function main(root) {
     const elapsed = Math.min(0.05, clock.getDelta());
     const time = clock.elapsedTime;
 
-    let movement;
+    /* All input — thumbstick, keys, and the D-pad — is camera-relative:
+       "forward" always walks away from the camera, matching what's on
+       screen, regardless of how far azimuth has been rotated with Q/E or a
+       drag. (Keys/D-pad used to be compass-locked instead, which felt wrong
+       the moment you'd rotated the view — "up" stopped meaning "forward".)
+       Deflection under a thumbstick's full throw still walks proportionally
+       slower, which is what makes a stick feel analog; keys/D-pad are
+       always full-throw (rawX/rawY of exactly -1/0/1). */
+    let rawX, rawY;
     if (stickDelta.x || stickDelta.y) {
-      /* Thumbstick input is camera-relative — pushing up walks away from the
-         camera, matching what the thumb sees — while keys and the D-pad stay
-         compass-locked. Deflection under full throw walks proportionally
-         slower, which is what makes a stick feel analog. */
-      const forwardX = -Math.sin(azimuth);
-      const forwardZ = -Math.cos(azimuth);
-      movement = normalizeMovement(
-        -forwardZ * stickDelta.x - forwardX * stickDelta.y,
-        forwardX * stickDelta.x - forwardZ * stickDelta.y,
-      );
+      rawX = stickDelta.x;
+      rawY = stickDelta.y;
     } else {
-      const horizontal = (pressed.has("right") ? 1 : 0) - (pressed.has("left") ? 1 : 0);
-      const vertical = (pressed.has("down") ? 1 : 0) - (pressed.has("up") ? 1 : 0);
-      movement = normalizeMovement(horizontal, vertical);
+      rawX = (pressed.has("right") ? 1 : 0) - (pressed.has("left") ? 1 : 0);
+      rawY = (pressed.has("down") ? 1 : 0) - (pressed.has("up") ? 1 : 0);
     }
+    const forwardX = -Math.sin(azimuth);
+    const forwardZ = -Math.cos(azimuth);
+    const movement = normalizeMovement(
+      -forwardZ * rawX - forwardX * rawY,
+      forwardX * rawX - forwardZ * rawY,
+    );
     const moving = (movement.x || movement.y) && drawer.hidden;
     if (moving) {
       const next = {
