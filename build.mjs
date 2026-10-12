@@ -13,6 +13,7 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { buildManifest, nexusHref, NEXUS_META } from "./scripts/manifest.mjs";
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const DATA = join(ROOT, "data");
@@ -340,6 +341,7 @@ ${analyticsTag}
 <title>${esc(fullTitle)}</title>
 <meta name="description" content="${attr(description)}">
 <meta name="color-scheme" content="light dark">
+<meta name="${NEXUS_META}" content="${attr(nexusHref())}">
 <meta name="theme-color" content="#1f3864">
 <meta property="og:title" content="${attr(fullTitle)}">
 <meta property="og:description" content="${attr(description)}">
@@ -365,6 +367,7 @@ ${extraHead}
     <span class="brand-name">${esc(brandMain)}${brandThin ? ` <span class="thin">${esc(brandThin)}</span>` : ""}</span>
   </a>
   <span class="topbar-spacer"></span>
+  <a class="nexus-link" href="${attr(nexusHref())}" target="_blank" rel="noopener">Nexus</a>
   <button class="searchbtn" data-search-open type="button" aria-label="Search schemes">
     ${ICONS.search}<span class="searchbtn-label">Search schemes…</span><kbd>⌘K</kbd>
   </button>
@@ -399,6 +402,7 @@ ${immersive ? "" : `
   <div class="footer-note">An independent reference compiled from official federal and state government sources. Not a government website — always verify on the linked official portals.</div>
   <div class="f-links">
     <a href="${root}about.html">About &amp; disclaimer</a>
+    <a href="${attr(nexusHref())}" target="_blank" rel="noopener">The Nexus ↗</a>
     <a href="https://www.sba.gov/" target="_blank" rel="noopener">sba.gov ↗</a>
     <a href="${attr(REPO_URL)}" target="_blank" rel="noopener">GitHub ↗</a>
   </div>
@@ -1295,6 +1299,8 @@ ${(about.supportCategories || []).map((c) => `
   <h2>About this website</h2>
   <p>This site is an independent reference compiled from official federal and state government sources — SBA.gov, SBIR.gov, Grants.gov, agency program pages, and each state's official economic-development portal. Every program page cites the specific official page it was drawn from, and every entry is re-checked against that source before it ships. There is no single source document the way there is for the India edition this project was adapted from; see <a href="${attr(REPO_URL)}" target="_blank" rel="noopener">the repository</a> for the full sourcing method.</p>
   ${about.licensingNote ? `<h2>Licensing &amp; attribution</h2><p>${esc(about.licensingNote)}</p>` : ""}
+  <h2>Part of the Portfolio Map Network</h2>
+  <p>This guide's ${incubators.incubators.length} incubators and accelerators are published to <a href="${attr(nexusHref())}" target="_blank" rel="noopener">the Nexus</a>, a shared 3D world where company maps from many organizations sit side by side.</p>
   <h2>Disclaimer</h2>
 </div>
 <div class="callout tone-warn"><span class="ic">${ICONS.info}</span><div>${esc(about.disclaimer)}</div></div>`;
@@ -1505,6 +1511,7 @@ writeFileSync(join(OUT, "assets", "favicon.svg"), `<svg xmlns="http://www.w3.org
 <rect x="12" y="28" width="40" height="7" rx="3.5" fill="#ffffff"/>
 <rect x="12" y="40" width="40" height="7" rx="3.5" fill="#93b4e6"/>
 </svg>`);
+writeFileSync(join(OUT, "portfolio-map.json"), JSON.stringify(buildManifest({ incubators: incubators.incubators, siteBase: SITE_BASE, version: JSON.parse(readFileSync(join(ROOT, "package.json"), "utf8")).version }), null, 2));
 writeFileSync(join(OUT, ".nojekyll"), "");
 writeFileSync(join(OUT, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${SITE_BASE}sitemap.xml\n`);
 writeFileSync(join(OUT, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
