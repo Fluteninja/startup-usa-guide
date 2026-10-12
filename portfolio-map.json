@@ -1,0 +1,953 @@
+{
+  "protocol": "portfolio-map/1",
+  "id": "startup-usa-guide",
+  "name": "Startup USA Guide",
+  "publisher": {
+    "name": "Fluteninja",
+    "website": "https://github.com/Fluteninja/startup-usa-guide"
+  },
+  "url": "https://fluteninja.github.io/startup-usa-guide",
+  "tagline": "Federal and state funding for US startups, with every incubator and accelerator mapped.",
+  "logo": "https://fluteninja.github.io/startup-usa-guide/assets/favicon.svg",
+  "accent": "#1f3864",
+  "nexus": "https://wearenexus.xyz",
+  "framework": {
+    "name": "startup-usa-guide",
+    "version": "1.0.0"
+  },
+  "labels": {
+    "company": "incubator",
+    "companies": "incubators",
+    "district": "type",
+    "districts": "types",
+    "people": null
+  },
+  "counts": {
+    "companies": 111,
+    "people": 0,
+    "districts": 5
+  },
+  "districts": [
+    {
+      "slug": "private",
+      "label": "Private accelerators",
+      "color": "#1f3864",
+      "count": 55
+    },
+    {
+      "slug": "academic",
+      "label": "Academic",
+      "color": "#2f5fa8",
+      "count": 26
+    },
+    {
+      "slug": "government",
+      "label": "Government",
+      "color": "#8c1d2b",
+      "count": 20
+    },
+    {
+      "slug": "i-corps",
+      "label": "NSF I-Corps hubs",
+      "color": "#0e6b63",
+      "count": 8
+    },
+    {
+      "slug": "sbdc",
+      "label": "Small Business Development Centers",
+      "color": "#b8860b",
+      "count": 2
+    }
+  ],
+  "companies": [
+    {
+      "slug": "i-corps-hub-southeast-region",
+      "name": "I-Corps Hub: Southeast Region",
+      "district": "i-corps",
+      "description": null,
+      "website": "https://www.nsf.gov/funding/initiatives/i-corps",
+      "keywords": []
+    },
+    {
+      "slug": "i-corps-hub-new-england-region",
+      "name": "I-Corps Hub: New England Region",
+      "district": "i-corps",
+      "description": null,
+      "website": "https://www.nsf.gov/funding/initiatives/i-corps",
+      "keywords": []
+    },
+    {
+      "slug": "i-corps-hub-great-lakes-region",
+      "name": "I-Corps Hub: Great Lakes Region",
+      "district": "i-corps",
+      "description": null,
+      "website": "https://www.nsf.gov/funding/initiatives/i-corps",
+      "keywords": []
+    },
+    {
+      "slug": "i-corps-hub-northeast-region",
+      "name": "I-Corps Hub: Northeast Region",
+      "district": "i-corps",
+      "description": null,
+      "website": "https://www.nsf.gov/funding/initiatives/i-corps",
+      "keywords": []
+    },
+    {
+      "slug": "i-corps-hub-west-region",
+      "name": "I-Corps Hub: West Region",
+      "district": "i-corps",
+      "description": null,
+      "website": "https://www.nsf.gov/funding/initiatives/i-corps",
+      "keywords": []
+    },
+    {
+      "slug": "i-corps-hub-interior-northeast",
+      "name": "I-Corps Hub: Interior Northeast",
+      "district": "i-corps",
+      "description": null,
+      "website": "https://www.nsf.gov/funding/initiatives/i-corps",
+      "keywords": []
+    },
+    {
+      "slug": "i-corps-hub-new-york-region",
+      "name": "I-Corps Hub: New York Region",
+      "district": "i-corps",
+      "description": null,
+      "website": "https://www.nsf.gov/funding/initiatives/i-corps",
+      "keywords": []
+    },
+    {
+      "slug": "i-corps-hub-northwest-region",
+      "name": "I-Corps Hub: Northwest Region",
+      "district": "i-corps",
+      "description": null,
+      "website": "https://www.nsf.gov/funding/initiatives/i-corps",
+      "keywords": []
+    },
+    {
+      "slug": "america-s-sbdc-network",
+      "name": "America's SBDC Network",
+      "district": "sbdc",
+      "description": null,
+      "website": "https://www.sba.gov/local-assistance/resource-partners/small-business-development-centers-sbdc",
+      "keywords": []
+    },
+    {
+      "slug": "y-combinator",
+      "name": "Y Combinator",
+      "district": "private",
+      "description": null,
+      "website": "https://www.ycombinator.com/",
+      "keywords": []
+    },
+    {
+      "slug": "techstars",
+      "name": "Techstars",
+      "district": "private",
+      "description": null,
+      "website": "https://www.techstars.com/",
+      "keywords": []
+    },
+    {
+      "slug": "masschallenge",
+      "name": "MassChallenge",
+      "district": "private",
+      "description": null,
+      "website": "https://masschallenge.org/",
+      "keywords": []
+    },
+    {
+      "slug": "gener8tor",
+      "name": "gener8tor",
+      "district": "private",
+      "description": null,
+      "website": "https://www.gener8tor.com/",
+      "keywords": []
+    },
+    {
+      "slug": "500-global",
+      "name": "500 Global",
+      "district": "private",
+      "description": null,
+      "website": "https://500.co/",
+      "keywords": []
+    },
+    {
+      "slug": "innovation-depot",
+      "name": "Innovation Depot",
+      "district": "private",
+      "description": null,
+      "website": "https://innovationdepot.org/",
+      "keywords": []
+    },
+    {
+      "slug": "arizona-commerce-authority-venture-programs",
+      "name": "Arizona Commerce Authority Venture Programs",
+      "district": "government",
+      "description": null,
+      "website": "https://www.azcommerce.com/start-up/venture-programs/",
+      "keywords": []
+    },
+    {
+      "slug": "the-venture-center",
+      "name": "The Venture Center",
+      "district": "private",
+      "description": null,
+      "website": "https://www.venturecenter.co/",
+      "keywords": []
+    },
+    {
+      "slug": "ctnext",
+      "name": "CTNext",
+      "district": "government",
+      "description": null,
+      "website": "https://ctnext.com/",
+      "keywords": []
+    },
+    {
+      "slug": "startblue",
+      "name": "StartBlue",
+      "district": "sbdc",
+      "description": null,
+      "website": "https://www.delawaresbdc.org/",
+      "keywords": []
+    },
+    {
+      "slug": "tampa-bay-wave",
+      "name": "Tampa Bay Wave",
+      "district": "private",
+      "description": null,
+      "website": "https://www.tampabaywave.org/",
+      "keywords": []
+    },
+    {
+      "slug": "nampa-business-accelerator",
+      "name": "Nampa Business Accelerator",
+      "district": "academic",
+      "description": null,
+      "website": "https://business.idaho.gov/assistance-resources/technology/",
+      "keywords": []
+    },
+    {
+      "slug": "1871",
+      "name": "1871",
+      "district": "private",
+      "description": null,
+      "website": "https://1871.com/",
+      "keywords": []
+    },
+    {
+      "slug": "elevate-ventures",
+      "name": "Elevate Ventures",
+      "district": "government",
+      "description": null,
+      "website": "https://elevateventures.com/",
+      "keywords": []
+    },
+    {
+      "slug": "iowa-startup-accelerator",
+      "name": "Iowa Startup Accelerator",
+      "district": "private",
+      "description": null,
+      "website": "https://newbo.co/entrepreneurship/iowa-startup-accelerator/",
+      "keywords": []
+    },
+    {
+      "slug": "k-state-center-for-entrepreneurship-accelerator",
+      "name": "K-State Center for Entrepreneurship Accelerator",
+      "district": "academic",
+      "description": null,
+      "website": "https://www.k-state.edu/entrepreneurship/",
+      "keywords": []
+    },
+    {
+      "slug": "kentucky-science-and-technology-corporation",
+      "name": "Kentucky Science and Technology Corporation",
+      "district": "private",
+      "description": null,
+      "website": "https://www.kstc.com/",
+      "keywords": []
+    },
+    {
+      "slug": "louisiana-innovation-la-io",
+      "name": "Louisiana Innovation (LA.IO)",
+      "district": "government",
+      "description": null,
+      "website": "https://www.opportunitylouisiana.gov/innovation",
+      "keywords": []
+    },
+    {
+      "slug": "top-gun-accelerator",
+      "name": "Top Gun Accelerator",
+      "district": "private",
+      "description": null,
+      "website": "https://www.mainecenterforentrepreneurs.org/",
+      "keywords": []
+    },
+    {
+      "slug": "tedco-seed-investment-fund",
+      "name": "TEDCO Seed Investment Fund",
+      "district": "government",
+      "description": null,
+      "website": "https://www.tedcomd.com/",
+      "keywords": []
+    },
+    {
+      "slug": "launch-minnesota",
+      "name": "Launch Minnesota",
+      "district": "government",
+      "description": null,
+      "website": "https://mn.gov/deed/launch-minnesota/",
+      "keywords": []
+    },
+    {
+      "slug": "innovate-mississippi",
+      "name": "Innovate Mississippi",
+      "district": "private",
+      "description": null,
+      "website": "https://www.innovate.ms/",
+      "keywords": []
+    },
+    {
+      "slug": "missouri-innovation-center",
+      "name": "Missouri Innovation Center",
+      "district": "academic",
+      "description": null,
+      "website": "https://missouriinnovation.com/",
+      "keywords": []
+    },
+    {
+      "slug": "406-labs",
+      "name": "406 Labs",
+      "district": "academic",
+      "description": null,
+      "website": "https://www.montana.edu/",
+      "keywords": []
+    },
+    {
+      "slug": "nmotion",
+      "name": "NMotion",
+      "district": "private",
+      "description": null,
+      "website": "https://www.nmotion.co/",
+      "keywords": []
+    },
+    {
+      "slug": "startupnv",
+      "name": "StartUpNV",
+      "district": "government",
+      "description": null,
+      "website": "https://startupnv.org/",
+      "keywords": []
+    },
+    {
+      "slug": "alpha-loft",
+      "name": "Alpha Loft",
+      "district": "private",
+      "description": null,
+      "website": "https://nhtechalliance.org/",
+      "keywords": []
+    },
+    {
+      "slug": "arrowhead-center",
+      "name": "Arrowhead Center",
+      "district": "academic",
+      "description": null,
+      "website": "https://arrowheadcenter.nmsu.edu/",
+      "keywords": []
+    },
+    {
+      "slug": "nc-idea-seed",
+      "name": "NC IDEA SEED",
+      "district": "private",
+      "description": null,
+      "website": "https://ncidea.org/",
+      "keywords": []
+    },
+    {
+      "slug": "north-dakota-investment-accelerator",
+      "name": "North Dakota Investment Accelerator",
+      "district": "government",
+      "description": null,
+      "website": "https://www.gener8tor.com/north-dakota",
+      "keywords": []
+    },
+    {
+      "slug": "jumpstart-inc",
+      "name": "JumpStart Inc.",
+      "district": "private",
+      "description": null,
+      "website": "https://www.jumpstartinc.org/",
+      "keywords": []
+    },
+    {
+      "slug": "ocast-state-business-accelerator-program",
+      "name": "OCAST State Business Accelerator Program",
+      "district": "government",
+      "description": null,
+      "website": "https://oklahoma.gov/ocast.html",
+      "keywords": []
+    },
+    {
+      "slug": "portland-state-business-accelerator",
+      "name": "Portland State Business Accelerator",
+      "district": "academic",
+      "description": null,
+      "website": "https://www.pdx.edu/accelerator/",
+      "keywords": []
+    },
+    {
+      "slug": "ben-franklin-technology-partners-southeastern-pa",
+      "name": "Ben Franklin Technology Partners (Southeastern PA)",
+      "district": "government",
+      "description": null,
+      "website": "https://benfranklin.org/",
+      "keywords": []
+    },
+    {
+      "slug": "slater-technology-fund",
+      "name": "Slater Technology Fund",
+      "district": "government",
+      "description": null,
+      "website": "https://www.slaterfund.com/",
+      "keywords": []
+    },
+    {
+      "slug": "south-carolina-research-authority",
+      "name": "South Carolina Research Authority",
+      "district": "government",
+      "description": null,
+      "website": "https://scra.org/",
+      "keywords": []
+    },
+    {
+      "slug": "enterprise-institute",
+      "name": "Enterprise Institute",
+      "district": "private",
+      "description": null,
+      "website": "https://www.sdei.org/",
+      "keywords": []
+    },
+    {
+      "slug": "launch-tennessee",
+      "name": "Launch Tennessee",
+      "district": "government",
+      "description": null,
+      "website": "https://launchtn.org/",
+      "keywords": []
+    },
+    {
+      "slug": "capital-factory",
+      "name": "Capital Factory",
+      "district": "private",
+      "description": null,
+      "website": "https://www.capitalfactory.com/",
+      "keywords": []
+    },
+    {
+      "slug": "ramp-startup-accelerator",
+      "name": "RAMP Startup Accelerator",
+      "district": "government",
+      "description": null,
+      "website": "https://growutah.com/ramp",
+      "keywords": []
+    },
+    {
+      "slug": "launchvt",
+      "name": "LaunchVT",
+      "district": "private",
+      "description": null,
+      "website": "https://www.vcet.co/",
+      "keywords": []
+    },
+    {
+      "slug": "virginia-innovation-partnership-corporation",
+      "name": "Virginia Innovation Partnership Corporation",
+      "district": "government",
+      "description": null,
+      "website": "https://vipc.org/",
+      "keywords": []
+    },
+    {
+      "slug": "comotion-labs",
+      "name": "CoMotion Labs",
+      "district": "academic",
+      "description": null,
+      "website": "https://comotion.uw.edu/",
+      "keywords": []
+    },
+    {
+      "slug": "vantage-ventures",
+      "name": "Vantage Ventures",
+      "district": "academic",
+      "description": null,
+      "website": "https://business.wvu.edu/research-outreach/vantage-ventures",
+      "keywords": []
+    },
+    {
+      "slug": "impact-307",
+      "name": "IMPACT 307",
+      "district": "academic",
+      "description": null,
+      "website": "https://www.uwyo.edu/impact307/",
+      "keywords": []
+    },
+    {
+      "slug": "techstars-alabama-power-energytech-accelerator",
+      "name": "Techstars Alabama Power EnergyTech Accelerator",
+      "district": "private",
+      "description": null,
+      "website": "https://www.techstars.com/",
+      "keywords": []
+    },
+    {
+      "slug": "arizona-center-for-innovation",
+      "name": "Arizona Center for Innovation",
+      "district": "academic",
+      "description": null,
+      "website": "https://www.azci.org/",
+      "keywords": []
+    },
+    {
+      "slug": "healthtech-arkansas",
+      "name": "HealthTech Arkansas",
+      "district": "private",
+      "description": null,
+      "website": "https://healthtecharkansas.com/",
+      "keywords": []
+    },
+    {
+      "slug": "accelerator-for-biosciences-in-connecticut",
+      "name": "Accelerator for Biosciences in Connecticut",
+      "district": "private",
+      "description": null,
+      "website": "https://ctnext.com/",
+      "keywords": []
+    },
+    {
+      "slug": "delaware-innovation-space",
+      "name": "Delaware Innovation Space",
+      "district": "private",
+      "description": null,
+      "website": "https://www.delawareinnovationspace.com/",
+      "keywords": []
+    },
+    {
+      "slug": "venture-hive",
+      "name": "Venture Hive",
+      "district": "private",
+      "description": null,
+      "website": "https://venturehive.com/",
+      "keywords": []
+    },
+    {
+      "slug": "idaho-innovation-center",
+      "name": "Idaho Innovation Center",
+      "district": "government",
+      "description": null,
+      "website": "https://commerce.idaho.gov/",
+      "keywords": []
+    },
+    {
+      "slug": "matter",
+      "name": "MATTER",
+      "district": "private",
+      "description": null,
+      "website": "https://matter.health/",
+      "keywords": []
+    },
+    {
+      "slug": "startup-factory",
+      "name": "Startup Factory",
+      "district": "academic",
+      "description": null,
+      "website": "https://www.isupjcenter.org/",
+      "keywords": []
+    },
+    {
+      "slug": "advanced-science-and-technology-commercializatio",
+      "name": "Advanced Science & Technology Commercialization Center",
+      "district": "academic",
+      "description": null,
+      "website": "https://astecc.com/",
+      "keywords": []
+    },
+    {
+      "slug": "brf-entrepreneurial-accelerator-program",
+      "name": "BRF Entrepreneurial Accelerator Program",
+      "district": "private",
+      "description": null,
+      "website": "https://www.brfla.org/",
+      "keywords": []
+    },
+    {
+      "slug": "dirigo-labs",
+      "name": "Dirigo Labs",
+      "district": "private",
+      "description": null,
+      "website": "https://www.dirigolabs.com/",
+      "keywords": []
+    },
+    {
+      "slug": "university-enterprise-laboratories",
+      "name": "University Enterprise Laboratories",
+      "district": "academic",
+      "description": null,
+      "website": "https://uelabs.org/",
+      "keywords": []
+    },
+    {
+      "slug": "msu-center-for-entrepreneurship-and-outreach",
+      "name": "MSU Center for Entrepreneurship & Outreach",
+      "district": "academic",
+      "description": null,
+      "website": "https://ecenter.msstate.edu/",
+      "keywords": []
+    },
+    {
+      "slug": "jordan-valley-innovation-center",
+      "name": "Jordan Valley Innovation Center",
+      "district": "academic",
+      "description": null,
+      "website": "https://www.missouristate.edu/jvic/",
+      "keywords": []
+    },
+    {
+      "slug": "montec",
+      "name": "Montec",
+      "district": "academic",
+      "description": null,
+      "website": "https://www.umt.edu/",
+      "keywords": []
+    },
+    {
+      "slug": "the-combine",
+      "name": "The Combine",
+      "district": "private",
+      "description": null,
+      "website": "https://investnebraska.com/",
+      "keywords": []
+    },
+    {
+      "slug": "foster-program",
+      "name": "FOSTER Program",
+      "district": "academic",
+      "description": null,
+      "website": "https://www.unh.edu/innovation/",
+      "keywords": []
+    },
+    {
+      "slug": "santa-fe-business-incubator",
+      "name": "Santa Fe Business Incubator",
+      "district": "government",
+      "description": null,
+      "website": "https://sfbi.net/",
+      "keywords": []
+    },
+    {
+      "slug": "und-center-for-innovation",
+      "name": "UND Center for Innovation",
+      "district": "academic",
+      "description": null,
+      "website": "https://und.edu/innovation/",
+      "keywords": []
+    },
+    {
+      "slug": "cincytech",
+      "name": "CincyTech",
+      "district": "private",
+      "description": null,
+      "website": "https://www.cincytech.com/",
+      "keywords": []
+    },
+    {
+      "slug": "startup-ou-idea-accelerator",
+      "name": "Startup OU Idea Accelerator",
+      "district": "academic",
+      "description": null,
+      "website": "https://www.ou.edu/",
+      "keywords": []
+    },
+    {
+      "slug": "oregon-bioscience-incubator",
+      "name": "Oregon Bioscience Incubator",
+      "district": "private",
+      "description": null,
+      "website": "https://www.otradi.org/",
+      "keywords": []
+    },
+    {
+      "slug": "ocean-state-labs",
+      "name": "Ocean State Labs",
+      "district": "private",
+      "description": null,
+      "website": "https://www.brown.edu/",
+      "keywords": []
+    },
+    {
+      "slug": "charles-w-gould-business-incubator",
+      "name": "Charles W. Gould Business Incubator",
+      "district": "academic",
+      "description": null,
+      "website": "https://www.sccommerce.com/",
+      "keywords": []
+    },
+    {
+      "slug": "aglaunch-accelerator",
+      "name": "AgLaunch Accelerator",
+      "district": "private",
+      "description": null,
+      "website": "https://aglaunch.com/",
+      "keywords": []
+    },
+    {
+      "slug": "austin-technology-incubator",
+      "name": "Austin Technology Incubator",
+      "district": "academic",
+      "description": null,
+      "website": "https://ati.utexas.edu/",
+      "keywords": []
+    },
+    {
+      "slug": "black-river-innovation-campus",
+      "name": "Black River Innovation Campus",
+      "district": "private",
+      "description": null,
+      "website": "https://www.bricvt.org/",
+      "keywords": []
+    },
+    {
+      "slug": "washington-maritime-blue-innovation-accelerator",
+      "name": "Washington Maritime Blue Innovation Accelerator",
+      "district": "government",
+      "description": null,
+      "website": "https://maritimeblue.org/",
+      "keywords": []
+    },
+    {
+      "slug": "gbeta-at-marshall-s-icenter",
+      "name": "gBETA at Marshall's iCenter",
+      "district": "academic",
+      "description": null,
+      "website": "https://www.marshall.edu/icenter/",
+      "keywords": []
+    },
+    {
+      "slug": "embarc-collective",
+      "name": "Embarc Collective",
+      "district": "private",
+      "description": null,
+      "website": "https://embarccollective.com/",
+      "keywords": []
+    },
+    {
+      "slug": "plug-and-play-tech-center",
+      "name": "Plug and Play Tech Center",
+      "district": "private",
+      "description": null,
+      "website": "https://www.plugandplaytechcenter.com/",
+      "keywords": []
+    },
+    {
+      "slug": "angelpad",
+      "name": "AngelPad",
+      "district": "private",
+      "description": null,
+      "website": "https://angelpad.com/",
+      "keywords": []
+    },
+    {
+      "slug": "alchemist-accelerator",
+      "name": "Alchemist Accelerator",
+      "district": "private",
+      "description": null,
+      "website": "https://www.alchemistaccelerator.com/",
+      "keywords": []
+    },
+    {
+      "slug": "founder-institute",
+      "name": "Founder Institute",
+      "district": "private",
+      "description": null,
+      "website": "https://fi.co/",
+      "keywords": []
+    },
+    {
+      "slug": "dreamit-ventures",
+      "name": "Dreamit Ventures",
+      "district": "private",
+      "description": null,
+      "website": "https://www.dreamit.com/",
+      "keywords": []
+    },
+    {
+      "slug": "startx",
+      "name": "StartX",
+      "district": "academic",
+      "description": null,
+      "website": "https://startx.com/",
+      "keywords": []
+    },
+    {
+      "slug": "gbeta-alaska",
+      "name": "gBETA Alaska",
+      "district": "private",
+      "description": null,
+      "website": "https://www.gener8tor.com/gbeta-alaska",
+      "keywords": []
+    },
+    {
+      "slug": "htdc-entrepreneurs-sandbox",
+      "name": "HTDC Entrepreneurs Sandbox",
+      "district": "government",
+      "description": null,
+      "website": "https://www.htdc.org/",
+      "keywords": []
+    },
+    {
+      "slug": "greentown-labs",
+      "name": "Greentown Labs",
+      "district": "private",
+      "description": null,
+      "website": "https://greentownlabs.com/",
+      "keywords": []
+    },
+    {
+      "slug": "mhub",
+      "name": "mHUB",
+      "district": "private",
+      "description": null,
+      "website": "https://www.mhubchicago.com/",
+      "keywords": []
+    },
+    {
+      "slug": "atdc-advanced-technology-development-center",
+      "name": "ATDC (Advanced Technology Development Center)",
+      "district": "academic",
+      "description": null,
+      "website": "https://atdc.org/",
+      "keywords": []
+    },
+    {
+      "slug": "american-underground",
+      "name": "American Underground",
+      "district": "private",
+      "description": null,
+      "website": "https://americanunderground.com/",
+      "keywords": []
+    },
+    {
+      "slug": "techtown-detroit",
+      "name": "TechTown Detroit",
+      "district": "academic",
+      "description": null,
+      "website": "https://techtowndetroit.org/",
+      "keywords": []
+    },
+    {
+      "slug": "cortex-innovation-community",
+      "name": "Cortex Innovation Community",
+      "district": "private",
+      "description": null,
+      "website": "https://www.cortexstl.org/",
+      "keywords": []
+    },
+    {
+      "slug": "kickstart-fund",
+      "name": "Kickstart Fund",
+      "district": "private",
+      "description": null,
+      "website": "https://kickstart.com/",
+      "keywords": []
+    },
+    {
+      "slug": "newark-venture-partners-labs",
+      "name": "Newark Venture Partners Labs",
+      "district": "private",
+      "description": null,
+      "website": "https://www.newarkvp.com/",
+      "keywords": []
+    },
+    {
+      "slug": "high-alpha",
+      "name": "High Alpha",
+      "district": "private",
+      "description": null,
+      "website": "https://www.highalpha.com/",
+      "keywords": []
+    },
+    {
+      "slug": "36-degrees-north",
+      "name": "36 Degrees North",
+      "district": "government",
+      "description": null,
+      "website": "https://www.36n.co/",
+      "keywords": []
+    },
+    {
+      "slug": "propeller-a-force-for-social-innovation",
+      "name": "Propeller: A Force for Social Innovation",
+      "district": "private",
+      "description": null,
+      "website": "https://gopropeller.org/",
+      "keywords": []
+    },
+    {
+      "slug": "halcyon-incubator",
+      "name": "Halcyon Incubator",
+      "district": "private",
+      "description": null,
+      "website": "https://www.halcyonhouse.org/",
+      "keywords": []
+    },
+    {
+      "slug": "unr-innevation-center",
+      "name": "UNR Innevation Center",
+      "district": "academic",
+      "description": null,
+      "website": "https://www.unr.edu/innevation",
+      "keywords": []
+    },
+    {
+      "slug": "startup-sioux-falls-zeal-center-for-entrepreneur",
+      "name": "Startup Sioux Falls (Zeal Center for Entrepreneurship)",
+      "district": "private",
+      "description": null,
+      "website": "https://www.startupsiouxfalls.com/",
+      "keywords": []
+    },
+    {
+      "slug": "mach37",
+      "name": "MACH37",
+      "district": "private",
+      "description": null,
+      "website": "https://www.mach37.com/",
+      "keywords": []
+    },
+    {
+      "slug": "capital-entrepreneurs",
+      "name": "Capital Entrepreneurs",
+      "district": "private",
+      "description": null,
+      "website": "https://capitalentrepreneurs.com/",
+      "keywords": []
+    },
+    {
+      "slug": "techstars-nyc",
+      "name": "Techstars NYC",
+      "district": "private",
+      "description": null,
+      "website": "https://www.techstars.com/accelerators/nyc",
+      "keywords": []
+    },
+    {
+      "slug": "divinc",
+      "name": "DivInc",
+      "district": "private",
+      "description": null,
+      "website": "https://divinc.org/",
+      "keywords": []
+    }
+  ],
+  "updated": "2026-10-12"
+}
