@@ -46,7 +46,7 @@ export function buildManifest({ incubators, siteBase, version, today = new Date(
     protocol: "portfolio-map/1",
     id: NETWORK_ID,
     name: "Startup USA Guide",
-    publisher: { name: "Fluteninja", website: null },
+    publisher: { name: "Fluteninja", website: "https://github.com/Fluteninja/startup-usa-guide" },
     url,
     tagline: "Federal and state funding for US startups, with every incubator and accelerator mapped.",
     logo: `${url}/assets/favicon.svg`,
